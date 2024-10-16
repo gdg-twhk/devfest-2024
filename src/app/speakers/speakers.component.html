@@ -1,0 +1,26 @@
+<div class="max-width">
+    <h1>講者</h1>
+    <p>
+        從 Googler、合作夥伴以及社群講者們瞭解最新技術資訊，我們會在此不定期加入講者的相關資訊，歡迎您在此持續關注我們的訊息。
+    </p>
+    <div class="mat-card-group">
+        <mat-card *ngFor="let speaker of speakers" appearance="outlined">
+            <mat-card-header>
+                <img mat-card-avatar src="{{speaker.profilePicture || '/assets/speaker-badge.svg'}}">
+                <mat-card-title-group>
+                    <mat-card-title>{{speaker.fullName}}</mat-card-title>
+                    <mat-card-subtitle>{{speaker.tagLine || ''}}</mat-card-subtitle>
+                </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+                <p>{{(speaker.bio || '') | truncateString:150}}</p>
+                <div class="social-link-list">
+                    <a *ngFor="let link of speaker.links" class="social-link" href="link.url" title="{{link.title}}" target="_blank">
+                        <fa-icon [icon]="link.linkType | toSocialLinkIcon"></fa-icon>
+                    </a>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    
+</div>

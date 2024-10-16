@@ -1,0 +1,41 @@
+.mat-card-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px 0px;
+    gap: 10px;
+}
+
+mat-card-title-group img {
+    border: 5px solid var(--pastel-blue);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+    .mat-card-group {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .mat-card-group {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.social-link-list {
+    display: flex;
+    gap: 10px;
+}
+
+.social-link {
+    font-size: 1.2rem;
+    color: #6b6b6b;
+    transition: color 300ms;
+}
+
+.social-link:hover {
+    color: var(--black-02);
+}

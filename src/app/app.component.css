@@ -1,0 +1,122 @@
+mat-toolbar {
+    display: inline-flex;
+}
+
+.toolbar-spacer {
+    flex: 1 1 auto;
+}
+
+.example-container {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: transparent;
+}
+
+.example-sidenav {
+    width: 250px;
+    padding: 20px 10px;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    /* border-top: 1px solid var(--black-02); */
+    box-sizing: border-box;
+    background-color: #e0e0e0;
+}
+
+a,
+a:visited {
+    color: var(--blue-500);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--green-500);
+    transition: color 750ms cubic-bezier(0, 0.55, 0.45, 1);
+}
+
+#footer-container {
+    padding: 20px 10px 5px;
+    margin: 0px auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-box-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 10px 0px;
+}
+
+.footer-box-title {
+    font-size: 1.2rem;
+}
+
+.footer-box {
+    width: 300px;
+}
+
+.footer-box ul li {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0px;
+}
+
+.footer-box ul li a, .footer-box ul li a:visited {
+    line-height: 1.2rem;
+    color: var(--black-02);
+}
+
+.footer-box ul li a:hover {
+    /* text-decoration: underline dashed var(--black-02) 1px; */
+    color: var(--green-500);
+    transition: color 750ms cubic-bezier(0, 0.55, 0.45, 1);
+}
+
+.footer-box ul {
+    padding: 0;
+    margin: 0;
+}
+
+.show-when-screen-smaller-than-900px {
+    display: none;
+}
+
+.footer-button-group {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.footer-button svg {
+    width: 25px;
+    height: 25px;
+    fill: var(--black-02);
+    margin-right: 5px;
+}
+
+.footer-button:hover svg {
+    fill: var(--green-500);
+    transition: fill 750ms cubic-bezier(0, 0.55, 0.45, 1);
+}
+
+@media screen and (max-width: 900px) {
+    .hide-when-screen-smaller-than-900px {
+        display: none;
+    }
+
+    .show-when-screen-smaller-than-900px {
+        display: block;
+    }
+}

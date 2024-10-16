@@ -1,0 +1,45 @@
+<div class="max-width">
+    <h1>議程</h1>
+
+    <!-- <mat-grid-list *ngFor="let slot of slots" [cols]="slot.rooms.length"  rowHeight="fit">
+        <div>{{slot.slotStart}}</div>
+        <mat-grid-tile *ngFor="let room of slot.rooms" colspan="1" rowspan="1">
+            <mat-card appearance="outlined">
+                <mat-card-header>
+                    <mat-card-title-group>
+                        <mat-card-title>{{room.session.title}}</mat-card-title>
+                        <mat-card-subtitle>{{room.session.description || ''}}</mat-card-subtitle>
+                    </mat-card-title-group>
+                </mat-card-header>
+                <mat-card-content class="social-link-list">
+                    <p>{{room.name}}</p>
+                </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+    </mat-grid-list> -->
+
+
+    <div class="mat-card-group-wrapper">
+        @for (schedule of schedules; track schedule) {
+            <div>{{schedule.date}}</div>
+            @for (slot of schedule.timeSlots; track slot) {
+                <div>{{slot.slotStart}}</div>
+                <div class="mat-card-group">
+                    <mat-card appearance="outlined" *ngFor="let room of slot.rooms">
+                        <mat-card-header>
+                            <mat-card-title-group>
+                                <mat-card-title>{{room.session.title}}</mat-card-title>
+                            </mat-card-title-group>
+                        </mat-card-header>
+                        <mat-card-content class="social-link-list">
+                            <p>{{room.name}}</p>
+                            <ul>
+                                <li *ngFor="let category of room.session.categories">{{category.name}}</li>
+                            </ul>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            }
+        }
+    </div>
+</div>

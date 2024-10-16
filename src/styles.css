@@ -1,0 +1,36 @@
+/* gdg 2024 colors*/
+:root {
+  --blue-500: #4285f4;
+  --halftone-blue: #57caff;
+  --pastel-blue: #c3ecf6;
+
+  --green-500: #34a853;
+  --halftone-green: #5cdb6d;
+  --pastel-green: #ccf6c5;
+
+  --yellow-600: #f9ab00;
+  --halftone-yellow: #ffd427;
+  --pastel-yello: #ffe7a5;
+
+  --red-500: #ea4335;
+  --halftone-red: #ff7daf;
+  --pastel-red: #f8d8d8;
+
+  --off-white: #f0f0f0;
+  --black-02: #1e1e1e;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: var(--off-white);
+}
+
+.max-width {
+  margin: 0 auto;
+  max-width: 1200px;
+}

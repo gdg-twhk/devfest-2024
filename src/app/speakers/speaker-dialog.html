@@ -1,0 +1,21 @@
+<mat-dialog-actions align="end">
+  <button mat-icon-button [mat-dialog-close]="true"><mat-icon>close</mat-icon></button>
+</mat-dialog-actions>
+<mat-dialog-content class="mat-typography" style="padding-top: 0px;">
+  <div class="avatar-name-group">
+    <img class="avatar" [src]="speaker?.profilePicture || '/assets/speaker-badge.svg'">
+    <div class="name-box">
+      <p class="full-name">{{ speaker?.fullName }}</p>
+      <p class="tag-line">{{ speaker?.tagLine }}</p>
+    </div>
+  </div>
+  <p *ngIf="speaker?.bio">👤 {{ speaker?.bio }}</p>
+  <p *ngFor="let session of speaker?.sessions">
+    <a [routerLink]="'/sessions/' + session?.id ">🗓️ {{ session.name }}</a>
+  </p>
+  <div class="social-link-list">
+    <a *ngFor="let link of speaker?.links" class="social-link" [href]="link.url" [title]="link.title" target="_blank">
+        <fa-icon [icon]="link.linkType | toSocialLinkIcon"></fa-icon>
+    </a>
+  </div>
+</mat-dialog-content>

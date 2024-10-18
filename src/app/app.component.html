@@ -6,12 +6,10 @@
   <img style="height: 25px;" src="/assets/df24-nav-logo.png" alt="GDG DevFest 2024">
   <span class="toolbar-spacer"></span>
   <nav mat-tab-nav-bar [tabPanel]="tabPanel" class="hide-when-screen-smaller-than-900px">
-    @for (link of links; track link) {
-    <a mat-tab-link routerLink="{{link.link}}" routerLinkActive="mat-tab-link-active" #rla="routerLinkActive"
-      [active]="rla.isActive" [routerLinkActiveOptions]="{exact: true}">
-      {{link.name}}
-    </a>
-    }
+      <a *ngFor="let link of links" mat-tab-link routerLink="{{link.link}}" routerLinkActive="mat-tab-link-active" #rla="routerLinkActive"
+        [active]="rla.isActive" [routerLinkActiveOptions]="{exact: link.exact}">
+        {{link.name}}
+      </a>
     <a mat-tab-link>購買票卷</a>
   </nav>
 </mat-toolbar>
@@ -20,11 +18,9 @@
   <mat-drawer-container hasBackdrop="true" class="example-container">
     <mat-drawer #drawer class="example-sidenav" mode="over" autoFocus="false">
       <mat-nav-list>
-        @for (link of links; track link) {
-        <a mat-list-item routerLink="{{link.link}}" routerLinkActive="mat-tab-link-active" #rla="routerLinkActive"
-          [activated]="rla.isActive" [routerLinkActiveOptions]="{exact: true}" (click)="drawer.close()"
+        <a *ngFor="let link of links" mat-list-item routerLink="{{link.link}}" routerLinkActive="mat-tab-link-active" #rla="routerLinkActive"
+          [activated]="rla.isActive" [routerLinkActiveOptions]="{exact: link.exact}" (click)="drawer.close()"
           class="drawer-flat-button">{{link.name}}</a>
-        }
       </mat-nav-list>
     </mat-drawer>
     <main [@routeAnimations]="getRouteAnimationData()">
@@ -95,9 +91,9 @@
             </ul>
           </div>
         </div>
-        <div style="display: flex; align-items:center; margin-top: 10px;">
+        <div class="footer-box-last">
           <img src="/assets/gdg-taipei.svg" style="height: 25px;">
-          <div style="flex: 1 1 auto;"></div>
+          <div class="footer-box-last-spacer"></div>
           <p>© 2024 GDG Taipei · <a href="#">社群活動指引</a></p>
         </div>
       </div>

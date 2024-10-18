@@ -6,7 +6,9 @@
     <div class="mat-card-group">
         <mat-card *ngFor="let speaker of speakers" appearance="outlined">
             <mat-card-header>
-                <img mat-card-avatar src="{{speaker.profilePicture || '/assets/speaker-badge.svg'}}">
+                <a [routerLink]="speaker.id" class="avatar-link">
+                    <img mat-card-avatar [src]="speaker.profilePicture || '/assets/speaker-badge.svg'">
+                </a>
                 <mat-card-title-group>
                     <mat-card-title>{{speaker.fullName}}</mat-card-title>
                     <mat-card-subtitle>{{speaker.tagLine || ''}}</mat-card-subtitle>
@@ -15,12 +17,12 @@
             <mat-card-content>
                 <p>{{(speaker.bio || '') | truncateString:150}}</p>
                 <div class="social-link-list">
-                    <a *ngFor="let link of speaker.links" class="social-link" href="link.url" title="{{link.title}}" target="_blank">
+                    <a *ngFor="let link of speaker.links" class="social-link" [href]="link.url" [title]="link.title" target="_blank">
                         <fa-icon [icon]="link.linkType | toSocialLinkIcon"></fa-icon>
                     </a>
                 </div>
             </mat-card-content>
         </mat-card>
     </div>
-    
 </div>
+<router-outlet></router-outlet>

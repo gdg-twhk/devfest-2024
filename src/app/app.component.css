@@ -27,20 +27,8 @@ main {
 footer {
     width: 100%;
     margin: 0 auto;
-    /* border-top: 1px solid var(--black-02); */
     box-sizing: border-box;
     background-color: #e0e0e0;
-}
-
-a,
-a:visited {
-    color: var(--blue-500);
-    text-decoration: none;
-}
-
-a:hover {
-    color: var(--green-500);
-    transition: color 750ms cubic-bezier(0, 0.55, 0.45, 1);
 }
 
 #footer-container {
@@ -67,26 +55,47 @@ a:hover {
     width: 300px;
 }
 
-.footer-box ul li {
+.footer-box ul {
+    padding: 0;
+    margin: 0;
     list-style: none;
+}
+
+.footer-box ul li {
     padding: 0;
     margin: 5px 0px;
 }
 
-.footer-box ul li a, .footer-box ul li a:visited {
+.footer-box ul li a,
+.footer-box ul li a:visited {
     line-height: 1.2rem;
     color: var(--black-02);
 }
 
 .footer-box ul li a:hover {
-    /* text-decoration: underline dashed var(--black-02) 1px; */
     color: var(--green-500);
-    transition: color 750ms cubic-bezier(0, 0.55, 0.45, 1);
+    transition: color 750ms var(--default-train)
 }
 
-.footer-box ul {
-    padding: 0;
-    margin: 0;
+.footer-box-last {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-box-last-spacer {
+    flex: 1 1 auto;
+}
+
+@media screen and (max-width: 550px) {
+    .footer-box-last {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .footer-box-last-spacer {
+        width: 100%;
+    }
 }
 
 .show-when-screen-smaller-than-900px {
@@ -108,7 +117,7 @@ a:hover {
 
 .footer-button:hover svg {
     fill: var(--green-500);
-    transition: fill 750ms cubic-bezier(0, 0.55, 0.45, 1);
+    transition: fill 750ms var(--default-transition-timing-function);
 }
 
 @media screen and (max-width: 900px) {

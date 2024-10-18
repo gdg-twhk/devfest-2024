@@ -10,10 +10,27 @@ mat-card-header {
     align-items: center;
 }
 
+mat-card-content p {
+    word-break: break-word;
+}
+
 .mat-mdc-card-avatar {
+    background-color: var(--pastel-green);
     border: 5px solid var(--pastel-green);
     width: 128px;
     height: 128px;
+}
+
+a.avatar-link {
+    text-decoration: none;
+}
+
+.mat-mdc-card-avatar {
+    transition: box-shadow 750ms var(--default-transition-timing-function);
+}
+
+.mat-mdc-card-avatar:hover {
+    box-shadow: 0px 0px 10px var(--green-500);
 }
 
 @media screen and (max-width: 1200px) {
@@ -34,10 +51,10 @@ mat-card-header {
     justify-content: center;
 }
 
-.social-link {
+.social-link,
+.social-link:visited {
     font-size: 1.2rem;
     color: #6b6b6b;
-    ;
     transition: color 300ms;
 }
 

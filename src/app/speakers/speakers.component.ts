@@ -1,57 +1,76 @@
 import { CommonModule } from '@angular/common';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Injectable, NgZone } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LinkTypeToIconPipe } from '../pipes/to-social-link-icon.pipe';
 import { TruncateStringPipe } from '../pipes/truncate.pipe';
-
-interface Link {
-  title: string;
-  url: string;
-  linkType: string;
-  /*
-    Twitter
-    LinkedIn
-    Instagram
-    Sessionize
-    Blog
-    Company_Website
-    Facebook
-    Other
-  */
-}
-
-interface Session {
-  id: number;
-  name: string;
-}
-
-interface Speaker {
-  id: string;
-  firstName: string;
-  lastName: string;
-  fullName: string;
-  bio: string | null;
-  tagLine: string | null;
-  profilePicture: string | null;
-  isTopSpeaker: boolean;
-  links: Link[];
-  sessions: Session[];
-}
+import { LoadSpeakersService, Speaker } from '../load-speakers.service';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-speakers',
   standalone: true,
-  imports: [MatCardModule, FontAwesomeModule, HttpClientModule, CommonModule, LinkTypeToIconPipe, TruncateStringPipe],
+  imports: [MatCardModule, FontAwesomeModule, CommonModule, LinkTypeToIconPipe, TruncateStringPipe, RouterModule],
   templateUrl: './speakers.component.html',
   styleUrl: './speakers.component.css'
 })
 export class SpeakersComponent {
   speakers: Speaker[] = [];
-  constructor(private http: HttpClient) {
-    this.http.get<Speaker[]>("/assets/speakers.json").subscribe(speakers => {
-      this.speakers = speakers;
+  constructor(private service: LoadSpeakersService) {
+    this.speakers = this.service.speakers;
+  }
+}
+
+@Injectable({
+  providedIn: 'root',
+})
+export class SpeakerDataService {
+  userID: string = "";
+}
+
+@Component({
+  template: ''
+})
+export class SpeakerDialogEntryComponent {
+  constructor(public dialog: MatDialog, private router: Router, private route: ActivatedRoute, public dataService: SpeakerDataService, private zone: NgZone) {
+    this.openDialog();
+  }
+  ngOnInit() {
+    this.dataService.userID = this.route.snapshot.paramMap.get('id') ?? "";
+  }
+  openDialog(): void {
+    const dialogRef = this.dialog.open(SpeakerDialogComponent, {
+      autoFocus: false,
+      maxWidth: "1000px",
     });
+    dialogRef.afterClosed().subscribe(_ => {
+      this.zone.run(() => {
+        // if (document && document.referrer && document.referrer.startsWith(window.location.origin)) {
+        //   window.history.back();
+        // } else {
+          this.router.navigate(['../'], { relativeTo: this.route })
+        // }
+      });
+    });
+  }
+}
+
+@Component({
+  selector: 'speaker-dialog',
+  standalone: true,
+  imports: [MatDialogModule, MatButtonModule, CommonModule, RouterModule, FontAwesomeModule, LinkTypeToIconPipe, MatIconModule],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  templateUrl: './speaker-dialog.html',
+  styleUrls: ['./speakers.component.css', './speaker-dialog.css']
+})
+export class SpeakerDialogComponent {
+  public speaker?: Speaker;
+  constructor(private dataService: SpeakerDataService, private service: LoadSpeakersService) {
+  }
+  ngOnInit() {
+    this.speaker = this.service.speakersMap.get(this.dataService.userID);
   }
 }

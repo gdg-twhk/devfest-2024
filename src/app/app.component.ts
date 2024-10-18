@@ -7,11 +7,12 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { slideInAnimation } from './animation';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterModule, MatToolbarModule, MatButtonModule, MatIconModule, MatTabsModule, MatSidenavModule, MatListModule],
+  imports: [RouterOutlet, RouterModule, MatToolbarModule, MatButtonModule, MatIconModule, MatTabsModule, MatSidenavModule, MatListModule, CommonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   animations: [slideInAnimation],
@@ -24,19 +25,15 @@ export class AppComponent {
 
   title = 'dev-fest-2024';
   links = [
-    new Link('首頁', '/'),
-    new Link('講者', '/speakers'),
-    new Link('議程', '/schedule'),
-    new Link('團隊', '/team'),
-    new Link('部落格', '/blog')
+    new Link('首頁', '/', true),
+    new Link('講者', '/speakers', false),
+    new Link('議程', '/schedule', false),
+    new Link('團隊', '/team', false),
+    new Link('部落格', '/blog', false)
   ];
 }
 
 class Link {
-  name: string;
-  link: string;
-  constructor(name: string, link: string) {
-    this.name = name;
-    this.link = link;
+  constructor(public name: string, public link: string, public exact: boolean) {
   }
 }

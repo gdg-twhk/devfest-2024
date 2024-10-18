@@ -26,8 +26,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## bower
+## TODO
 
-```sh
-npx bower_install
-```
++ 議程點開要跳出詳細資料
++ 首頁設計
++ 講者視窗關閉時要跳回原本的頁面
++ Top bar 要固定
++ 404 Not found page
++ SEO, Title

@@ -18,19 +18,38 @@
 
   --off-white: #f0f0f0;
   --black-02: #1e1e1e;
+
+  --default-transition-timing-function: cubic-bezier(0, 0.55, 0.45, 1);
 }
 
 html,
 body {
   height: 100%;
 }
+
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   background-color: var(--off-white);
 }
 
+/*https://github.com/angular/components/issues/5006*/
+.mat-mdc-card-header-text {
+  flex: 1;
+}
+
 .max-width {
   margin: 0 auto;
   max-width: 1200px;
+}
+
+a,
+a:visited {
+  color: var(--blue-500);
+  text-decoration: none;
+  transition: color 750ms var(--default-transition-timing-function);
+}
+
+a:hover {
+  color: var(--green-500);
 }

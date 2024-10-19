@@ -11,7 +11,7 @@
   </div>
   <p *ngIf="speaker?.bio">👤 {{ speaker?.bio }}</p>
   <p *ngFor="let session of speaker?.sessions">
-    <a [routerLink]="'/sessions/' + session?.id ">🗓️ {{ session.name }}</a>
+    <a [routerLink]="'/schedule/' + session?.id ">🗓️ {{ session.name }}</a>
   </p>
   <div class="social-link-list">
     <a *ngFor="let link of speaker?.links" class="social-link" [href]="link.url" [title]="link.title" target="_blank">

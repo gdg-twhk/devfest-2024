@@ -1,7 +1,9 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ScheduleComponent } from './schedule/schedule.component';
-import { SpeakersComponent, SpeakerDialogEntryComponent } from './speakers/speakers.component';
+import { ScheduleDialogEntryComponent } from './schedule/schedule-dialog';
+import { SpeakersComponent } from './speakers/speakers.component';
+import { SpeakerDialogEntryComponent } from './speakers/speaker-dialog';
 import { TeamComponent } from './team/team.component';
 import { BlogComponent } from './blog/blog.component';
 
@@ -15,7 +17,14 @@ export const routes: Routes = [
             }
         ]
     },
-    { path: 'schedule', component: ScheduleComponent, data: { animations: 'schedulePage' } },
+    {
+        path: 'schedule', component: ScheduleComponent, data: { animations: 'schedulePage' }, children: [
+            {
+                path: ':id',
+                component: ScheduleDialogEntryComponent,
+            }
+        ]
+    },
     { path: 'team', component: TeamComponent, data: { animations: 'teamPage' } },
     { path: 'blog', component: BlogComponent, data: { animations: 'blogPage' } },
 ];

@@ -1,13 +1,15 @@
 <div class="max-width">
     <h1>議程</h1>
-    @for (schedule of schedules; track schedule) {
-        <h2 class="schedule-date">📅 {{(schedule.date | toDate).getMonth()+1}}/{{(schedule.date | toDate).getDate()}}</h2>
-        @for (slot of schedule.timeSlots; track slot) {
-            <div class="schedule-time">{{slot.slotStart | slice:0:-3}}</div>
+    <div *ngFor="let schedule of schedules">
+        <h2 class="schedule-date">📅 {{ schedule.date | date:'MM/dd' }}</h2>
+        <div *ngFor="let slot of schedule.timeSlots">
+            <div class="schedule-time">{{ slot.slotStart | slice:0:-3 }}</div>
             <div class="mat-card-group">
                 <mat-card appearance="outlined" *ngFor="let room of slot.rooms">
                     <mat-card-header>
-                        <mat-card-title>{{room.session.title}}</mat-card-title>
+                        <mat-card-title>
+                            <a [routerLink]="'/schedule/' + room.session.id">{{ room.session.title }}</a>
+                        </mat-card-title>
                         <mat-card-subtitle>
                             <span *ngIf="room.session.generatedCategories?.level">
                                 {{ room.session.generatedCategories?.level }}
@@ -22,12 +24,14 @@
                         <div>
                             <ul class="speaker-list">
                                 <li *ngFor="let speaker of room.session.speakers">
-                                    <a [routerLink]="'/speakers/' + speaker.id">
-                                        <img [src]="speakerMap.get(speaker.id)?.profilePicture ?? '/assets/speaker-badge.svg'">
+                                    <a [routerLink]="'/speakers/' + speaker.id" class="speaker-avatar-link">
+                                        <img
+                                            [src]="speakersMap.get(speaker.id)?.profilePicture ?? '/assets/speaker-badge.svg'">
                                     </a>
                                     <div>
-                                        <p class="speaker-name">{{ speakerMap.get(speaker.id)?.fullName ?? speaker.name }}</p>
-                                        <p class="speaker-tagLine">{{ speakerMap.get(speaker.id)?.tagLine ?? "" }}</p>
+                                        <p class="speaker-name">{{ speakersMap.get(speaker.id)?.fullName ?? speaker.name
+                                            }}</p>
+                                        <p class="speaker-tag-line">{{ speakersMap.get(speaker.id)?.tagLine ?? "" }}</p>
                                     </div>
                                 </li>
                             </ul>
@@ -36,11 +40,12 @@
                     <div class="card-spacing"></div>
                     <mat-card-footer>
                         <mat-chip-set aria-label="Chihuahua traits">
-                          <mat-chip *ngFor="let tag of room.session.generatedCategories?.tags">{{ tag }}</mat-chip>
+                            <mat-chip *ngFor="let tag of room.session.generatedCategories?.tags">{{ tag }}</mat-chip>
                         </mat-chip-set>
                     </mat-card-footer>
                 </mat-card>
             </div>
-        }
-    }
+        </div>
+    </div>
 </div>
+<router-outlet></router-outlet>

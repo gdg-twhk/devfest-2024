@@ -7,7 +7,7 @@ interface Speaker {
   name: string;
 }
 
-interface GeneratedSpeakerInfo{
+interface GeneratedSpeakerInfo {
   id: string;
   name: string;
   profile: string;
@@ -25,7 +25,7 @@ interface Category {
   sort: string;
 }
 
-interface Session {
+export interface Session {
   id: string;
   title: string;
   description: string | null;
@@ -96,6 +96,7 @@ class GeneratedCategoryInfo {
 })
 export class LoadScheduleService {
   public schedules: Schedule[] = [];
+  public sessionsMap: Map<string, Session> = new Map();
 
   constructor(private http: HttpClient) { }
   async load(): Promise<Schedule[]> {
@@ -106,6 +107,7 @@ export class LoadScheduleService {
       for (let slot of schedule.timeSlots) {
         for (let room of slot.rooms) {
           room.session.generatedCategories = GeneratedCategoryInfo.fromCategory(room.session.categories);
+          this.sessionsMap.set(room.session.id, room.session)
         }
       }
     }

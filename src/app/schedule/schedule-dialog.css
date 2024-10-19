@@ -1,0 +1,19 @@
+mat-dialog-content h1 {
+    line-height: 2.2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+mat-dialog-content p {
+    color: #717171;
+}
+
+ul.speaker-list img {
+    width: 60px;
+    height: 60px;
+}
+
+ul.speaker-list p {
+    margin: 10px;
+}

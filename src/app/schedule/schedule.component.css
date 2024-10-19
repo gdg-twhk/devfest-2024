@@ -13,8 +13,6 @@
 
 .schedule-date {
     padding-bottom: 5px;
-    /* color: var(--halftone-blue);
-    border-bottom: 3px solid var(--halftone-blue); */
     color: var(--black-02);
     border-bottom: 3px solid var(--black-02);
     letter-spacing: 2px;
@@ -41,37 +39,58 @@ mat-card {
     display: flex;
 }
 
-mat-card ul.speaker-list {
+ul.speaker-list {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
 }
 
-mat-card ul.speaker-list li {
+ul.speaker-list li {
     display: flex;
     align-items: center;
     margin: 10px 0px;
     justify-content: flex-start;
 }
 
-mat-card ul.speaker-list li img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+ul.speaker-list a.speaker-avatar-link {
     margin-right: 10px;
 }
 
-mat-card ul.speaker-list p {
-    margin: 5px;
+ul.speaker-list img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: box-shadow 750ms var(--default-transition-timing-function);
 }
 
-mat-card ul.speaker-list p.speaker-tagLine{
+ul.speaker-list img:hover {
+    box-shadow: 0px 0px 5px var(--green-500);
+}
+
+ul.speaker-list p {
+    margin: 5px;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+ul.speaker-list p.speaker-tag-line {
     font-size: 0.9rem;
     color: rgba(0, 0, 0, 0.54);
 }
 
 .card-spacing {
     flex: 1;
+}
+
+mat-card-title a,
+mat-card-title a:visited {
+    color: unset;
+    text-decoration: none;
+    transition: color 750ms var(--default-transition-timing-function);
+}
+
+mat-card-title a:hover{
+    color: var(--blue-500);
 }
 
 mat-card-footer {

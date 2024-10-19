@@ -44,7 +44,7 @@ export class LoadSpeakersService {
   public speakersMap: Map<string, Speaker> = new Map();
   constructor(private http: HttpClient) {}
   async load(): Promise<Speaker[]> {
-    let speakers = this.http.get<Speaker[]>("/assets/speakers.json");
+    let speakers = this.http.get<Speaker[]>("./assets/speakers.json");
     this.speakers = await lastValueFrom(speakers);
     for(let i = 0; i < this.speakers.length; i++) {
       this.speakersMap.set(this.speakers[i].id, this.speakers[i]);

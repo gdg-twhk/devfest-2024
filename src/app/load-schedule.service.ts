@@ -100,7 +100,7 @@ export class LoadScheduleService {
 
   constructor(private http: HttpClient) { }
   async load(): Promise<Schedule[]> {
-    let schedule = this.http.get<Schedule[]>("/assets/schedules.json");
+    let schedule = this.http.get<Schedule[]>("./assets/schedules.json");
     this.schedules = await lastValueFrom(schedule);
 
     for (let schedule of this.schedules) {

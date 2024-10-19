@@ -1,18 +1,27 @@
 mat-toolbar {
     display: inline-flex;
+    position: fixed;
+    z-index: 10;
+}
+
+mat-drawer-container {
+    padding-top: var(--mat-toolbar-standard-height);
+    box-sizing: border-box;
+    width: 100%;
+    background-color: transparent;
+}
+
+@media (max-width: 599px) {
+    mat-drawer-container {
+        padding-top: var(--mat-toolbar-mobile-height);
+    }
 }
 
 .toolbar-spacer {
     flex: 1 1 auto;
 }
 
-.example-container {
-    box-sizing: border-box;
-    width: 100%;
-    background-color: transparent;
-}
-
-.example-sidenav {
+mat-drawer {
     width: 250px;
     padding: 20px 10px;
 }
@@ -74,7 +83,7 @@ footer {
 
 .footer-box ul li a:hover {
     color: var(--green-500);
-    transition: color 750ms var(--default-train)
+    transition: color 750ms var(--default-transition-timing-function);
 }
 
 .footer-box-last {
@@ -100,6 +109,10 @@ footer {
 
 .show-when-screen-smaller-than-900px {
     display: none;
+}
+
+.menu-button {
+    margin-right: 10px;
 }
 
 .footer-button-group {

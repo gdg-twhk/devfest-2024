@@ -20,7 +20,7 @@ jobs:
           npx ng build --base-href=/${{ github.event.repository.name }}/
       - name: commit and push
         run: |
-          cd dist/{{ github.event.repository.name }}/browser
+          cd dist/${{ github.event.repository.name }}/browser
           git init
           git config user.name  "build-ci"
           git config user.email "build-ci@github.com"

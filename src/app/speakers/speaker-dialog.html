@@ -3,7 +3,7 @@
 </mat-dialog-actions>
 <mat-dialog-content *ngIf="speaker" class="mat-typography" style="padding-top: 0px;">
   <div class="avatar-name-group">
-    <img class="avatar" [src]="speaker.profilePicture || '/assets/speaker-badge.svg'">
+    <img class="avatar" [src]="speaker.profilePicture || './assets/speaker-badge.svg'">
     <div class="name-box">
       <p class="full-name">{{ speaker.fullName }}</p>
       <p class="tag-line">{{ speaker.tagLine }}</p>

@@ -1,6 +1,4 @@
 .cover{
-    background-image: url('/assets/banner.svg');
-    background-color: #000;
     width: 100%;
     height: calc(100dvh - var(--mat-toolbar-standard-height));
     background-size: cover;

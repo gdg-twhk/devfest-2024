@@ -8,10 +8,9 @@ describe('CodComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CodComponent]
-    })
-    .compileComponents();
-    
+      imports: [CodComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(CodComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

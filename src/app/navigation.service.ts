@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class NavigationService {
   private history: string[] = [];
@@ -24,7 +24,7 @@ export class NavigationService {
 
   // Upon closing the dialog, navigate back to the previous page.
   dialogBack(url: string): void {
-    this.history.pop()
+    this.history.pop();
     if (this.history.length > 0) {
       url = this.history[this.history.length - 1];
       this.disablePush = true;

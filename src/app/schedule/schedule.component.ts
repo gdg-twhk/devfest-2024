@@ -11,17 +11,26 @@ import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-schedule',
   standalone: true,
-  imports: [MatGridListModule, CommonModule, MatCardModule, TruncateStringPipe, MatChipsModule, RouterModule],
+  imports: [
+    MatGridListModule,
+    CommonModule,
+    MatCardModule,
+    TruncateStringPipe,
+    MatChipsModule,
+    RouterModule,
+  ],
   templateUrl: './schedule.component.html',
-  styleUrl: './schedule.component.css'
+  styleUrl: './schedule.component.css',
 })
 export class ScheduleComponent {
   cols: number = 0;
   schedules: Schedule[] = [];
   speakersMap: Map<string, Speaker> = new Map();
-  constructor(private service: LoadScheduleService, private speakerService: LoadSpeakersService) {
+  constructor(
+    private service: LoadScheduleService,
+    private speakerService: LoadSpeakersService,
+  ) {
     this.schedules = this.service.schedules;
     this.speakersMap = this.speakerService.speakersMap;
   }
 }
-

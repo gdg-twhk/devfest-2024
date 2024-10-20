@@ -1,55 +1,55 @@
 .avatar-name-group {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .avatar-name-group .avatar {
-    border: 5px solid var(--pastel-green);
-    width: 128px;
-    height: 128px;
-    border-radius: 25px;
-    background-color: var(--pastel-green);
+  border: 5px solid var(--pastel-green);
+  width: 128px;
+  height: 128px;
+  border-radius: 25px;
+  background-color: var(--pastel-green);
 }
 
 .avatar-name-group .name-box {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .avatar-name-group .name-box .full-name {
-    font-size: 2rem;
-    line-height: 2rem;
-    color: var(--black-02);
-    margin: 10px 0px;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: var(--black-02);
+  margin: 10px 0px;
 }
 
 .avatar-name-group .name-box .tag-line {
-    font-size: 1rem;
-    margin: 10px 0px;
+  font-size: 1rem;
+  margin: 10px 0px;
 }
 
 @media screen and (max-width: 750px) {
-    .avatar-name-group {
-        flex-direction: column;
-    }
+  .avatar-name-group {
+    flex-direction: column;
+  }
 
-    .avatar-name-group .name-box {
-        width: 100%;
-        margin: 15px 0px 0px;
-    }
+  .avatar-name-group .name-box {
+    width: 100%;
+    margin: 15px 0px 0px;
+  }
 
-    .avatar-name-group .name-box .full-name {
-        font-size: 1.5rem;
-        line-height: 1.5rem;
-    }
+  .avatar-name-group .name-box .full-name {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
 }
 
 a,
 a:visited {
-    color: var(--blue-500);
-    text-decoration: none;
-    transition: color 750ms var(--default-transition-timing-function);
+  color: var(--blue-500);
+  text-decoration: none;
+  transition: color 750ms var(--default-transition-timing-function);
 }
 
 a:hover {
-    color: var(--green-500);
+  color: var(--green-500);
 }

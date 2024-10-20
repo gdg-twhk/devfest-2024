@@ -8,10 +8,9 @@ describe('SpeakersComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SpeakersComponent]
-    })
-    .compileComponents();
-    
+      imports: [SpeakersComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(SpeakersComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

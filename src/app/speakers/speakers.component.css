@@ -1,63 +1,63 @@
 .mat-card-group {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 10px 0px;
-    grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 10px 0px;
+  grid-gap: 10px;
 }
 
 mat-card-header {
-    flex-direction: column;
-    align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 mat-card-content p {
-    word-break: break-word;
+  word-break: break-word;
 }
 
 .mat-mdc-card-avatar {
-    background-color: var(--pastel-green);
-    border: 5px solid var(--pastel-green);
-    width: 128px;
-    height: 128px;
+  background-color: var(--pastel-green);
+  border: 5px solid var(--pastel-green);
+  width: 128px;
+  height: 128px;
 }
 
 a.avatar-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .mat-mdc-card-avatar {
-    transition: box-shadow 750ms var(--default-transition-timing-function);
+  transition: box-shadow 750ms var(--default-transition-timing-function);
 }
 
 .mat-mdc-card-avatar:hover {
-    box-shadow: 0px 0px 10px var(--green-500);
+  box-shadow: 0px 0px 10px var(--green-500);
 }
 
 @media screen and (max-width: 1200px) {
-    .mat-card-group {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .mat-card-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 750px) {
-    .mat-card-group {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .mat-card-group {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .social-link-list {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 
 .social-link,
 .social-link:visited {
-    font-size: 1.2rem;
-    color: #6b6b6b;
-    transition: color 300ms;
+  font-size: 1.2rem;
+  color: #6b6b6b;
+  transition: color 300ms;
 }
 
 .social-link:hover {
-    color: var(--black-02);
+  color: var(--black-02);
 }

@@ -1,119 +1,121 @@
 .mat-card-group {
-    margin: 10px 0px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+  margin: 10px 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
 }
 
 .language-box {
-    border: 1px solid;
-    padding: 1px 5px;
-    float: right;
+  border: 1px solid;
+  padding: 1px 5px;
+  float: right;
 }
 
 .schedule-date {
-    padding-bottom: 5px;
-    color: var(--black-02);
-    border-bottom: 3px solid var(--black-02);
-    letter-spacing: 2px;
-    transition: border-bottom-color 750ms var(--default-transition-timing-function), color 750ms var(--default-transition-timing-function);
+  padding-bottom: 5px;
+  color: var(--black-02);
+  border-bottom: 3px solid var(--black-02);
+  letter-spacing: 2px;
+  transition:
+    border-bottom-color 750ms var(--default-transition-timing-function),
+    color 750ms var(--default-transition-timing-function);
 }
 
 .schedule-date:hover {
-    color: var(--blue-500);
-    border-bottom-color: var(--blue-500);
+  color: var(--blue-500);
+  border-bottom-color: var(--blue-500);
 }
 
 .schedule-time {
-    color: var(--blue-500);
-    font-size: 1.3rem;
-    margin: 20px 0px 5px;
-    letter-spacing: 3px;
+  color: var(--blue-500);
+  font-size: 1.3rem;
+  margin: 20px 0px 5px;
+  letter-spacing: 3px;
 }
 
 mat-card-subtitle {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 mat-card {
-    display: flex;
+  display: flex;
 }
 
 ul.speaker-list {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 ul.speaker-list li {
-    display: flex;
-    align-items: center;
-    margin: 10px 0px;
-    justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  justify-content: flex-start;
 }
 
 ul.speaker-list a.speaker-avatar-link {
-    margin-right: 10px;
-    display: block;
-    height: 40px;
+  margin-right: 10px;
+  display: block;
+  height: 40px;
 }
 
 ul.speaker-list img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    transition: box-shadow 750ms var(--default-transition-timing-function);
-    background-color: var(--pastel-green);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: box-shadow 750ms var(--default-transition-timing-function);
+  background-color: var(--pastel-green);
 }
 
 ul.speaker-list img:hover {
-    box-shadow: 0px 0px 5px var(--green-500);
+  box-shadow: 0px 0px 5px var(--green-500);
 }
 
 ul.speaker-list p {
-    margin: 5px;
-    font-size: 1rem;
-    line-height: 1.2rem;
+  margin: 5px;
+  font-size: 1rem;
+  line-height: 1.2rem;
 }
 
 ul.speaker-list p.speaker-tag-line {
-    font-size: 0.9rem;
-    color: rgba(0, 0, 0, 0.54);
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.54);
 }
 
 .card-spacing {
-    flex: 1;
+  flex: 1;
 }
 
 mat-card-title a,
 mat-card-title a:visited {
-    color: unset;
-    text-decoration: none;
-    transition: color 750ms var(--default-transition-timing-function);
+  color: unset;
+  text-decoration: none;
+  transition: color 750ms var(--default-transition-timing-function);
 }
 
-mat-card-title a:hover{
-    color: var(--blue-500);
+mat-card-title a:hover {
+  color: var(--blue-500);
 }
 
 mat-card-footer {
-    padding: 16px;
+  padding: 16px;
 }
 
 @media screen and (max-width: 1200px) {
-    .mat-card-group {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .mat-card-group {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .mat-card-group {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .mat-card-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 650px) {
-    .mat-card-group {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .mat-card-group {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

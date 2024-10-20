@@ -38,7 +38,7 @@ export interface Session {
 export interface Schedule {
   date: string;
   isDefault: boolean;
-  rooms: any;
+  // rooms: any;
   timeSlots: {
     slotStart: string;
     rooms: {
@@ -51,23 +51,27 @@ export interface Schedule {
 }
 
 class GeneratedCategoryInfo {
-  constructor(public level: string, public language: string, public tags: string[]) { }
+  constructor(
+    public level: string,
+    public language: string,
+    public tags: string[],
+  ) {}
   static fromCategory(value: Category[]): GeneratedCategoryInfo {
-    let level: string = "";
-    let lang: string = "";
+    let level: string = '';
+    let lang: string = '';
     let tags: string[] = [];
     for (let i = 0; i < value.length; i++) {
-      let v = value[i];
+      const v = value[i];
       switch (v.name) {
-        case "Language":
+        case 'Language':
           for (let i = 0; i < v.categoryItems.length; i++) {
             lang += v.categoryItems[i].name;
           }
           break;
-        case "Level":
-          level = v.categoryItems.map((u) => u.name).join("");
+        case 'Level':
+          level = v.categoryItems.map((u) => u.name).join('');
           break;
-        case "Tags":
+        case 'Tags':
           tags = v.categoryItems.map((u) => u.name);
           break;
       }
@@ -77,22 +81,24 @@ class GeneratedCategoryInfo {
 }
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class LoadScheduleService {
   public schedules: Schedule[] = [];
   public sessionsMap: Map<string, Session> = new Map();
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
   async load(): Promise<Schedule[]> {
-    let schedule = this.http.get<Schedule[]>("./assets/schedules.json");
+    const schedule = this.http.get<Schedule[]>('./assets/schedules.json');
     this.schedules = await lastValueFrom(schedule);
 
-    for (let schedule of this.schedules) {
-      for (let slot of schedule.timeSlots) {
-        for (let room of slot.rooms) {
-          room.session.generatedCategories = GeneratedCategoryInfo.fromCategory(room.session.categories);
-          this.sessionsMap.set(room.session.id, room.session)
+    for (const schedule of this.schedules) {
+      for (const slot of schedule.timeSlots) {
+        for (const room of slot.rooms) {
+          room.session.generatedCategories = GeneratedCategoryInfo.fromCategory(
+            room.session.categories,
+          );
+          this.sessionsMap.set(room.session.id, room.session);
         }
       }
     }

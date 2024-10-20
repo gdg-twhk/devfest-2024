@@ -11,9 +11,17 @@ import { MatButtonModule } from '@angular/material/button';
 @Component({
   selector: 'app-speakers',
   standalone: true,
-  imports: [MatCardModule, FontAwesomeModule, CommonModule, LinkTypeToIconPipe, TruncateStringPipe, RouterModule, MatButtonModule],
+  imports: [
+    MatCardModule,
+    FontAwesomeModule,
+    CommonModule,
+    LinkTypeToIconPipe,
+    TruncateStringPipe,
+    RouterModule,
+    MatButtonModule,
+  ],
   templateUrl: './speakers.component.html',
-  styleUrl: './speakers.component.css'
+  styleUrl: './speakers.component.css',
 })
 export class SpeakersComponent {
   speakers: Speaker[] = [];

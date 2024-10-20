@@ -1,7 +1,13 @@
-import { Pipe, PipeTransform } from "@angular/core";
-import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
-import { faFacebookSquare, faGithub, faInstagram, faLinkedinIn, faXTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faBlog, faLink } from "@fortawesome/free-solid-svg-icons";
+import { Pipe, PipeTransform } from '@angular/core';
+import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
+import {
+  faFacebookSquare,
+  faGithub,
+  faInstagram,
+  faLinkedinIn,
+  faXTwitter,
+} from '@fortawesome/free-brands-svg-icons';
+import { faBlog, faLink } from '@fortawesome/free-solid-svg-icons';
 
 @Pipe({
   standalone: true,
@@ -10,21 +16,21 @@ import { faBlog, faLink } from "@fortawesome/free-solid-svg-icons";
 export class LinkTypeToIconPipe implements PipeTransform {
   transform(value: string): IconDefinition {
     switch (value) {
-      case "Twitter":
+      case 'Twitter':
         return faXTwitter;
-      case "LinkedIn":
+      case 'LinkedIn':
         return faLinkedinIn;
-      case "Instagram":
+      case 'Instagram':
         return faInstagram;
-      case "Blog":
+      case 'Blog':
         return faBlog;
-      case "Facebook":
+      case 'Facebook':
         return faFacebookSquare;
-      case "Company_Website":
-      case "Sessionize":
-      case "Other":
+      case 'Company_Website':
+      case 'Sessionize':
+      case 'Other':
         return faLink;
-      case "Github":
+      case 'Github':
         return faGithub;
     }
     return faLink;

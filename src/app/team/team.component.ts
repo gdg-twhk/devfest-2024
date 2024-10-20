@@ -23,8 +23,8 @@ interface Link {
 }
 
 interface TeamMember {
-  name: string
-  bio: string
+  name: string;
+  bio: string;
   profilePicture: string | null;
   links: Link[];
 }
@@ -34,15 +34,15 @@ interface TeamMember {
   standalone: true,
   imports: [MatCardModule, FontAwesomeModule, CommonModule, LinkTypeToIconPipe],
   templateUrl: './team.component.html',
-  styleUrl: './team.component.css'
+  styleUrl: './team.component.css',
 })
 export class TeamComponent {
   members: TeamMember[] = [
     {
-      name: "name",
-      bio: "bio",
+      name: 'name',
+      bio: 'bio',
       profilePicture: null,
       links: [],
-    }
-  ]
+    },
+  ];
 }

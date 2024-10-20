@@ -37,16 +37,16 @@ export interface Speaker {
 }
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class LoadSpeakersService {
   public speakers: Speaker[] = [];
   public speakersMap: Map<string, Speaker> = new Map();
   constructor(private http: HttpClient) {}
   async load(): Promise<Speaker[]> {
-    let speakers = this.http.get<Speaker[]>("./assets/speakers.json");
+    const speakers = this.http.get<Speaker[]>('./assets/speakers.json');
     this.speakers = await lastValueFrom(speakers);
-    for(let i = 0; i < this.speakers.length; i++) {
+    for (let i = 0; i < this.speakers.length; i++) {
       this.speakersMap.set(this.speakers[i].id, this.speakers[i]);
     }
     return this.speakers;

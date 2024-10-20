@@ -2,26 +2,13 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { lastValueFrom } from 'rxjs';
 
-interface Speaker {
-  id: string;
-  name: string;
-}
-
-interface GeneratedSpeakerInfo {
-  id: string;
-  name: string;
-  profile: string;
-}
-
-interface CategoryItems {
-  id: string;
-  name: string;
-}
-
 interface Category {
   id: number;
   name: string;
-  categoryItems: CategoryItems[];
+  categoryItems: {
+    id: string;
+    name: string;
+  }[];
   sort: string;
 }
 
@@ -33,8 +20,10 @@ export interface Session {
   endsAt: string;
   isServiceSession: boolean;
   isPlenumSession: boolean;
-  speakers: Speaker[];
-  generatedSpeaker?: GeneratedSpeakerInfo[];
+  speakers: {
+    id: string;
+    name: string;
+  }[];
   categories: Category[];
   generatedCategories?: GeneratedCategoryInfo;
   roomId: number;
@@ -46,23 +35,19 @@ export interface Session {
   isConfirmed: boolean;
 }
 
-interface Room {
-  id: number;
-  name: string;
-  session: Session;
-  index: number;
-}
-
-interface TimeSlot {
-  slotStart: string;
-  rooms: Room[];
-}
-
 export interface Schedule {
   date: string;
   isDefault: boolean;
   rooms: any;
-  timeSlots: TimeSlot[];
+  timeSlots: {
+    slotStart: string;
+    rooms: {
+      id: number;
+      name: string;
+      session: Session;
+      index: number;
+    }[];
+  }[];
 }
 
 class GeneratedCategoryInfo {

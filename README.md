@@ -28,9 +28,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## TODO
 
-+ 議程點開要跳出詳細資料
++ material design 自訂顏色、調色盤
 + 首頁設計
-+ 講者視窗關閉時要跳回原本的頁面
-+ Top bar 要固定
-+ 404 Not found page
-+ SEO, Title
++ 團隊設計
++ 部落格 (不知道可不可以刪掉？)
++ aria-label
++ eslint

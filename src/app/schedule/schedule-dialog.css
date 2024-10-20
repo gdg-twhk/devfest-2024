@@ -9,6 +9,10 @@ mat-dialog-content p {
     color: #717171;
 }
 
+ul.speaker-list a.speaker-avatar-link {
+    height: 60px;
+}
+
 ul.speaker-list img {
     width: 60px;
     height: 60px;
@@ -16,4 +20,9 @@ ul.speaker-list img {
 
 ul.speaker-list p {
     margin: 10px;
+}
+
+.speaker-name{
+    color: var(--black-02);
+    font-weight: bold;
 }

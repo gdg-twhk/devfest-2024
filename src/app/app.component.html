@@ -4,14 +4,16 @@
     <mat-icon *ngIf="!drawer.opened">menu</mat-icon>
     <mat-icon *ngIf="drawer.opened">close</mat-icon>
   </button>
-  <img style="height: 25px;" src="./assets/df24-nav-logo.png" alt="GDG DevFest 2024">
+  <a class="logo-button" routerLink="/">
+    <img src="./assets/df24-nav-logo.png" alt="GDG DevFest 2024">
+  </a>
   <span class="toolbar-spacer"></span>
   <nav mat-tab-nav-bar [tabPanel]="tabPanel" class="hide-when-screen-smaller-than-900px">
     <a *ngFor="let link of links" mat-tab-link [routerLink]="link.link" routerLinkActive="mat-tab-link-active"
       #rla="routerLinkActive" [active]="rla.isActive" [routerLinkActiveOptions]="{exact: link.exact}">
       {{link.name}}
     </a>
-    <a mat-tab-link>購買票卷</a>
+    <a mat-tab-link class="highlight-tab-link">購買票卷</a>
   </nav>
 </mat-toolbar>
 
@@ -29,7 +31,7 @@
       <router-outlet />
     </main>
     <footer>
-      <div id="footer-container" class="max-width">
+      <div class="footer-container max-width">
         <img src="./assets/df24-footer-logo.png" style="height: 30px;">
         <p class="footer-box-title">跟隨我們</p>
         <div class="footer-button-group">

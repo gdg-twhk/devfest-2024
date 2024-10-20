@@ -25,7 +25,7 @@
 }
 
 .schedule-time {
-    color: var(--halftone-red);
+    color: var(--blue-500);
     font-size: 1.3rem;
     margin: 20px 0px 5px;
     letter-spacing: 3px;
@@ -54,6 +54,8 @@ ul.speaker-list li {
 
 ul.speaker-list a.speaker-avatar-link {
     margin-right: 10px;
+    display: block;
+    height: 40px;
 }
 
 ul.speaker-list img {
@@ -61,6 +63,7 @@ ul.speaker-list img {
     height: 40px;
     border-radius: 50%;
     transition: box-shadow 750ms var(--default-transition-timing-function);
+    background-color: var(--pastel-green);
 }
 
 ul.speaker-list img:hover {

@@ -14,8 +14,8 @@
     <a [routerLink]="'/schedule/' + session.id ">🗓️ {{ session.name }}</a>
   </p>
   <div class="social-link-list">
-    <a *ngFor="let link of speaker.links" class="social-link" [href]="link.url" [title]="link.title" target="_blank">
-        <fa-icon [icon]="link.linkType | toSocialLinkIcon"></fa-icon>
+    <a mat-icon-button class="social-link" *ngFor="let link of speaker.links" [href]="link.url" [title]="link.title" target="_blank">
+      <fa-icon [icon]="link.linkType | toSocialLinkIcon"></fa-icon>
     </a>
   </div>
 </mat-dialog-content>

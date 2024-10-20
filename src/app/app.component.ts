@@ -25,15 +25,15 @@ export class AppComponent {
 
   title = 'dev-fest-2024';
   links = [
-    new Link('首頁', '/', true),
-    new Link('講者', '/speakers', false),
-    new Link('議程', '/schedule', false),
-    new Link('團隊', '/team', false),
-    new Link('部落格', '/blog', false)
+    new Link('首頁', '/', true, '🏠'),
+    new Link('講者', '/speakers', false, '🎤'),
+    new Link('議程', '/schedule', false, '🗓️'),
+    new Link('團隊', '/team', false, '👨‍👩‍👧‍👦'),
+    new Link('部落格', '/blog', false, '📝')
   ];
 }
 
 class Link {
-  constructor(public name: string, public link: string, public exact: boolean) {
+  constructor(public name: string, public link: string, public exact: boolean, public emoji: string) {
   }
 }

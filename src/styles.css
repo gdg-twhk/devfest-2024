@@ -10,7 +10,7 @@
 
   --yellow-600: #f9ab00;
   --halftone-yellow: #ffd427;
-  --pastel-yello: #ffe7a5;
+  --pastel-yellow: #ffe7a5;
 
   --red-500: #ea4335;
   --halftone-red: #ff7daf;
@@ -38,9 +38,15 @@ body {
   flex: 1;
 }
 
-.max-width {
+.max-width-constraint {
   margin: 0 auto;
   max-width: 1200px;
+}
+
+.max-width-constraint-with-padding {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 10px;
 }
 
 a,

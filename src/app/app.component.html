@@ -5,7 +5,7 @@
     <mat-icon *ngIf="drawer.opened">close</mat-icon>
   </button>
   <a class="logo-button" routerLink="/">
-    <img src="./assets/df24-nav-logo.png" alt="GDG DevFest 2024">
+    <img src="./assets/df24-logo.svg" alt="GDG DevFest 2024">
   </a>
   <span class="toolbar-spacer"></span>
   <nav mat-tab-nav-bar [tabPanel]="tabPanel" class="hide-when-screen-smaller-than-900px">
@@ -13,7 +13,8 @@
       #rla="routerLinkActive" [active]="rla.isActive" [routerLinkActiveOptions]="{exact: link.exact}">
       {{link.name}}
     </a>
-    <a mat-tab-link class="highlight-tab-link">購買票卷</a>
+    <a mat-tab-link class="highlight-tab-link"
+      href="https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2024/">馬上報名</a>
   </nav>
 </mat-toolbar>
 
@@ -23,16 +24,17 @@
       <mat-nav-list>
         <a *ngFor="let link of links" mat-list-item [routerLink]="link.link" routerLinkActive="mat-tab-link-active"
           #rla="routerLinkActive" [activated]="rla.isActive" [routerLinkActiveOptions]="{exact: link.exact}"
-          (click)="drawer.close()" class="drawer-flat-button">{{link.name}}</a>
-        <a mat-list-item>購買票卷</a>
+          (click)="drawer.close()" class="drawer-flat-button">{{ link.emoji }} {{link.name}}</a>
+        <a mat-list-item class="highlight-list-item"
+          href="https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2024/">📝 馬上報名</a>
       </mat-nav-list>
     </mat-drawer>
     <main [@routeAnimations]="getRouteAnimationData()">
       <router-outlet />
     </main>
     <footer>
-      <div class="footer-container max-width">
-        <img src="./assets/df24-footer-logo.png" style="height: 30px;">
+      <div class="footer-container max-width-constraint">
+        <img src="./assets/df24-logo-year.svg" style="height: 30px;">
         <p class="footer-box-title">跟隨我們</p>
         <div class="footer-button-group">
           <a class="footer-button" href="https://www.meetup.com/GDGTaipei/" target="_blank" rel="noopener">
@@ -69,15 +71,15 @@
             <ul>
               <li><a href="http://www.taipei-gtug.org/">台北 Google 開發者社群</a></li>
               <li><a href="https://developers.google.com/">Google 開發者社群 (GDG)</a></li>
-              <li><a href="/team">籌辦團隊</a></li>
+              <li><a routerLink="/team">籌辦團隊</a></li>
             </ul>
           </div>
           <div class="footer-box">
             <p class="footer-box-title">往年活動</p>
             <ul>
-              <li><a href="#">GDG DevFest Taipei 2016</a></li>
               <li><a href="#">GDG DevFest Taipei 2017</a></li>
-              <li><a href="#">GDG DevFest Taipei 2018</a></li>
+              <li><a href="https://devfest-taipei-2018.firebaseapp.com/">GDG DevFest Taipei 2018</a></li>
+              <li><a href="https://devfest-tw.appspot.com/taipei">GDG DevFest Taipei 2019</a></li>
             </ul>
           </div>
           <div class="footer-box">

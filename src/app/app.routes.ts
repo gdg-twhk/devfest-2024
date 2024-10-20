@@ -10,7 +10,7 @@ import { CodComponent } from './cod/cod.component';
 
 const titleSuffix = 'GDG DevFest Taipei 2024';
 export const routes: Routes = [
-    { path: '', component: HomeComponent, data: { animations: 'homePage' } },
+    { path: '', component: HomeComponent, data: { animations: 'homePage' }, title: titleSuffix },
     {
         path: 'speakers', component: SpeakersComponent, data: { animations: 'speakersPage' }, children: [
             {

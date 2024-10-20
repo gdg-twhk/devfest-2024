@@ -1,7 +1,8 @@
 <mat-toolbar>
   <button mat-icon-button (click)="drawer.toggle()" aria-label="打開側邊導欄列"
     class="menu-button show-when-screen-smaller-than-900px">
-    <mat-icon>menu</mat-icon>
+    <mat-icon *ngIf="!drawer.opened">menu</mat-icon>
+    <mat-icon *ngIf="drawer.opened">close</mat-icon>
   </button>
   <img style="height: 25px;" src="./assets/df24-nav-logo.png" alt="GDG DevFest 2024">
   <span class="toolbar-spacer"></span>
@@ -21,6 +22,7 @@
         <a *ngFor="let link of links" mat-list-item [routerLink]="link.link" routerLinkActive="mat-tab-link-active"
           #rla="routerLinkActive" [activated]="rla.isActive" [routerLinkActiveOptions]="{exact: link.exact}"
           (click)="drawer.close()" class="drawer-flat-button">{{link.name}}</a>
+        <a mat-list-item>購買票卷</a>
       </mat-nav-list>
     </mat-drawer>
     <main [@routeAnimations]="getRouteAnimationData()">

@@ -2,6 +2,19 @@ mat-toolbar {
     display: inline-flex;
     position: fixed;
     z-index: 10;
+    top: 0px;
+    left: 0px;
+}
+
+mat-drawer{
+    position: fixed;
+    z-index: 11;
+    top: 0px;
+    left: 0px;
+}
+
+mat-drawer mat-nav-list{
+    padding-top: var(--mat-toolbar-standard-height);
 }
 
 mat-drawer-container {
@@ -13,6 +26,10 @@ mat-drawer-container {
 
 @media (max-width: 599px) {
     mat-drawer-container {
+        padding-top: var(--mat-toolbar-mobile-height);
+    }
+
+    mat-drawer mat-nav-list{
         padding-top: var(--mat-toolbar-mobile-height);
     }
 }

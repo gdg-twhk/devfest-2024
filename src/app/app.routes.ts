@@ -6,6 +6,8 @@ import { SpeakersComponent } from './speakers/speakers.component';
 import { SpeakerDialogEntryComponent } from './speakers/speaker-dialog';
 import { TeamComponent } from './team/team.component';
 import { BlogComponent } from './blog/blog.component';
+import { CodComponent } from './cod/cod.component';
+import { animation } from '@angular/animations';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent, data: { animations: 'homePage' } },
@@ -27,4 +29,5 @@ export const routes: Routes = [
     },
     { path: 'team', component: TeamComponent, data: { animations: 'teamPage' } },
     { path: 'blog', component: BlogComponent, data: { animations: 'blogPage' } },
+    { path: 'cod', component: CodComponent, data: { animations: 'codePage' } }
 ];

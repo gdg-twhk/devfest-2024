@@ -30,7 +30,30 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 + material design 自訂顏色、調色盤
 + 首頁設計
-+ 團隊設計
-+ 部落格 (不知道可不可以刪掉？)
 + aria-label
-+ eslint
+
+## 如何修改模版
+
+### 修改 src/index.html
+
++ 可以修改 index title, metadata
+
+### 修改 app.component.ts
+
++ 可以修改 navigation bar 上的按鈕
+
+### 修改 app.component.html
+
++ 可以修改 footer 相關連結
+
+### 修改 src/app/app.routes.ts
+
++ 可以修改各個頁面的 title 及相關路由
+
+### 修改 src/assets/speakers.json
+
++ 修改講者資料
+
+### 修改 src/assets/schedules.json
+
++ 修改議程資料

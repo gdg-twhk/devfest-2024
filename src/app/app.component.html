@@ -14,7 +14,7 @@
       {{link.name}}
     </a>
     <a mat-tab-link class="highlight-tab-link"
-      href="https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2024/">馬上報名</a>
+    [href]="highlightLink.link">{{ highlightLink.name }}</a>
   </nav>
 </mat-toolbar>
 
@@ -26,7 +26,7 @@
           #rla="routerLinkActive" [activated]="rla.isActive" [routerLinkActiveOptions]="{exact: link.exact}"
           (click)="drawer.close()" class="drawer-flat-button">{{ link.emoji }} {{link.name}}</a>
         <a mat-list-item class="highlight-list-item"
-          href="https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2024/">📝 馬上報名</a>
+          [href]="highlightLink.link">{{ highlightLink.emoji }} {{ highlightLink.name }}</a>
       </mat-nav-list>
     </mat-drawer>
     <main [@routeAnimations]="getRouteAnimationData()">
@@ -34,7 +34,7 @@
     </main>
     <footer>
       <div class="footer-container max-width-constraint">
-        <img src="./assets/df24-logo-year.svg" style="height: 30px;">
+        <img src="./assets/df24-logo-year.svg" style="height: 30px;" alt="DevFest2024 Logo">
         <p class="footer-box-title">跟隨我們</p>
         <div class="footer-button-group">
           <a class="footer-button" href="https://www.meetup.com/GDGTaipei/" target="_blank" rel="noopener">
@@ -92,7 +92,7 @@
           </div>
         </div>
         <div class="footer-box-last">
-          <img src="./assets/gdg-taipei.svg" style="height: 25px;">
+          <img src="./assets/gdg-taipei.svg" style="height: 25px;" alt="GDG Taipei">
           <div class="footer-box-last-spacer"></div>
           <p>© 2024 GDG Taipei · <a routerLink="/cod">社群活動指引</a></p>
         </div>

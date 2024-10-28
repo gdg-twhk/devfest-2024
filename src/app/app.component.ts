@@ -13,6 +13,13 @@ import { MatListModule } from '@angular/material/list';
 import { slideInAnimation } from './animation';
 import { CommonModule } from '@angular/common';
 
+interface Link {
+  name: string;
+  link: string;
+  exact: boolean;
+  emoji: string;
+}
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -39,21 +46,35 @@ export class AppComponent {
     ];
   }
 
-  title = 'dev-fest-2024';
-  links = [
-    new Link('首頁', '/', true, '🏠'),
-    new Link('講者', '/speakers', false, '🎤'),
-    new Link('議程', '/schedule', false, '🗓️'),
-    new Link('團隊', '/team', false, '👨‍👩‍👧‍👦'),
-    new Link('部落格', '/blog', false, '📝'),
+  // shown in navbar and sidebar
+  // `emoji` is shown in sidebar only
+  // `exact` means the "active" if the current path exactly match the link
+  links: Link[] = [
+    {
+      name: '首頁',
+      link: '/',
+      exact: true,
+      emoji: '🏠',
+    },
+    {
+      name: '講者',
+      link: '/speakers',
+      exact: false,
+      emoji: '🎤',
+    },
+    {
+      name: '議程',
+      link: '/schedule',
+      exact: false,
+      emoji: '🎤',
+    },
   ];
-}
 
-class Link {
-  constructor(
-    public name: string,
-    public link: string,
-    public exact: boolean,
-    public emoji: string,
-  ) {}
+  // shown in navbar and sidebar with highlight
+  highlightLink: Link = {
+    name: '免費報名',
+    link: 'https://gdg.community.dev/events/details/google-gdg-taipei-presents-devfest-taipei-2024/',
+    exact: false, // not used
+    emoji: '📝',
+  };
 }

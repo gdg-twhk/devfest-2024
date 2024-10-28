@@ -10,7 +10,8 @@
   <span class="toolbar-spacer"></span>
   <nav mat-tab-nav-bar [tabPanel]="tabPanel" class="hide-when-screen-smaller-than-900px">
     <a *ngFor="let link of links" mat-tab-link [routerLink]="link.link" routerLinkActive="mat-tab-link-active"
-      #rla="routerLinkActive" [active]="rla.isActive" [routerLinkActiveOptions]="{exact: link.exact}">
+      #rla="routerLinkActive" [active]="rla.isActive" [routerLinkActiveOptions]="{exact: link.exact}"
+      class="tab-button">
       {{link.name}}
     </a>
     <a mat-tab-link class="highlight-tab-link"

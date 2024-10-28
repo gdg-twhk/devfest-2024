@@ -38,6 +38,10 @@ body {
   flex: 1;
 }
 
+.mat-mdc-tab-links{
+  align-items: center;
+}
+
 .max-width-constraint {
   margin: 0 auto;
   max-width: 1200px;

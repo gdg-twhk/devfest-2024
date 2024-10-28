@@ -19,6 +19,10 @@ mat-drawer mat-nav-list {
   padding-top: var(--mat-toolbar-standard-height);
 }
 
+.tab-button {
+  height: var(--mat-toolbar-standard-height) !important;
+}
+
 mat-drawer-container {
   padding-top: var(--mat-toolbar-standard-height);
   box-sizing: border-box;

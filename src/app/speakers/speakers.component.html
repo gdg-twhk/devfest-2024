@@ -7,7 +7,7 @@
         <mat-card *ngFor="let speaker of speakers" appearance="outlined">
             <mat-card-header>
                 <a [routerLink]="speaker.id" class="avatar-link">
-                    <img mat-card-avatar [src]="speaker.profilePicture || './assets/speaker-badge.svg'">
+                    <img mat-card-avatar [src]="speaker.profilePicture || './assets/speaker-badge.svg'" alt="the avatar of the speaker">
                 </a>
                 <mat-card-title-group>
                     <mat-card-title>{{speaker.fullName}}</mat-card-title>

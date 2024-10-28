@@ -11,7 +11,7 @@
     <ul class="speaker-list">
         <li *ngFor="let speaker of session?.speakers">
             <a [routerLink]="'/speakers/' + speaker.id" class="speaker-avatar-link">
-                <img [src]="speakersMap.get(speaker.id)?.profilePicture ?? './assets/speaker-badge.svg'">
+                <img [src]="speakersMap.get(speaker.id)?.profilePicture ?? './assets/speaker-badge.svg'" alt="the avatar of the speaker">
             </a>
             <div>
                 <p class="speaker-name">{{ speakersMap.get(speaker.id)?.fullName ?? speaker.name }}</p>

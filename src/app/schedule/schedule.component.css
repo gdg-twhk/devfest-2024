@@ -92,6 +92,7 @@ mat-card-title a:visited {
   color: unset;
   text-decoration: none;
   transition: color 750ms var(--default-transition-timing-function);
+  display: inline-block;
 }
 
 mat-card-title a:hover {

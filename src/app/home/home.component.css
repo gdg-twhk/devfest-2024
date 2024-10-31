@@ -1,4 +1,5 @@
-.cover, .cover-front {
+.cover,
+.cover-front {
   width: 100%;
   height: calc(100dvh - var(--mat-toolbar-standard-height));
   background-size: cover;
@@ -7,8 +8,14 @@
   margin-top: -10px;
 }
 
+.cover {
+  background-position-x: calc(50% - 300px);
+}
+
 @media (max-width: 599px) {
-  .cover, .cover-front {
+
+  .cover,
+  .cover-front {
     height: calc(100dvh - var(--mat-toolbar-mobile-height));
   }
 }
@@ -51,6 +58,7 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .two-columns-texts p {
     font-size: 1.3rem;
   }

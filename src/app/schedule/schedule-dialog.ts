@@ -13,13 +13,12 @@ import {
   Router,
   RouterModule,
 } from '@angular/router';
-import { LoadScheduleService, Session } from '../load-schedule.service';
 import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LinkTypeToIconPipe } from '../pipes/to-social-link-icon.pipe';
 import { MatIconModule } from '@angular/material/icon';
 import { MatChipsModule } from '@angular/material/chips';
-import { LoadSpeakersService, Speaker } from '../load-speakers.service';
+import { LoadDataServices, Speaker, Session } from '../load-data.service';
 import { NavigationService } from '../navigation.service';
 
 @Injectable({
@@ -95,11 +94,10 @@ class ScheduleDialogComponent implements OnInit {
   public speakersMap: Map<string, Speaker> = new Map();
   constructor(
     private dataService: SessionDataService,
-    private speakerService: LoadSpeakersService,
-    private service: LoadScheduleService,
+    private service: LoadDataServices,
   ) {}
   ngOnInit() {
     this.session = this.service.sessionsMap.get(this.dataService.sessionID);
-    this.speakersMap = this.speakerService.speakersMap;
+    this.speakersMap = this.service.speakersMap;
   }
 }

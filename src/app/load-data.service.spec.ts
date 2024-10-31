@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { LoadScheduleService } from './load-schedule.service';
+import { LoadDataServices } from './load-data.service';
 
-describe('LoadScheduleService', () => {
-  let service: LoadScheduleService;
+describe('LoadSpeakersService', () => {
+  let service: LoadDataServices;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(LoadScheduleService);
+    service = TestBed.inject(LoadDataServices);
   });
 
   it('should be created', () => {

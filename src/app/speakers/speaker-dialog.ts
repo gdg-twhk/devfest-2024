@@ -8,7 +8,7 @@ import {
 } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LinkTypeToIconPipe } from '../pipes/to-social-link-icon.pipe';
-import { LoadSpeakersService, Speaker } from '../load-speakers.service';
+import { LoadDataServices, Speaker } from '../load-data.service';
 import {
   ActivatedRoute,
   NavigationStart,
@@ -89,7 +89,7 @@ class SpeakerDialogComponent implements OnInit {
   public speaker?: Speaker;
   constructor(
     private dataService: SpeakerDataService,
-    private service: LoadSpeakersService,
+    private service: LoadDataServices,
   ) {}
   ngOnInit() {
     this.speaker = this.service.speakersMap.get(this.dataService.userID);

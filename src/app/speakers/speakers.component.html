@@ -6,18 +6,18 @@
     <div class="mat-card-group">
         <mat-card *ngFor="let speaker of speakers" appearance="outlined">
             <mat-card-header>
-                <a [routerLink]="speaker.id" class="avatar-link">
-                    <img mat-card-avatar [src]="speaker.profilePicture || './assets/speaker-badge.svg'" alt="the avatar of the speaker">
+                <a [routerLink]="speaker.generatedID" class="avatar-link">
+                    <img mat-card-avatar [src]="speaker.photo || './assets/speaker-badge.svg'" alt="the avatar of the speaker">
                 </a>
                 <mat-card-title-group>
-                    <mat-card-title>{{speaker.fullName}}</mat-card-title>
-                    <mat-card-subtitle>{{speaker.tagLine || ''}}</mat-card-subtitle>
+                    <mat-card-title>{{speaker.name}}</mat-card-title>
+                    <mat-card-subtitle>{{speaker.title || ''}}</mat-card-subtitle>
                 </mat-card-title-group>
             </mat-card-header>
             <mat-card-content>
-                <p>{{(speaker.bio || '') | truncateString:150}}</p>
+                <p>{{ speaker.shortBio }}</p>
                 <div class="social-link-list">
-                    <a mat-icon-button class="social-link" *ngFor="let link of speaker.links" [href]="link.url" [title]="link.title" target="_blank"><fa-icon [icon]="link.linkType | toSocialLinkIcon"></fa-icon></a>
+                    <a mat-icon-button class="social-link" *ngFor="let social of speaker.socials" [href]="social.link" target="_blank"><fa-icon [icon]="social.name | toSocialLinkIcon"></fa-icon></a>
                 </div>
             </mat-card-content>
         </mat-card>

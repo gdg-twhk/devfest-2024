@@ -3,25 +3,25 @@
 </mat-dialog-actions>
 <mat-dialog-content *ngIf="session" class="mat-typography" style="padding-top: 0px;">
     <h1>{{ session.title }}</h1>
-    <p>🕒 {{ session.startsAt | date:'MM/d hh:mm' }} ~ {{ session.endsAt | date:'hh:mm' }}</p>
-    <p *ngIf="session.room">🚪 {{ session.room }}</p>
-    <p *ngIf="session.generatedCategories?.level">🌐 {{ session.generatedCategories?.level }}</p>
-    <p *ngIf="session.generatedCategories?.language">🔥 {{ session.generatedCategories?.language }}</p>
+    <p>🕒 {{ session.generatedStartAt | date:'MM/d hh:mm' }} ~ {{ session.generatedEndsAt | date:'hh:mm' }}</p>
+    <p *ngIf="session.generatedRoom">🚪 {{ session.generatedRoom }}</p>
+    <p *ngIf="session.complexity">🌐 {{ session.complexity }}</p>
+    <p *ngIf="session.language">🔥 {{ session.language }}</p>
     <p *ngIf="session.description">📝 {{ session.description }}</p>
     <ul class="speaker-list">
-        <li *ngFor="let speaker of session?.speakers">
-            <a [routerLink]="'/speakers/' + speaker.id" class="speaker-avatar-link">
-                <img [src]="speakersMap.get(speaker.id)?.profilePicture ?? './assets/speaker-badge.svg'" alt="the avatar of the speaker">
+        <li *ngFor="let speakerID of session.speakers">
+            <a [routerLink]="'/speakers/' + speakerID" class="speaker-avatar-link">
+                <img [src]="speakersMap.get(speakerID)?.photo || './assets/speaker-badge.svg'" alt="the avatar of the speaker">
             </a>
             <div>
-                <p class="speaker-name">{{ speakersMap.get(speaker.id)?.fullName ?? speaker.name }}</p>
-                <p class="speaker-tagLine">{{ speakersMap.get(speaker.id)?.tagLine ?? "" }}</p>
+                <p class="speaker-name" *ngIf="speakersMap.get(speakerID)?.name">{{ speakersMap.get(speakerID)?.name }}</p>
+                <p class="speaker-tagLine" *ngIf="speakersMap.get(speakerID)?.title">{{ speakersMap.get(speakerID)?.title }}</p>
             </div>
         </li>
     </ul>
     <div>
         <mat-chip-set>
-          <mat-chip *ngFor="let tag of session.generatedCategories?.tags">{{ tag }}</mat-chip>
+          <mat-chip *ngFor="let tag of session.tags">{{ tag }}</mat-chip>
         </mat-chip-set>
     </div>
 </mat-dialog-content>

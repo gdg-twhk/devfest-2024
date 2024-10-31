@@ -4,7 +4,7 @@ import { MatCardModule } from '@angular/material/card';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LinkTypeToIconPipe } from '../pipes/to-social-link-icon.pipe';
 import { TruncateStringPipe } from '../pipes/truncate.pipe';
-import { LoadSpeakersService, Speaker } from '../load-speakers.service';
+import { LoadDataServices, Speaker } from '../load-data.service';
 import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 
@@ -25,7 +25,7 @@ import { MatButtonModule } from '@angular/material/button';
 })
 export class SpeakersComponent {
   speakers: Speaker[] = [];
-  constructor(private service: LoadSpeakersService) {
+  constructor(private service: LoadDataServices) {
     this.speakers = this.service.speakers;
   }
 }

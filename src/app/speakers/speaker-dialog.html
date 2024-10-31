@@ -3,19 +3,19 @@
 </mat-dialog-actions>
 <mat-dialog-content *ngIf="speaker" class="mat-typography" style="padding-top: 0px;">
   <div class="avatar-name-group">
-    <img class="avatar" [src]="speaker.profilePicture || './assets/speaker-badge.svg'"  alt="the avatar of the speaker">
+    <img class="avatar" [src]="speaker.photo || './assets/speaker-badge.svg'"  alt="the avatar of the speaker">
     <div class="name-box">
-      <p class="full-name">{{ speaker.fullName }}</p>
-      <p class="tag-line">{{ speaker.tagLine }}</p>
+      <p class="full-name">{{ speaker.name }}</p>
+      <p class="tag-line">{{ speaker.title }}</p>
     </div>
   </div>
   <p *ngIf="speaker?.bio">👤 {{ speaker.bio }}</p>
-  <p *ngFor="let session of speaker.sessions">
-    <a [routerLink]="'/schedule/' + session.id ">🗓️ {{ session.name }}</a>
+  <p *ngFor="let session of speaker.generatedSessions">
+    <a [routerLink]="'/schedule/' + session.id ">🗓️ {{ session.title }}</a>
   </p>
   <div class="social-link-list">
-    <a mat-icon-button class="social-link" *ngFor="let link of speaker.links" [href]="link.url" [title]="link.title" target="_blank">
-      <fa-icon [icon]="link.linkType | toSocialLinkIcon"></fa-icon>
+    <a mat-icon-button class="social-link" *ngFor="let social of speaker.socials" [href]="social.link" target="_blank">
+      <fa-icon [icon]="social.name | toSocialLinkIcon"></fa-icon>
     </a>
   </div>
 </mat-dialog-content>

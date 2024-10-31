@@ -3,7 +3,6 @@ import { Component } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LinkTypeToIconPipe } from '../pipes/to-social-link-icon.pipe';
-import { TruncateStringPipe } from '../pipes/truncate.pipe';
 import { LoadDataServices, Speaker } from '../load-data.service';
 import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
@@ -16,7 +15,6 @@ import { MatButtonModule } from '@angular/material/button';
     FontAwesomeModule,
     CommonModule,
     LinkTypeToIconPipe,
-    TruncateStringPipe,
     RouterModule,
     MatButtonModule,
   ],

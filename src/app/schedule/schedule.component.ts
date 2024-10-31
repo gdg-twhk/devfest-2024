@@ -1,7 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
-import { TruncateStringPipe } from '../pipes/truncate.pipe';
 import { MatChipsModule } from '@angular/material/chips';
 import { Schedule } from '../load-data.service';
 import { LoadDataServices, Speaker } from '../load-data.service';
@@ -15,7 +14,6 @@ import { RouterModule } from '@angular/router';
     MatGridListModule,
     CommonModule,
     MatCardModule,
-    TruncateStringPipe,
     MatChipsModule,
     RouterModule,
   ],

@@ -8,12 +8,11 @@ import {
   faXTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { faBlog, faLink } from '@fortawesome/free-solid-svg-icons';
-
 @Pipe({
-  standalone: true,
   name: 'toSocialLinkIcon',
+  standalone: true,
 })
-export class LinkTypeToIconPipe implements PipeTransform {
+export class ToSocialLinkIconPipe implements PipeTransform {
   transform(value: string): IconDefinition {
     switch (value) {
       case 'Twitter':

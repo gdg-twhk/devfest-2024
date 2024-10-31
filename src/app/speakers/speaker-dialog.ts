@@ -7,7 +7,7 @@ import {
   OnInit,
 } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { LinkTypeToIconPipe } from '../pipes/to-social-link-icon.pipe';
+import { ToSocialLinkIconPipe } from '../to-social-link-icon.pipe';
 import { LoadDataServices, Speaker } from '../load-data.service';
 import {
   ActivatedRoute,
@@ -78,7 +78,7 @@ export class SpeakerDialogEntryComponent implements OnInit {
     CommonModule,
     RouterModule,
     FontAwesomeModule,
-    LinkTypeToIconPipe,
+    ToSocialLinkIconPipe,
     MatIconModule,
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,

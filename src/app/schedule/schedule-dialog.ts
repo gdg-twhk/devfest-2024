@@ -15,7 +15,7 @@ import {
 } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { LinkTypeToIconPipe } from '../pipes/to-social-link-icon.pipe';
+import { ToSocialLinkIconPipe } from '../to-social-link-icon.pipe';
 import { MatIconModule } from '@angular/material/icon';
 import { MatChipsModule } from '@angular/material/chips';
 import { LoadDataServices, Speaker, Session } from '../load-data.service';
@@ -81,7 +81,7 @@ export class ScheduleDialogEntryComponent implements OnInit {
     CommonModule,
     RouterModule,
     FontAwesomeModule,
-    LinkTypeToIconPipe,
+    ToSocialLinkIconPipe,
     MatIconModule,
     MatChipsModule,
   ],

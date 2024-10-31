@@ -1,4 +1,4 @@
-.cover {
+.cover, .cover-front {
   width: 100%;
   height: calc(100dvh - var(--mat-toolbar-standard-height));
   background-size: cover;
@@ -8,8 +8,8 @@
 }
 
 @media (max-width: 599px) {
-  .cover {
-    padding-bottom: calc(100dvh - var(--mat-toolbar-mobile-height));
+  .cover, .cover-front {
+    height: calc(100dvh - var(--mat-toolbar-mobile-height));
   }
 }
 

@@ -13,10 +13,24 @@
 }
 
 @media (max-width: 599px) {
-
   .cover,
   .cover-front {
     height: calc(100dvh - var(--mat-toolbar-mobile-height));
+  }
+}
+
+@media (orientation: portrait) {
+  .cover,
+  .cover-front {
+    width: 100%;
+    aspect-ratio: 1.78;
+    height: unset;
+    background-size: contain;
+    background-attachment: scroll;
+  }
+
+  .cover {
+    background-position-x: -18dvw;
   }
 }
 

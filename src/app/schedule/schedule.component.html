@@ -11,8 +11,8 @@
                             <a [routerLink]="'/schedule/' + session.generatedID">{{ session.title }}</a>
                         </mat-card-title>
                         <mat-card-subtitle>
-                            <span *ngIf="session.complexity">
-                                {{ session.complexity }}
+                            <span *ngIf="session.generatedRoom">
+                                {{ session.generatedRoom }}
                             </span>
                             <span class="language-box" *ngIf="session.language">
                                 {{ session.language }}

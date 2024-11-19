@@ -19,6 +19,15 @@ interface Session {
   name: string;
 }
 
+interface QuestionAnswers {
+  id: number;
+  question: string; // "Display Name",
+  // questionType: "Short_Text",
+  answer: string;
+  // "sort": 20,
+  // "answerExtra": null
+}
+
 interface Speaker {
   id: string;
   firstName: string;
@@ -30,6 +39,7 @@ interface Speaker {
   isTopSpeaker: boolean;
   links: Link[];
   sessions: Session[];
+  questionAnswers: QuestionAnswers[];
 }
 
 import * as fs from 'fs';
@@ -49,6 +59,19 @@ interface ExportedSpeaker {
   shortBio: string;
   title: string;
   socials: ExportedLink[];
+}
+
+// sessionze 平台名稱欄位不好用因此我們可以從
+// Question Answers 抓 display name
+function extractDisplayNameFromQuestionAnswers(
+  qaList: QuestionAnswers[],
+): string | null {
+  for (let i = 0; i < qaList.length; i++) {
+    if (qaList[i].question == 'Display Name') {
+      return qaList[i].answer;
+    }
+  }
+  return null;
 }
 
 function truncate(value: string): string {
@@ -73,7 +96,9 @@ for (let i = 0; i < speakers.length; i++) {
   }
   output.set(speaker.id, {
     bio: speaker.bio,
-    name: speaker.fullName,
+    name:
+      extractDisplayNameFromQuestionAnswers(speaker.questionAnswers) ??
+      speaker.fullName,
     order: i,
     photo: speaker.profilePicture,
     shortBio: truncate(speaker.bio ?? ''),

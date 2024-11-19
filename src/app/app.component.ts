@@ -66,7 +66,7 @@ export class AppComponent {
       name: '議程',
       link: '/schedule',
       exact: false,
-      emoji: '🎤',
+      emoji: '🗓️',
     },
   ];
 

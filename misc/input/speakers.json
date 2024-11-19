@@ -1,16 +1,16 @@
 [
   {
-    "id": "dc534b2a-a812-4b90-9dd3-57c0ca380df9",
-    "firstName": "AKI",
-    "lastName": "Yu",
-    "fullName": "AKI Yu",
-    "bio": "Head of Flutter Village for Rookies, who APP and TEACH HOW TO  APP, 新手村村長，一個寫APP的和教人寫APP的人",
-    "tagLine": "Head of Flutter Village for Rookies",
-    "profilePicture": "https://sessionize.com/image/7139-400o400o1-N3Co2WCt4f7S9yoVExdBPA.JPG",
+    "id": "fb95810e-656b-4c4b-88ea-cb17ab1ecf39",
+    "firstName": "Charlie",
+    "lastName": "Chang",
+    "fullName": "Charlie Chang",
+    "bio": "Master's student at National Taiwan University",
+    "tagLine": "National Taiwan University",
+    "profilePicture": "https://sessionize.com/image/0ceb-400o400o1-WsSXjWyCZ4DxTChg17EzQW.jpg",
     "sessions": [
       {
-        "id": 557702,
-        "name": "像個資深工程師一樣寫程式 － Act like a Flutter Senior"
+        "id": 774058,
+        "name": "運用 Gemini 做出安全性決策"
       }
     ],
     "isTopSpeaker": false,
@@ -19,48 +19,74 @@
     "categories": []
   },
   {
-    "id": "71c0a391-3444-4865-8984-1eb9558e1a70",
-    "firstName": "Anjana",
-    "lastName": "Kumar",
-    "fullName": "Anjana Kumar",
-    "bio": "I am an AI Engineer working in Reseach and Developement team at ViewSonic Corporation.",
-    "tagLine": "AI Engineer",
-    "profilePicture": null,
+    "id": "61ad82b5-6ff8-4ed6-bd60-73aad51527ae",
+    "firstName": "Chen",
+    "lastName": "YueXin",
+    "fullName": "Chen YueXin",
+    "bio": "大家好，我是 Ali Chen，現任 Fu Jen Catholic University 的 Google Developer Student Club (GDSC) 的 Lead，專注於增強學習（Reinforcement Learning）。我同時也是 NISRA 的講師，熱衷於分享技術知識和實踐經驗。",
+    "tagLine": "GDSC FJU Lead, NISRA Instructor, Research assistant, ",
+    "profilePicture": "https://sessionize.com/image/b9c1-400o400o1-wDm1RLNNmj6MWmjgqFMvoR.jpg",
     "sessions": [
       {
-        "id": 568100,
-        "name": "Evolution of Transformers"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "c7837e68-5a45-4d61-b6b4-7905ac022618",
-    "firstName": "Bucky",
-    "lastName": "Chu",
-    "fullName": "Bucky Chu",
-    "bio": "滑板愛好者，軟體工程師，貓奴一枚",
-    "tagLine": "五倍學院, 軟體工程師",
-    "profilePicture": "https://sessionize.com/image/44d9-400o400o1-VtBBDGrNkzUVKaHpPqdath.jpg",
-    "sessions": [
-      {
-        "id": 563701,
-        "name": "使用 Leptos 建立和部署 WASM 到 Google Cloud Platform (GCP)"
+        "id": 771017,
+        "name": "Evaluating content safety with ShieldGemma and Keras"
       }
     ],
     "isTopSpeaker": false,
     "links": [
       {
-        "title": "Twitter",
-        "url": "https://twitter.com/bucky0112",
-        "linkType": "Twitter"
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alichen888/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/profile.php?id=100003950170100",
+        "linkType": "Facebook"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/alichen16/",
+        "linkType": "Instagram"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "b475c998-3c6d-4329-b2f0-ff113d8a047c",
+    "firstName": "Claire",
+    "lastName": "Chang",
+    "fullName": "Claire Chang",
+    "bio": "17年資歷女性工程師，專精於動畫、影像辨識以及即時串流程式開發。經常組織活動，邀請優秀的女性分享她們的技術專長，並在眾多場合分享自己的技術知識，也活躍於非營利組織，辦理活動來支持特殊兒及其家庭。期待用技術改變世界。",
+    "tagLine": "女工程師",
+    "profilePicture": "https://sessionize.com/image/367c-400o400o1-XfQd7jD4CqqvgvsgDp33sm.jpg",
+    "sessions": [
+      {
+        "id": 755506,
+        "name": "WebCodecs + WebGPU：開啟個人化串流新視界"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/claire-chang-taiwan/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/ClaireTechVision/",
+        "linkType": "Facebook"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/clairetechvision/",
+        "linkType": "Instagram"
       },
       {
         "title": "Blog",
-        "url": "https://buckychu.im/",
+        "url": "https://claire-chang.com/",
         "linkType": "Blog"
       }
     ],
@@ -68,162 +94,17 @@
     "categories": []
   },
   {
-    "id": "b14a455a-bb90-4391-b92b-3940d28416c1",
-    "firstName": "Calvin",
-    "lastName": "Huang",
-    "fullName": "Calvin Huang",
-    "bio": "Errand boy, always working on helping to fix tuns of problems.",
-    "tagLine": "一卡通票證有限公司研發群 RD Lead",
-    "profilePicture": "https://sessionize.com/image/2ccd-400o400o1-4b1k1L7HXzAw3ZdcwehhMc.png",
+    "id": "a34624b8-c0da-481a-9c52-ebd30ff4ffc7",
+    "firstName": "David",
+    "lastName": "Chou",
+    "fullName": "David Chou",
+    "bio": "Golang 碼農、DevOps engineer、新創什麼都做工程師、女兒的老爸、Golang Taipei 社群偶爾客串主持人",
+    "tagLine": "Crescendo Lab, Engineering Manager",
+    "profilePicture": "https://sessionize.com/image/8fed-400o400o1-BiCjMgT82rp9TQSYhSbP9U.jpg",
     "sessions": [
       {
-        "id": 568610,
-        "name": "為什麼一卡通決定採用 KMP 作為跨平台方案 - Let's talking about KMP"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "52c2733a-f66e-4843-b016-a8ce0033f621",
-    "firstName": "Cheng",
-    "lastName": "Lin",
-    "fullName": "Cheng Lin",
-    "bio": "- Dual Product Manager at Flutter\r\n- Video Solutions Consultant at Google Ads",
-    "tagLine": "Flutter & Google Ads",
-    "profilePicture": "https://sessionize.com/image/77a2-400o400o1-scuapCXr1EyqdbS9oXi6MD.png",
-    "sessions": [
-      {
-        "id": 560149,
-        "name": "Introduction to Flutter Casual Games Toolkit"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "e1ee4c87-62c0-40c8-990d-6995347e4841",
-    "firstName": "Cheng-Yu",
-    "lastName": "Chung",
-    "fullName": "Cheng-Yu Chung",
-    "bio": "Naughty engineer loves to smack talk.\r\nFreelancer, but open to work.\r\nLearning golang and looking for golang career opportunities now.",
-    "tagLine": "Golang Taiwan Volunteer",
-    "profilePicture": "https://sessionize.com/image/b4a6-400o400o1-s49fgGVMmyiWa1tKP16vdd.jpg",
-    "sessions": [
-      {
-        "id": 566224,
-        "name": "Let's build a URL shortener in Go"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "9a95f75e-fdd9-42b2-9fda-aab3c617f134",
-    "firstName": "Chuang",
-    "lastName": "Jason",
-    "fullName": "Chuang Jason",
-    "bio": "Ruckus Networks DevOps",
-    "tagLine": "Ruckus Networks, DevOps, Certified AWS/GCP Professional Architect, Cloud Native",
-    "profilePicture": "https://sessionize.com/image/f6c2-400o400o1-QCQ1zDCNaeqGmpzf5MMR8Z.jpg",
-    "sessions": [
-      {
-        "id": 550398,
-        "name": "Next-Gen Infrastructure as Code:CDK for Terraform, with Real-world Argo CD Examples"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/chuang-jason",
-        "linkType": "Sessionize"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "46a9eed6-160b-4613-b5aa-f69873d71b6f",
-    "firstName": "Daniel",
-    "lastName": "Eberts",
-    "fullName": "Daniel Eberts",
-    "bio": "Machine Learning Engineer, living in Taiwan for 6 years now and counting. I once co-founded a startup that developed software for the visually impaired in Germany before moving to Taiwan after meeting my wife here. Most of my experience is in C++ software development and embedded computer vision applications. Since June this year, my team and me focus on NLP and LLM applications.",
-    "tagLine": "Lead AI Scientist",
-    "profilePicture": null,
-    "sessions": [
-      {
-        "id": 568095,
-        "name": "How to evaluate large language models"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "066461da-06f3-4110-ac65-9e41a4700af2",
-    "firstName": "Dorara",
-    "lastName": "Hsieh",
-    "fullName": "Dorara Hsieh",
-    "bio": "喜歡新科技，喜歡任何形式的藝術，喜歡創造驚喜",
-    "tagLine": "KryptoGO mobile tech lead",
-    "profilePicture": "https://sessionize.com/image/df18-400o400o1-9AKeLhixeHZrgk81C1iTns.png",
-    "sessions": [
-      {
-        "id": 562931,
-        "name": "從 Flutter 開始你的獨立遊戲開發"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "X (Twitter)",
-        "url": "https://x.com/DoraraHsieh",
-        "linkType": "Twitter"
-      },
-      {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/dorara-hsieh-020538105/",
-        "linkType": "LinkedIn"
-      },
-      {
-        "title": "Instagram",
-        "url": "https://www.instagram.com/doraraisme/",
-        "linkType": "Instagram"
-      },
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/zhong-ying-xie",
-        "linkType": "Sessionize"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "0f37170b-c7d1-4926-8e92-e8525d051b59",
-    "firstName": "Edward",
-    "lastName": "Chuang",
-    "fullName": "Edward Chuang",
-    "bio": "Edward 是 Google Cloud 的 Customer Engineer，他的專長在協助遊戲與零售電商行業的客戶如何使用 Google Cloud 的產品與技術來現代化既有的資訊基礎建設與應用服務，同時也能解決客戶的商業問題並且獲得技術的提升。同時也是倡導並推動企業客戶數位轉型的傳教士。\r\n\r\n在加入 Google 之前，Edward 有著超過 13 年的後端工程師、以及網站可靠度工程 (Site-Reliability Engineering, SRE) 的經驗。他的夢想是成為 Google Maps 街景車的駕駛。\r\n\r\nEdward is a Customer Engineer at Google Cloud specialists in Infrastructure Modernization in the Gaming, Retail/E-Commerce industries and advocates digital transformation for enterprise customers. Prior to Google, Edward had 13+ years of experience in backend engineering, site-reliability engineering (SRE), and dreaming of becoming the driver of the Street View Car of Google Maps.",
-    "tagLine": "Google Cloud",
-    "profilePicture": "https://sessionize.com/image/07cc-400o400o1-GLr3vyiGebtHV7okjPuMK3.jpg",
-    "sessions": [
-      {
-        "id": 581913,
-        "name": "使用 BQML + PaLM 分析半結構化應用程式 access log"
-      },
-      {
-        "id": 581914,
-        "name": "使用 PaLM 生成 SQL 語句"
+        "id": 769945,
+        "name": "Let's talk about automation tests in Golang"
       }
     ],
     "isTopSpeaker": false,
@@ -236,13 +117,13 @@
     "firstName": "El",
     "lastName": "Zhang",
     "fullName": "El Zhang",
-    "bio": "El, an Android GDE who currently resides in Singapore.\r\n\r\nI have worked on Android application infrastructure for years and enjoy exploring new technologies such as Gradle, AGP, KSP, bytecode transformation, modularity, etc. I delight in sharing Android development with the public via blog posts, podcasts, books, and conference presentations in English and Mandarin. In my spare time, I develop a number of interesting open-source plugins/utilities.\r\n\r\n2BAB is my ID used on all platforms.",
-    "tagLine": "Sr. Software Engineer",
-    "profilePicture": "https://sessionize.com/image/327d-400o400o1-D6wgyvQjKwDUR5S1ah2JEd.jpg",
+    "bio": "A senior software engineer based in Singapore who has been recognized as an Android GDE (Google Developer Expert) by Google since 2022. Author of two books: 'Extending Android Book', 'Kotlin-oriented Gradle Essentials'. \r\n\r\nI have worked on Android application infrastructure including build system for 7 years and enjoy exploring new technologies such as Gradle, AGP (Android Gradle Plugin), KSP (Kotlin Symbol Processing), bytecode transformation, and modularity. I take pleasure in sharing knowledge about Android development with the public through blog posts, podcasts, books, and conference presentations in both English and Mandarin. In my spare time, I develop a number of interesting open-source utilities.\r\n\r\nFind more: https://2bab.com/",
+    "tagLine": "Google Developer Expert for Android, Podcaster, Book Author",
+    "profilePicture": "https://sessionize.com/image/a590-400o400o1-HRttidBMFFSAqEYqihKF7M.jpg",
     "sessions": [
       {
-        "id": 553295,
-        "name": "10 Years into Android Gradle Plugin: Unraveling the Mysteries of Gradle."
+        "id": 764389,
+        "name": "Adapting the MediaPipe Demos for Kotlin Multiplatform"
       }
     ],
     "isTopSpeaker": false,
@@ -272,17 +153,52 @@
     "categories": []
   },
   {
-    "id": "8ca9b6e8-652c-4e55-87cf-3482ab108ad5",
-    "firstName": "Eric",
-    "lastName": "ShangKuan",
-    "fullName": "Eric ShangKuan",
-    "bio": null,
-    "tagLine": "Developer Relations Program Maanger Google",
-    "profilePicture": "https://sessionize.com/image/fdd2-400o400o1-TYLQ6whAnJVJ5bwCYoNLzW.jpg",
+    "id": "c3ed4649-9186-4528-8a61-4df109eb7da4",
+    "firstName": "Eli",
+    "lastName": "Lin",
+    "fullName": "Eli Lin",
+    "bio": "APMIC 的共同創辦人 & 產品負責人 & 打雜工程師\r\n一起把 CaiGunn 帶大的家長\r\n最近在苦惱怎麼跟 CaiGunn 一起度過叛逆期",
+    "tagLine": "APMIC, Co-founder & Product Owner",
+    "profilePicture": "https://sessionize.com/image/010e-400o400o1-BhZfoCSpkkYKZakEnNMQRT.jpg",
     "sessions": [
       {
-        "id": 585737,
-        "name": "Opening"
+        "id": 777861,
+        "name": "從 MLOps 到解放雙手：模型整復之路"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/linyichin.eli/",
+        "linkType": "Facebook"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/lin_aquarius/",
+        "linkType": "Instagram"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.ap-mic.com",
+        "linkType": "Company_Website"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "f0f5ab23-97c8-4c74-960b-cfbab65d1299",
+    "firstName": "Eva",
+    "lastName": "Chu",
+    "fullName": "Eva Chu",
+    "bio": "擁有超過 10 年的 UX 領域經驗，我主持了多場工作坊和演講，協助企業、客戶及團隊通過產品設計、測試與分析，明確定義業務和客戶價值，專注於目標，識別問題並執行策略。此外，身為 Google 開發者社群 (Google Developer Groups) 的組織者以及 Women Techmakers 的大使，我持續籌辦各式活動，幫助他人實現成長與成功。",
+    "tagLine": "Women Techmakers Taipei Ambassador",
+    "profilePicture": "https://sessionize.com/image/baa4-400o400o1-WtBgt94zMzAsD87x4ykCnr.jpg",
+    "sessions": [
+      {
+        "id": 766320,
+        "name": "跨界協作: 數位轉型之導入 UX 和 AI 在 NPOs 與 NGOs 的挑戰與應用"
       }
     ],
     "isTopSpeaker": false,
@@ -291,51 +207,17 @@
     "categories": []
   },
   {
-    "id": "7ba74013-09e1-40b7-aa01-9cfa6b044da7",
-    "firstName": "Eva",
-    "lastName": "Chu",
-    "fullName": "Eva Chu",
-    "bio": "TBD",
-    "tagLine": "UX, Dev",
-    "profilePicture": "https://sessionize.com/image/0a6c-400o400o1-fa91fd48-bc55-44c8-a332-612839fc1e2c.jpg",
-    "sessions": [
-      {
-        "id": 585737,
-        "name": "Opening"
-      },
-      {
-        "id": 580022,
-        "name": "Ask Me Anything (AMA) Afternoon Tea (Discussion)"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/xalienchu/",
-        "linkType": "LinkedIn"
-      },
-      {
-        "title": "Facebook",
-        "url": "https://www.facebook.com/xalien.chu",
-        "linkType": "Facebook"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
     "id": "d71705f8-cb2d-497e-9201-1a61b5e09690",
     "firstName": "Gary",
     "lastName": "LO",
     "fullName": "Gary LO",
-    "bio": "Gary 是一位香港軟體架構師、Kotlin 愛好者、Kotlin GDE 和 Tech Influencer。他於 2016 年開始了 Kotlin 之旅，從構建 100% Kotlin Android FX 交易客戶端應用程序開始，比 Google 2017 年官方宣布對 Android 支持 Kotlin 早一年。\r\n\r\nGary 相信開發者可以通過負責任地將最新和穩定的技術應用於他們的產品中來構建一個更美好的世界。他致力於推動公司採用 Kotlin 進行 JVM 後端應用程序開發和 Kotlin 多平台移動研發。他為眾多開發人員教授 Kotlin 的獨特功能，使他們能夠精確地利用 Kotlin 的威力，更快地發佈業務功能並降低執行延遲。\r\n\r\n除了工作之外，Gary 還在他的 Facebook 頁面 Gap撈Tech（8,000 多名香港開發人員關注者）、部落格、GitHub、Stackoverflow 和社區活動上分享他的見解和專業的業界知識。他是 Kotlin 大中華區開發者大會、GDG DevFest 的演講嘉賓，分享最新的軟體開發技術。\r\n",
-    "tagLine": "Kotlin GDE, Kotlin 愛好者, 軟件架構師@Zuhlke",
+    "bio": "Gary is a solutions architect, tech enthusiast, Kotlin GDE, and tech influencer based in Hong Kong who has specialized in the financial services industry for more than 10 years, from local FinTech startups to leading Fortune 500 enterprises. He clearly understands the solution needs of companies of different sizes.\r\n\r\nGary believes modeling the way for technology evolution builds a better world. Starting from 2015, he has continuously built open-source showcase projects, IDE plugins, and blogs to enlighten others. He is keen on sharing industry insights on his Facebook page and the latest technologies at public conferences.\r\n",
+    "tagLine": "Solutions Architect｜Kotlin GDE｜Tech Enthusiast",
     "profilePicture": "https://sessionize.com/image/ef67-400o400o1-TerL98AravCKyKkT3Qxpkq.jpeg",
     "sessions": [
       {
-        "id": 558885,
-        "name": "Thread-blocking I/O is blocking your future (JVM)"
+        "id": 765970,
+        "name": "如何活用 Kotlin 生態工具及 Gemma 2 快速建立進階領域知識圖譜 GenAI 應用"
       }
     ],
     "isTopSpeaker": false,
@@ -365,88 +247,34 @@
     "categories": []
   },
   {
-    "id": "10c950f3-669e-4dec-9618-0455f43a5b37",
-    "firstName": "GTB",
-    "lastName": "Lin",
-    "fullName": "GTB Lin",
-    "bio": "A gopher who eat, code, sleep",
-    "tagLine": "Engineer ",
-    "profilePicture": "https://sessionize.com/image/bc71-400o400o1-N4wBrw1tg4L2GRFtq9HxSY.jpeg",
+    "id": "378c5f19-3c9f-4c2f-88cf-3b9ef01c1764",
+    "firstName": "Henry ",
+    "lastName": "Hu",
+    "fullName": "Henry Hu",
+    "bio": "目前擔任 𝗢𝗪𝗔𝗦𝗣 台灣分會會長及 𝗖𝗦𝗖𝗜𝗦 𝗖𝗵𝗶𝗲𝗳 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵 𝗢𝗳𝗳𝗶𝗰𝗲𝗿 職位，同時兼任 𝗖𝗹𝗼𝘂𝗱 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗔𝗹𝗹𝗶𝗮𝗻𝗰𝗲、𝗧𝗵𝗲 𝗛𝗼𝗻𝗲𝘆𝗻𝗲𝘁 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 等國際資安組織的主要窗口之一和台灣數位安全聯盟理事。\r\n因長時間代理並參與各大頂尖資安產品銷售及技術專案管理，間接也負責國內各層級資安相關事件之鑑識、稽核、法規制訂及解決方案。擁有𝗖𝗘𝗛、 𝗖𝗛𝗙𝗜、 𝗖𝗜𝗦𝗠、 𝗖𝗜𝗦𝗦𝗣、 𝗜𝗦𝗢 𝟮𝟳𝟬𝟬𝟭 𝗟𝗔𝗖 以及𝗖𝗖𝗦𝗞 等多項國際認證，熟悉資訊安全相關技術，範疇涵蓋系統安全、網路安全、管理制度、資訊探勘、數位鑑識、惡意程式分析與人工智慧等領域。經常於產官學研界擔任資訊安全教育相關訓練課程講師，受邀於國內外資訊安全會議演講。\r\n\r\n​現職 安創資訊股份有限公司 Auriga Security, Inc. 的創辦人及執行長。安創資訊，是一間專注於提供客戶安心體驗的公司。團隊導入教練式溝通思維，專業、當責是團隊精神並引進技術卓越的資安產品，輔以自主開發能力，持續精進與更新時下攻防技術與思維；減少人力介入產生失誤或降低反應時間差。安創資訊專注於資訊安全領域與事件調查；提供具體、可執行的合作方案，創造多贏資訊安全體驗服務。",
+    "tagLine": "Chapter Leader / OWASP Taiwan Chapter",
+    "profilePicture": "https://sessionize.com/image/69f7-400o400o1-BwHduz1vPnM7NP71tmbPk7.jpg",
     "sessions": [
       {
-        "id": 566149,
-        "name": "Next json for Go"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "7e52956a-8953-4372-a148-d17f8530430b",
-    "firstName": "HaoChe",
-    "lastName": "Hung",
-    "fullName": "HaoChe Hung",
-    "bio": "HaoChe Hung 是一位都市分析師與創意編碼師，致力於探索都市、人文與科技的交會。曾於紐約 BetaNYC 擔任 Urban Data Associate，參與公民科技的構想、設計與開發。目前擔任工作室 SpOnAct!（偶發集合）的創意編碼師一職。",
-    "tagLine": "SpOnAcT 偶發集合, 創意編碼師",
-    "profilePicture": "https://sessionize.com/image/cd71-400o400o1-J22b9fPgtMkeeDs7NfoWhs.jpeg",
-    "sessions": [
-      {
-        "id": 565844,
-        "name": "台灣酷兒聲音地圖：從設計發想到社會與技術實踐"
+        "id": 771022,
+        "name": "Understand LLM Security - From OWASP Perspective"
       }
     ],
     "isTopSpeaker": false,
     "links": [
       {
         "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/haoche-hung/",
+        "url": "https://www.linkedin.com/ninedter",
         "linkType": "LinkedIn"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "33c40881-ef42-4200-899b-794bc18082e5",
-    "firstName": "Harry",
-    "lastName": "Chen",
-    "fullName": "Harry Chen",
-    "bio": "Harry 是一位將程式設計視為休閒娛樂的開發者，喜歡學習各式各樣廣泛的技術。自從 2020 年開始接觸區塊鏈技術以後，他便對於這個領域變得非常熱衷。此外，Harry 也對使用自動化方式提高生產力具有濃厚興趣。",
-    "tagLine": "KryptoGO CTO",
-    "profilePicture": "https://sessionize.com/image/c145-400o400o1-E3obiQNdienB8CHvvePfzA.png",
-    "sessions": [
-      {
-        "id": 562916,
-        "name": "活用 GCP Observability Tools - 以 Golang 為例"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "Twitter",
-        "url": "https://twitter.com/PoJuiChen5",
-        "linkType": "Twitter"
-      },
-      {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/harry-chen-5a6856139/",
-        "linkType": "LinkedIn"
-      },
-      {
-        "title": "Blog",
-        "url": "https://medium.com/@a00012025",
-        "linkType": "Blog"
       },
       {
         "title": "Company Website",
-        "url": "https://kryptogo.com",
+        "url": "https://www.aurigasec.com",
         "linkType": "Company_Website"
       },
       {
         "title": "Sessionize",
-        "url": "https://sessionize.com/harry-chen",
+        "url": "https://sessionize.com/henry-hu",
         "linkType": "Sessionize"
       }
     ],
@@ -454,167 +282,104 @@
     "categories": []
   },
   {
-    "id": "afc5a134-d929-4571-81bd-8de4ceebf990",
-    "firstName": "Harry",
-    "lastName": "Hsu",
-    "fullName": "Harry Hsu",
-    "bio": null,
-    "tagLine": "一卡通票證有限公司 Sr. Software Engineer",
-    "profilePicture": null,
+    "id": "42b06e87-8b52-4ae5-9d11-f2f557d1b7ce",
+    "firstName": "Hieu",
+    "lastName": "Pham",
+    "fullName": "Hieu Pham",
+    "bio": "Working with on-device AI for Pixel & Android.\r\nVietnamese ICPC competitor with a regional medal.\r\n",
+    "tagLine": "Software Engineer @ Google",
+    "profilePicture": "https://sessionize.com/image/c9b5-400o400o1-QTfBWsbiz6r5pZod4MAbAV.jpg",
     "sessions": [
       {
-        "id": 568610,
-        "name": "為什麼一卡通決定採用 KMP 作為跨平台方案 - Let's talking about KMP"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "e3a01790-92f0-4cd4-a20a-9fa31855948b",
-    "firstName": "Hsuanhao",
-    "lastName": "Wang",
-    "fullName": "Hsuanhao Wang",
-    "bio": "ISTP 哲學愛好者，滋事型軟體工程師",
-    "tagLine": "Shopback Mobile Engineer",
-    "profilePicture": "https://sessionize.com/image/b4d1-400o400o1-3KGF32opFctbFV2oJDgrPC.jpg",
-    "sessions": [
-      {
-        "id": 559954,
-        "name": "因為怕改壞，所以把 TDD 技能點滿了"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/hsuanhao-wang",
-        "linkType": "Sessionize"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "f97f4de8-cdb8-4dcd-8b30-7912e8a01335",
-    "firstName": "Huai-Chun",
-    "lastName": "Chang",
-    "fullName": "Huai-Chun Chang",
-    "bio": "Team Memeber '20/'21/'22 @Google DSC NCCU | Frontend '21/'22 @GDSC SCSR",
-    "tagLine": "Core Team Memeber '23 @Google DSC NCCU、Frontend Lead '23 @Open NCCU",
-    "profilePicture": "https://sessionize.com/image/50d1-400o400o1-YSyBQfgvzdEm8GkCFLvbmj.jpg",
-    "sessions": [
-      {
-        "id": 566335,
-        "name": "不可能的任務！在網頁/ PWA 實現如 App 一樣原生體驗的 Bottom sheets (使用 Google IDX)"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/chang-huai-chun-harui",
-        "linkType": "Sessionize"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "4a4960d5-7d5a-4460-bcd0-71c23c7537ff",
-    "firstName": "Ivan",
-    "lastName": "Chiou",
-    "fullName": "Ivan Chiou",
-    "bio": "Throughout my career, I have held roles as a Software Engineer, System Engineer, System Analyst, Project Manager, Product Manager, Scrum Master, and Front-end Manager. Currently, I am leveraging my expertise to lead software development, drive innovation, and introduce new front-end technology at PAIA Corp. My experience in multimedia integration and cross-functional collaboration has equipped me with valuable skills to effectively mentor and inspire the team, providing young engineers with guidance and hope for their future careers.",
-    "tagLine": "Mentor & Tutor at Program the world & PAIA",
-    "profilePicture": "https://sessionize.com/image/da39-400o400o1-SstDRTtbvcm8RPGj9W7t1y.jpg",
-    "sessions": [
-      {
-        "id": 565174,
-        "name": "雲與地的彼端 - 全面啟動PAIA 3D之K8S混合雲部署"
+        "id": 778755,
+        "name": "Google AI Studio: A Human-Free Workflow for Gemma Fine-tuning"
       }
     ],
     "isTopSpeaker": false,
     "links": [
       {
         "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/ivan-chiou-727b0721/",
+        "url": "https://www.linkedin.com/in/ngoc-hieu-99-vn/",
         "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "358cf006-caf2-4dc2-b4db-b47fb786564d",
+    "firstName": "HSU",
+    "lastName": "Yu Ming",
+    "fullName": "HSU Yu Ming",
+    "bio": "SMAI Cloud Architect at Micron. \r\nArea:\r\n- GCP technologies\r\n- Python\r\n- K8S\r\n- CI/CD\r\n- Big Data\r\n- Opensource (Langchain, Crewai)",
+    "tagLine": "Micron, Cloud Architect",
+    "profilePicture": "https://sessionize.com/image/da3b-400o400o1-KN5q6Hi4BLrz52TRcNdnmV.jpg",
+    "sessions": [
+      {
+        "id": 769804,
+        "name": "Use GCP service to collect LLMOps data"
       },
       {
-        "title": "Blog",
-        "url": "https://agilist.ghost.io",
-        "linkType": "Blog"
-      },
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/ivan-chiou",
-        "linkType": "Sessionize"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "76d2c4d8-544a-471c-a081-364fa6feddb4",
-    "firstName": "Jack",
-    "lastName": "Hung",
-    "fullName": "Jack Hung",
-    "bio": "平常寫 Go、Python 以及研究 Kubernetes、Cloud Native 相關技術，喜歡探討最佳實踐和程式碼維護性。",
-    "tagLine": "Golang Taiwan Community, Backend developer",
-    "profilePicture": "https://sessionize.com/image/0867-400o400o1-XqGY5YcGYHXENtxVeqPXM3.png",
-    "sessions": [
-      {
-        "id": 565588,
-        "name": "Writing Testable Code with Layered Architecture and Mocking in Go"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "171ccebb-f49f-4342-939f-8b3987e4c715",
-    "firstName": "Jean",
-    "lastName": "Yen",
-    "fullName": "Jean Yen",
-    "bio": "從事軟體開發近 10 年開發經驗，一開始踏入 JavaScript 的 App 跨平台方案，想念原生的美好回來 Java Android App 開發。從 2018 年開始全面投入 Kotlin 的懷抱，繼續寫著 Android App。",
-    "tagLine": "Android Developer ",
-    "profilePicture": "https://sessionize.com/image/3a54-400o400o1-3ByWqL911yrNggzGpnfVZL.jpg",
-    "sessions": [
-      {
-        "id": 568093,
-        "name": "給 Android 工程師從零開始的 Jenkins"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "46e46c77-a1aa-4c41-b392-fa6922826244",
-    "firstName": "Jerry",
-    "lastName": "Wu",
-    "fullName": "Jerry Wu",
-    "bio": "Jerry老師是現任Google機器學習開發專家(GDE)，專注在自然語言理解(NLU)。同時也是亞太智能機器(APMIC)的創辦人兼執行長。在亞太智能機器，Jerry帶領了產品和工程團隊，開發了基於GPT解決方案，榮獲了2023年第一個NVIDIA在全球的GPT產品「Caigun」。他的技術讓企業能夠構建自己的GPT對話式AI，並已經服務超過330萬人。他曾經是國立大學老師、汽車產業數據科學家，也是資料科學連續創業家，參與超過100個以上的資料科學專案，也培育超過上千名學生在機器學習應用領域發展。",
-    "tagLine": "執行長",
-    "profilePicture": "https://sessionize.com/image/1504-400o400o1-4NAG6kcExzL5Bfj5cCZ48p.jpeg",
-    "sessions": [
-      {
-        "id": 568630,
-        "name": "多模態模型-Gemini"
+        "id": 765640,
+        "name": "Building Enterprise RAG with Agent Builder"
       }
     ],
     "isTopSpeaker": false,
     "links": [
       {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/hsuyuming",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.micron.com",
+        "linkType": "Company_Website"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "e10a74e9-0846-45bf-bb48-57e79f2e610d",
+    "firstName": "Jerry",
+    "lastName": "Wu",
+    "fullName": "Jerry Wu",
+    "bio": "吳柏翰（Jerry Wu）是APMIC創辦人暨執行長，擅長自然語言理解及機器學習應用。Jerry Wu於2017年帶領團隊創辦APMIC，以自然語言理解處理(NLU)技術為核心，開發出在地化大型語言模型「CaiGunn開講」，致力於提供企業自主AI解決方案，同時產品也獲得NVIDIA AI Accelerated、NVIDIA Cloud Validated的認證。吳柏翰於2019年成為Google機器學習開發專家(GDE)，至今投入Google 機器學習技術推廣已超過5年。在創立APMIC之前，吳柏翰曾擔任裕隆集團首位資深資料科學家，領導進行車上語音助理、知識管理、車聯網等前瞻技術的研究。同時，他也是台灣第一家開放資料顧問公司共同創辦人兼技術長，累積充分的AI相關產業發展經驗。吳柏翰亦曾擔任台科大資訊管理課程的講師多年，培育無數學生投入軟體開發，曾獲得教師教學優良獎。",
+    "tagLine": "Google Developer Expert",
+    "profilePicture": "https://sessionize.com/image/7ceb-400o400o1-4PtGnGeMBDCv75wuXd2S9c.png",
+    "sessions": [
+      {
+        "id": 750314,
+        "name": "ShieldGemma、Gemma Scope、DataGemma與RIG"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jerry2012/",
+        "linkType": "LinkedIn"
+      },
+      {
         "title": "Facebook",
         "url": "https://www.facebook.com/jerrywu2016/",
         "linkType": "Facebook"
+      },
+      {
+        "title": "Blog",
+        "url": "https://dataology.blogspot.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.ap-mic.com/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/jerry-wu",
+        "linkType": "Sessionize"
       }
     ],
     "questionAnswers": [],
@@ -625,13 +390,13 @@
     "firstName": "Jian An",
     "lastName": "Lin",
     "fullName": "Jian An Lin",
-    "bio": "熱愛程式開發，對開源生態懷有濃厚的興趣與熱情。現今於 Moxa 網路設備商從事自動化測試工作，致力於推動技術進步與創新。",
-    "tagLine": "Moxa Inc. SQA Automation Testing  Engineer",
-    "profilePicture": "https://sessionize.com/image/3b1c-400o400o1-RhqGoSAAFnrGUGVQ4C3JsW.jpg",
+    "bio": "Passionate software developer with a keen interest in open-source ecosystems. Skilled in crafting solutions using open-source tools, specializing in automated testing and CI/CD pipelines. Committed to delivering highly available and maintainable modern tech solutions.",
+    "tagLine": "Software Engineer in Test @ Ubiquiti",
+    "profilePicture": "https://sessionize.com/image/b794-400o400o1-4HLvEYEhQBtb2LxybjAhU5.jpg",
     "sessions": [
       {
-        "id": 560632,
-        "name": "ML不再是專家的遊戲：Google試算表的No-code ML神器"
+        "id": 760706,
+        "name": "Kubernetes, Terraform, and GitHub Actions: Deploying Autoscaling CI/CD Runners"
       }
     ],
     "isTopSpeaker": false,
@@ -661,36 +426,17 @@
     "categories": []
   },
   {
-    "id": "82535cba-1678-4f08-9a8f-3df72603f5ce",
-    "firstName": "Jian-Min",
-    "lastName": "Huang",
-    "fullName": "Jian-Min Huang",
-    "bio": "Vincent 是一個興趣廣泛的開發者，過去經驗主要專注在 JVM Backend 與 DevOps。他目前是 純函式公司的共同創辦人，同時也是 Kotlin 項目的 Google Developer Expert。",
-    "tagLine": "Co-founder",
-    "profilePicture": "https://sessionize.com/image/ab6c-400o400o1-EPoPHNhYasKq5aq9fmxUVK.jpg",
-    "sessions": [
-      {
-        "id": 551746,
-        "name": "分享用 Google 生態系開發產品的心得與經驗"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
     "id": "29e9ee2f-e316-4829-bdb9-2fafdf7f3e8c",
     "firstName": "Jimmy",
     "lastName": "Liao",
     "fullName": "Jimmy Liao",
-    "bio": "Jimmy Liao 先後就職於 Microsoft/InfuseAI/Appier/IBM 。專業技能橫跨應用程式、手機應用、廣告投放、機器學習專案開發，近期致力於 Generative AI、LLM 相關應用開發推廣，協助客戶技術概念落實，以及技術諮詢。\r\n\r\n日常生活就是跑步，雖然完成 15 場全程馬拉松，但是還是朝著 Sub-4 的目標努力中。\r\n",
-    "tagLine": "FullStack, Software Engineer",
-    "profilePicture": "https://sessionize.com/image/b82e-400o400o1-KMGJgWtQpue2htsA4x23Wj.jpeg",
+    "bio": "Jimmy Liao 先後就職於 Appier/Microsoft/InfuseAI/IBM 。專業技能橫跨應用程式、手機應用、後端開發、廣告投放、機器學習專案開發，近期致力於 Generative AI 以及相關應用推廣，協助客戶技術落實及技術諮詢。目前為 Google 生成式 AI 開發專家 (Google Developer Expert of Generative AI)。\r\n\r\n日常生活就是跑步，曾經以跑步為通勤工具之一 (單程 20+ km)。\r\n\r\nAs the Google Developer Expert (GDE) GenAI and with 20+ years experience as technical lead in large enterprise and startup. Jimmy Liao act as GenAI Solution Architect now. He focus on solution architecture design, PoC, Production with modern solutions. Also for Generative AI/AI Application landing, education, and communities.\r\n",
+    "tagLine": "FullStack, Generative AI Practitioner",
+    "profilePicture": "https://sessionize.com/image/dd01-400o400o1-BnJLo7cscQKXC1GqE7bFcw.jpg",
     "sessions": [
       {
-        "id": 564821,
-        "name": "Future-Proofing Enterprise Conversations: Integrating NeMo-GuardRails & PaLM2"
+        "id": 762209,
+        "name": "打造 GenAI App 的下一步: 整合 Vertex AI 平台"
       }
     ],
     "isTopSpeaker": false,
@@ -729,13 +475,13 @@
     "firstName": "John",
     "lastName": "Lu",
     "fullName": "John Lu",
-    "bio": "John 是「全曜財經」的 Android Group Lead，目前負責開發工程團隊的核心組件。他深受挑戰的驅使，並對於打破傳統的思維和行為方式成就滿懷。 他致力於結合簡潔架構和流程設計，以構建高效且穩定的應用程式。",
-    "tagLine": "全曜財經資訊股份有限公司/資深軟體設計工程師",
-    "profilePicture": "https://sessionize.com/image/c81f-400o400o1-Vx2cfanCYto3Ldu5S3qyXQ.png",
+    "bio": "John 是「全曜財經」的 AI Engineer，負責開發 NLP 應用。 他致力於結合學術研究和軟體工程，以構建創新實用的人工智慧。",
+    "tagLine": "AI Engineer, CMoney",
+    "profilePicture": "https://sessionize.com/image/380c-400o400o1-9xJHZbo6EBtCad9PjcYBmm.png",
     "sessions": [
       {
-        "id": 566309,
-        "name": "Kimoji：使用 Jetpack Compose 的手勢 API 實作心情日記的相片圖庫系統"
+        "id": 765898,
+        "name": "使用 Keras 深度改造 Gemma 2"
       }
     ],
     "isTopSpeaker": false,
@@ -759,13 +505,13 @@
     "firstName": "Johnny",
     "lastName": "Sung",
     "fullName": "Johnny Sung",
-    "bio": "一位技能樹不小心點歪的工程師，喜歡玩一些有趣的技術。\r\n從 App 原生開發、Flutter 開發、到 DevOps 與容器化皆有一些涉略",
+    "bio": "一位技能樹不小心點歪的工程師，喜歡玩一些有趣的技術。\r\n從 App 原生開發到 DevOps 與容器化皆有一些涉略",
     "tagLine": "Full stack developer",
-    "profilePicture": "https://sessionize.com/image/ec84-400o400o1-HYc3vKjSQkXUwth8CfmoJ6.jpg",
+    "profilePicture": "https://sessionize.com/image/87b6-400o400o1-97d247TgETWKxBNr3eizcZ.jpg",
     "sessions": [
       {
-        "id": 570679,
-        "name": "用 LLM 來整理您的知識庫"
+        "id": 767874,
+        "name": "Kubernetes 地端自建 vs GKE，哪個更適合你？"
       }
     ],
     "isTopSpeaker": false,
@@ -779,68 +525,10 @@
         "title": "Blog",
         "url": "https://blog.jks.coffee/",
         "linkType": "Blog"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "fc15701d-e89e-413d-b669-73f4011a35ea",
-    "firstName": "Johnny",
-    "lastName": "Yeng",
-    "fullName": "Johnny Yeng",
-    "bio": "SRE @COMMEET\r\nCo-organizer @GDG Cloud Taipei\r\n2022-23 Lead @GDSC TKU",
-    "tagLine": "SRE @COMMEET",
-    "profilePicture": "https://sessionize.com/image/b1e1-400o400o1-a66RRoZ2qi28eB21igx5mN.PNG",
-    "sessions": [
-      {
-        "id": 566333,
-        "name": "GCP 監控、自動化與合規"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "8e6c99bd-885d-488f-b969-07e0806e6be2",
-    "firstName": "Kai-Chu",
-    "lastName": "Chung",
-    "fullName": "Kai-Chu Chung",
-    "bio": "Google Developer Cloud Expert, GDG Cloud Taipei organizer",
-    "tagLine": "GDG Cloud Taipei Co-organizer",
-    "profilePicture": "https://sessionize.com/image/17a4-400o400o1-9d3a8351-b822-457d-b0c5-1f34e5f35c6a.jpg",
-    "sessions": [
-      {
-        "id": 564860,
-        "name": "Service Weaver Introduction"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "a548e82d-2330-41f2-ba0c-c9177c98768c",
-    "firstName": "Kevin",
-    "lastName": "Chiu",
-    "fullName": "Kevin Chiu",
-    "bio": "https://www.facebook.com/groups/480913682648708/?ref=group_header",
-    "tagLine": "TWM",
-    "profilePicture": "https://sessionize.com/image/612d-400o400o1-2d-2330-41f2-ba0c-c9177c98768c.2179abc7-9116-40ff-a2c6-a21f78d76649.jpg",
-    "sessions": [
-      {
-        "id": 565548,
-        "name": "在android上如何玩MediaPipe機器學習"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
+      },
       {
         "title": "Sessionize",
-        "url": "https://sessionize.com/kevin-chiu",
+        "url": "https://sessionize.com/johnny-sung",
         "linkType": "Sessionize"
       }
     ],
@@ -848,27 +536,91 @@
     "categories": []
   },
   {
-    "id": "48ecd2e5-51c3-4aec-99d4-0fa0718f92e8",
-    "firstName": "Michael",
-    "lastName": "Chi",
-    "fullName": "Michael Chi",
-    "bio": "在 Google Cloud 擔任 Solutions Architect ，專注領域為IoT, AIoT, Conversational AI和Generative AI。",
-    "tagLine": "Google Solutions Architect, AIoT, Conversational AI, Generative AI",
-    "profilePicture": "https://sessionize.com/image/ed79-400o400o1-ahZhhdAyqo1z9eiEqQp3NF.jpg",
+    "id": "cd751024-0725-493f-89f5-28e6530007d4",
+    "firstName": "Mansun",
+    "lastName": "Kuo",
+    "fullName": "Mansun Kuo",
+    "bio": "在資料領域打滾了若干年，近年來工作內容著重在如何讓資料與 AI 產品可以持續運行與交付，目前在 Micron 擔任 Sr. Solution Architect，負責和團隊們一起打造公司內部的智慧製造相關解決方案。",
+    "tagLine": "Micron - Sr. Solution Architect",
+    "profilePicture": "https://sessionize.com/image/57f0-400o400o1-EmcQAqBsG7Sfx9UNJcgGc5.jpg",
     "sessions": [
       {
-        "id": 565878,
-        "name": "Advanced Knowledge Management with Generative AI"
+        "id": 769391,
+        "name": "使用 Gemini 進行自動化程式碼審查"
       }
     ],
     "isTopSpeaker": false,
     "links": [
       {
         "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/michael-chi-54a5a94/",
+        "url": "https://www.linkedin.com/in/mansun-kuo-3443b482/",
         "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://mansunkuo.github.io/",
+        "linkType": "Blog"
       }
     ],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "24ce44ea-d436-4476-88ac-08695de0acfa",
+    "firstName": "Matthias",
+    "lastName": "Geisler",
+    "fullName": "Matthias Geisler",
+    "bio": "True believer in (Kotlin) Multiplatform and working with it for over 4 years now. Builds solutions for Android. Maintainer and developer of KMock.\r\nCo-Organizer of KUG Berlin, GDG Android Berlin, Rust Berlin and XTC Berlin. ",
+    "tagLine": "Senior Software Engineer@Thermondo",
+    "profilePicture": "https://sessionize.com/image/7eb9-400o400o1-EFHw9K5hdfKBkGe6xBcruK.jpg",
+    "sessions": [
+      {
+        "id": 780554,
+        "name": "And Gradle says: sharing is caring - Or why Gradle Plugins are all you need for your Configuration"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/BitPogo",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/matthias-geisler-44b21a2a2/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "GitHub",
+        "url": "https://github.com/bitPogo",
+        "linkType": "Other"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/matthias-geisler",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "84296b39-df28-462e-a1c1-8f0a2416c555",
+    "firstName": "Max",
+    "lastName": "Huang",
+    "fullName": "Max Huang",
+    "bio": "https://sakanamax.github.io/",
+    "tagLine": "Cloud GDE",
+    "profilePicture": "https://sessionize.com/image/06c3-400o400o1-hQVVmVuGqwMfTHziLooon6.png",
+    "sessions": [
+      {
+        "id": 762146,
+        "name": "Gemini Code Assist for Cloud Architects"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
     "questionAnswers": [],
     "categories": []
   },
@@ -877,13 +629,13 @@
     "firstName": "Mike",
     "lastName": "Huang",
     "fullName": "Mike Huang",
-    "bio": "Microsoft MVP、Angular GDE，主要熟悉 .NET WebAPI 與 Angular 開發技術，並經常於個人部落格分享學習知識。\r\n\r\n參加過四次 iT 邦幫忙鐵人賽，榮獲兩次冠軍與一次優選。並著有「打通 RxJS 任督二脈：從菜雞前進老鳥必學的關鍵知識」一書，該書曾榮獲 2021/8 繁體中文書 銷售排行 第 1 名！。",
+    "bio": "Angular GDE、Microsoft MVP，主要熟悉 .NET WebAPI 與 Angular 開發技術，並經常於個人部落格分享學習知識。\r\n\r\n參加過四次 iT 邦幫忙鐵人賽，榮獲兩次冠軍與一次優選。並著有「打通 RxJS 任督二脈：從菜雞前進老鳥必學的關鍵知識」一書，該書曾榮獲 2021/8 繁體中文書 銷售排行 第 1 名！。",
     "tagLine": "Angular Taiwan",
-    "profilePicture": "https://sessionize.com/image/623a-400o400o1-KBHiHn7NfnWyU7gTWoJfhQ.png",
+    "profilePicture": "https://sessionize.com/image/3f14-400o400o1-TtkzeGAX1jQPzS7phvud3u.jpg",
     "sessions": [
       {
-        "id": 555355,
-        "name": "Angular 17 - Control Flow 全新體驗"
+        "id": 750643,
+        "name": "Angular Signals 高效能開發演練"
       }
     ],
     "isTopSpeaker": false,
@@ -913,174 +665,21 @@
     "categories": []
   },
   {
-    "id": "57647724-4c09-4a75-9da2-491b1a42ce84",
-    "firstName": "Munus",
-    "lastName": "Shih",
-    "fullName": "Munus Shih",
-    "bio": "Munus 木那斯 (t/he/y) 是一位來自臺灣的設計師、創意編碼師和組織者。現居紐約市布魯克林區的他，致力於教學程式編碼和社群建立中引入更具批判性和多元性的觀點。疫情期間，Munus 與廖一豪、魏茲芸共同創立了 SpOnAcT！偶發集合，以深入關注台灣的同志酷兒、勞動和批判性編碼教學等議題。\r\n\r\n目前，他是 Parsons School of Design 和 Cooper Union 的兼職講師，同時也與 Processing Foundation 合作擔任研究員。他積極參與開源編碼專案，並協助開發具有去殖民教育意義的資源。Munus 的作品和計劃曾受邀至 NEW INC、Creative Coding Taiwan、2023 Open Source Art Contributor's Conference 和 IBM Quantum Design 展出。",
-    "tagLine": "SpOnAcT 偶發集合, 創意編碼師",
-    "profilePicture": "https://sessionize.com/image/7749-400o400o1-nguqbC8YHuJQDPgTkCNKdy.jpg",
-    "sessions": [
-      {
-        "id": 565844,
-        "name": "台灣酷兒聲音地圖：從設計發想到社會與技術實踐"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/munusshih",
-        "linkType": "Sessionize"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "ff6e6408-66f6-4e81-813f-40af6f3c7492",
-    "firstName": "NiJia",
-    "lastName": "Lin",
-    "fullName": "NiJia Lin",
-    "bio": "LINE 台灣技術傳教士/軟體工程生態系觀察家/ LINE Bot Python SDK 維護者之一，熱愛把各種小點子拼裝起來在社群上分享，把各種知識透過文章散播出去，培養更多初進軟體生態的開發者！",
-    "tagLine": "Technology Evangelist",
-    "profilePicture": "https://sessionize.com/image/2ac3-400o400o1-4Dv4RdcCGD7fK8B4MsA9eM.jpg",
-    "sessions": [
-      {
-        "id": 554618,
-        "name": "Empowering Community-Driven Learning through Serverless Practice"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/nijia-lin",
-        "linkType": "Sessionize"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "ec5100a9-f716-49ba-868a-d21a2fd6314b",
-    "firstName": "Pamela",
-    "lastName": "Hill",
-    "fullName": "Pamela Hill",
-    "bio": null,
-    "tagLine": null,
-    "profilePicture": null,
-    "sessions": [
-      {
-        "id": 589716,
-        "name": "回顧2023 及Kotlin Multiplatform 最新消息 [Kotlin 中文開發者大會聯播]"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "b6d5d32f-c10f-42af-a48c-8419ddce2b03",
-    "firstName": "Paris",
-    "lastName": "Hsu",
-    "fullName": "Paris Hsu",
-    "bio": "Product Manager @ Google working on Android Developer Experiences",
-    "tagLine": "Product Manager @ Google",
-    "profilePicture": "https://sessionize.com/image/a472-400o400o1-206c92e2-9c1b-4b96-a1b2-f6550355741d.jpg",
-    "sessions": [
-      {
-        "id": 571381,
-        "name": "What's New in Android Studio"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "Twitter",
-        "url": "https://twitter.com/parishsuhsu",
-        "linkType": "Twitter"
-      },
-      {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/paris-hsu/",
-        "linkType": "LinkedIn"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "ea4b26a5-41ae-4c8e-8c63-20198edf7999",
-    "firstName": "Praveen",
-    "lastName": "Chittem",
-    "fullName": "Praveen Chittem",
-    "bio": "I have been working as an AI Software developer in ViewSonic for 18 months now. Moved to Taipei in January 2018, and graduated with Masters degrere in Electrical Engineering and Computer Science from National Taipei University of Technology.",
-    "tagLine": "AI Software Developer",
-    "profilePicture": null,
-    "sessions": [
-      {
-        "id": 568099,
-        "name": "Artificial Intelligence Tools"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
     "id": "bcbfae97-c963-4955-bbde-95198f9480ec",
     "firstName": "Recca",
     "lastName": "Chao",
     "fullName": "Recca Chao",
     "bio": "推廣 Kotlin 在各種領域的開發",
     "tagLine": "後端工程師，Taiwan Kotlin User Group Organizer",
-    "profilePicture": "https://sessionize.com/image/f0a6-400o400o1-c8922670-94b0-46b7-8234-e7fdf35efbb9.jpg",
+    "profilePicture": "https://sessionize.com/image/f8de-400o400o1-HCRizKUchuiLkj8HBbRNHQ.jpg",
     "sessions": [
       {
-        "id": 567019,
-        "name": "Taiwan Kotlin User Group 分享"
+        "id": 767506,
+        "name": "在 GCP 上使用 Ktor 3.0 架設高效後端服務"
       }
     ],
     "isTopSpeaker": false,
     "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "e93c0e45-5d02-4938-ad16-37c2166a8a79",
-    "firstName": "Rich",
-    "lastName": "Lee",
-    "fullName": "Rich Lee",
-    "bio": "GCP開發者，熱愛學習與分享新技術",
-    "tagLine": "Architect",
-    "profilePicture": "https://sessionize.com/image/7241-400o400o1-YMGhQKwTY1yY8s5vsGnxp7.png",
-    "sessions": [
-      {
-        "id": 566327,
-        "name": "Architecting Reliable Event-Driven Applications on Google Cloud"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/richlee0423/",
-        "linkType": "LinkedIn"
-      },
-      {
-        "title": "Blog",
-        "url": "https://medium.com/@rich04230",
-        "linkType": "Blog"
-      },
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/richlee",
-        "linkType": "Sessionize"
-      }
-    ],
     "questionAnswers": [],
     "categories": []
   },
@@ -1089,13 +688,13 @@
     "firstName": "Richard",
     "lastName": "Lee",
     "fullName": "Richard Lee",
-    "bio": "關鍵評論網媒體集團整合長，前愛料理與 INSIDE 共同創辦人與技術長。業餘時喜歡開源與 Google 技術，自 2020 年開始被選為 Google Developer Expert for Firebase。",
+    "bio": "TNL Mediagene 技術長，前愛料理與 INSIDE 共同創辦人與技術長。業餘時喜歡開源與 Google 技術，自 2020 年開始被選為 Google Developer Expert for Firebase。",
     "tagLine": "Google Developer Expert for Firebase",
-    "profilePicture": "https://sessionize.com/image/0e8d-400o400o1-NwnsedT6o7ycRtyzozvRb8.jpg",
+    "profilePicture": "https://sessionize.com/image/ecc0-400o400o1-WKUvweFVtYdXfAQP5X7XDu.jpg",
     "sessions": [
       {
-        "id": 565687,
-        "name": "Firebase Auth 與無密碼驗證的 WebAuthn API"
+        "id": 748931,
+        "name": "無痛透過 OpenAI/Ollama API 來體驗 Google Gemini 模型"
       }
     ],
     "isTopSpeaker": false,
@@ -1119,8 +718,8 @@
     "profilePicture": "https://sessionize.com/image/3fa1-400o400o1-MMaji3V5esjnhroZHgoeX6.jpg",
     "sessions": [
       {
-        "id": 564714,
-        "name": "如何進一步強化App資安"
+        "id": 761014,
+        "name": "如何因應App檢測基準V4.0的技術要求"
       }
     ],
     "isTopSpeaker": false,
@@ -1135,107 +734,124 @@
     "categories": []
   },
   {
+    "id": "c2fec263-828f-4514-ac70-2c1398453324",
+    "firstName": "Sandra",
+    "lastName": "Zeng",
+    "fullName": "Sandra Zeng",
+    "bio": "總是還在學習路上、在網路產業經歷專案經理、產品經理超過十五年的 PM。",
+    "tagLine": "資深產品經理",
+    "profilePicture": "https://sessionize.com/image/11ef-400o400o1-VquUjE3UdPben6pasWzMP8.png",
+    "sessions": [
+      {
+        "id": 766001,
+        "name": "PM 三十六 ㄐ一ˋ"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sandra-zeng-52088bb",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "ec17f016-821e-455d-8353-fc27415bd6be",
+    "firstName": "Santiago",
+    "lastName": "Díaz",
+    "fullName": "Santiago Díaz",
+    "bio": "Spanning a 10 year career in cybersecurity, Santiago was a penetration tester focused on web security in the energy & banking industries in LATAM, before moving to the UK to work on  developing crawling & scanning capabilities in BurpSuite, a popular web security product. He is a Staff Security Engineer at Google Switzerland, where he leads the Agent Security team.",
+    "tagLine": "Staff Security Engineer, Google Switzerland",
+    "profilePicture": "https://sessionize.com/image/2b93-400o400o1-aCiyMGEkkww59pd45dnpDB.jpg",
+    "sessions": [
+      {
+        "id": 769302,
+        "name": "Secure AI Framework: Agent Security"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/i/flow/login?redirect_after_login=%2Fsalchoman",
+        "linkType": "Twitter"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
     "id": "cb61675c-7b74-4034-85db-9cfb0c2e2543",
     "firstName": "Shawn",
     "lastName": "Ho",
     "fullName": "Shawn Ho",
     "bio": "apiVersion: shawn.user-guide.io/v1\r\nkind: practitioner\r\nmetadata:\r\n  name: shawnho\r\n  labels:\r\n    nickname: dr.ho\r\n    motto: show.but.dont.tell\r\n    enjoy: sharing\r\n    love: [community, container, iac, newthings]\r\nspec:\r\n  fans: |\r\n    mlops,sre,servicemesh,agile,automation,SRE\r\n  tendencies: \r\n    - opentelemetry\r\n    - crossplane\r\n    - kubernetes\r\n    - servicemesh",
     "tagLine": "GCP, AppMod Specialist",
-    "profilePicture": "https://sessionize.com/image/479e-400o400o1-fx5J9BgmeSYVaMrfBMG3fr.png",
+    "profilePicture": "https://sessionize.com/image/0675-400o400o1-06adbb17-f14e-4ce8-b5e6-0fd2ae6e0d3c.jpg",
     "sessions": [
       {
-        "id": 563883,
-        "name": "OpenTelemetry on GCP實戰"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "66f72597-47ba-40a0-afb6-7ef96d954ffa",
-    "firstName": "Shinobi",
-    "lastName": "Yeh",
-    "fullName": "Shinobi Yeh",
-    "bio": "「一台電腦、一杯鮮奶茶，這就是行家的做事方式。」\r\n不可思議的探求者，誓用一生追求魔法的極致。",
-    "tagLine": "Backend Developer",
-    "profilePicture": "https://sessionize.com/image/de1b-400o400o1-DueL4YDg2TvfN4uHwo7xXg.jpg",
-    "sessions": [
-      {
-        "id": 564520,
-        "name": "Golang Framework 是怎麼做出這些酷功能？"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/shinobi-yeh",
-        "linkType": "Sessionize"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "9423e0c4-9faa-4120-9054-3f9a997febc8",
-    "firstName": "Subhajit",
-    "lastName": "Nanda",
-    "fullName": "Subhajit Nanda",
-    "bio": "I grew up in a small town in India, and I've been curious about electronics since I was a kid. This curiosity led me to study Electrical and Electronics in college, where I got really interested in robotics and machine learning. Wanting to learn even more, I moved to Taiwan to pursue my Master's in Robotics and Machine Learning, and I'm still on this exciting journey.",
-    "tagLine": "AI Developer II",
-    "profilePicture": "https://sessionize.com/image/67df-400o400o1-PT7RgcWQBushE4w6wsBreU.jpg",
-    "sessions": [
-      {
-        "id": 568096,
-        "name": "Large Language Model:Prompt Engineering, Fine-Tuning."
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "e2c238da-ccae-4220-8ba0-92937ba4256b",
-    "firstName": "Suesi",
-    "lastName": "Tran",
-    "fullName": "Suesi Tran",
-    "bio": "GDE in Dart & Flutter, WTM Melbourne Ambassador, Senior Flutter Developer",
-    "tagLine": "GDE in Dart & Flutter, WTM Melbourne Ambassador, Senior Flutter Developer",
-    "profilePicture": "https://sessionize.com/image/8d54-400o400o1-w8miCqm9R4b1U967Y7R3uB.JPG",
-    "sessions": [
-      {
-        "id": 555688,
-        "name": "Flutter for mobile: full production app in 2hrs"
+        "id": 770109,
+        "name": "使用Mesop with Gemini，打造快速的行業服務"
       }
     ],
     "isTopSpeaker": false,
     "links": [
       {
         "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/suesitran/",
+        "url": "https://www.linkedin.com/in/shawn-ho-a54a111",
         "linkType": "LinkedIn"
       },
       {
         "title": "Blog",
-        "url": "https://medium.com/@suesitran",
+        "url": "https://medium.com/%E8%BC%95%E9%AC%86%E5%B0%8F%E5%93%81-pks%E8%88%87k8s%E7%9A%84%E9%BB%9E%E6%BB%B4",
+        "linkType": "Blog"
+      }
+    ],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "010b5826-2430-48eb-8355-7b375b1e87dc",
+    "firstName": "Tamas",
+    "lastName": "Piros",
+    "fullName": "Tamas Piros",
+    "bio": "Tamas is a Google Developer Expert in Web Technologies and a seasoned Developer Evangelist. He is a passionate advocate for modern web technologies, helping people understand and unlock the latest & greatest features of web development.",
+    "tagLine": "Director of Developer Advocacy",
+    "profilePicture": "https://sessionize.com/image/c9fb-400o400o1-Bdqo3bGR2Dj5mzpawq9mRt.JPG",
+    "sessions": [
+      {
+        "id": 766400,
+        "name": "Speed up your site in 2025"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://twitter.com/tpiros",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/tpiros",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Blog",
+        "url": "https://tpiros.dev",
         "linkType": "Blog"
       },
       {
         "title": "Company Website",
-        "url": "https://www.thenartus.com/",
+        "url": "https://cloudinary.com",
         "linkType": "Company_Website"
       },
       {
-        "title": "Personal website",
-        "url": "https://www.suesitran.nexus/",
-        "linkType": "Other"
-      },
-      {
         "title": "Sessionize",
-        "url": "https://sessionize.com/suesitran",
+        "url": "https://sessionize.com/tpiros",
         "linkType": "Sessionize"
       }
     ],
@@ -1243,32 +859,21 @@
     "categories": []
   },
   {
-    "id": "5232160b-f9d1-471d-8002-f30c404941dc",
-    "firstName": "Takuma",
-    "lastName": "Lee",
-    "fullName": "Takuma Lee",
-    "bio": "Android Developer",
-    "tagLine": "Authme, Client Team Leader",
-    "profilePicture": "https://sessionize.com/image/e49a-400o400o1-Wg4PMUcsBE1rz27rdwSXyx.jpeg",
+    "id": "67a2e245-c317-49bc-a66d-ff1a2b94f092",
+    "firstName": "Thomas",
+    "lastName": "Chong",
+    "fullName": "Thomas Chong",
+    "bio": "Thomas Chong is an AI Research Engineer at Votee AI, specializing in Large Multimodal Models (LMM), efficient data curation, and low-resource LMM development. He holds an MSc in Big Data Technology and a BEng in Computer Science from The Hong Kong University of Science and Technology.",
+    "tagLine": "AI Research Engineer, Votee AI",
+    "profilePicture": "https://sessionize.com/image/dbc6-400o400o1-REBdwsYdc98NsJPuiT19qy.png",
     "sessions": [
       {
-        "id": 570353,
-        "name": "Android performance 最佳化"
+        "id": 766027,
+        "name": "Building LLM for Low-Resource Languages on Gemma 2"
       }
     ],
     "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/takuma-lee/",
-        "linkType": "LinkedIn"
-      },
-      {
-        "title": "Facebook",
-        "url": "https://www.facebook.com/vmgsahm1",
-        "linkType": "Facebook"
-      }
-    ],
+    "links": [],
     "questionAnswers": [],
     "categories": []
   },
@@ -1282,8 +887,8 @@
     "profilePicture": "https://sessionize.com/image/e3c2-400o400o1-MDwnmS5SuCLxVbXAoAUqRq.jpg",
     "sessions": [
       {
-        "id": 562930,
-        "name": "Advance Bundle"
+        "id": 769817,
+        "name": "From Android to AI-droid"
       }
     ],
     "isTopSpeaker": false,
@@ -1319,11 +924,11 @@
     "fullName": "TJ Wei",
     "bio": "魏澤人是陽明交大 AI 學院副教授、木刻思首席數學家、Google Developer Expert(Machine Learning)，是花蓮.py 及 Google Developer Groups Hualien 的發起者。曾在東華大學應數系服務，也參與培訓數學奧林匹亞國手。喜歡各種有挑戰的性問題，理想的休閒是邊喝茶邊看書。",
     "tagLine": "GDE",
-    "profilePicture": "https://sessionize.com/image/3a20-400o400o1-680dcfc3-cf4e-4e6c-bb21-31615a144f8d.jpg",
+    "profilePicture": "https://sessionize.com/image/c297-400o400o1-pcnTAWE98EfwGGbw9xN9nE.jpg",
     "sessions": [
       {
-        "id": 568319,
-        "name": "整合 Vertex AI 與開源工具快速打造 AI 產品原型"
+        "id": 769073,
+        "name": "打造靈活多樣的 AI 未來：Gemma 生態系統"
       }
     ],
     "isTopSpeaker": false,
@@ -1332,35 +937,49 @@
     "categories": []
   },
   {
-    "id": "150292c8-f15c-47a9-950d-886aa9d138bc",
-    "firstName": "Weithenn",
-    "lastName": "Wang",
-    "fullName": "Weithenn Wang",
-    "bio": "Hi, I'm Weithenn, the Microsoft MVP 2012 ~ 2023 / VMware vExpert 2012 ~ 2023 and NetAdmin magazine technical columnist. Weithenn is an infrastructure architect with over 20 years of experience in server systems, management, and maintenance on Windows, Linux, and FreeBSD platforms. He is an expert in Google Cloud, Microsoft Hyper-V, VMware vSphere, Virtualization, Kubernetes, Container, Hyper-Converged Infrastructure, Software-define storage, Software-define datacenter, and other cutting-edge technologies. On my blog weithenn.org, I'll share practical knowledge and insights with his readers. I believe that technology can make the world a better place.",
-    "tagLine": "Micorsoft MVP, VMware vExpert",
-    "profilePicture": "https://sessionize.com/image/0169-400o400o1-SEZLcVU861287aAGoJSuvW.png",
+    "id": "d711e779-5011-4aa6-becd-7cf21fe8390a",
+    "firstName": "TY",
+    "lastName": "Chang",
+    "fullName": "TY Chang",
+    "bio": "TY is an Android software engineer at Google. He is now focusing on Jetpack CameraX library.",
+    "tagLine": "Google",
+    "profilePicture": "https://sessionize.com/image/267d-400o400o1-e7cb7bc5-31bc-40fb-8bc3-487baf126132.jpg",
     "sessions": [
       {
-        "id": 564788,
-        "name": "App Modernization - GKE 容器平台 101"
+        "id": 763185,
+        "name": "Using Jetpack CameraX to capture HDR videos and images"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "10fcc075-ee15-4d55-8050-4128db1ceab7",
+    "firstName": "Vic",
+    "lastName": "Wen",
+    "fullName": "Vic Wen",
+    "bio": "Be curious. Be passionate. Be creative.",
+    "tagLine": "GDG on Campus NTUST Lead",
+    "profilePicture": "https://sessionize.com/image/cee9-400o400o1-U7K2XdVMoR2nhk4zNjxmVD.jpg",
+    "sessions": [
+      {
+        "id": 771018,
+        "name": "LIT to Analyze Gemma Models in Keras"
       }
     ],
     "isTopSpeaker": false,
     "links": [
       {
-        "title": "Blog",
-        "url": "http://www.weithenn.org",
-        "linkType": "Blog"
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/guan-hua-wen-625bb0270/",
+        "linkType": "LinkedIn"
       },
       {
-        "title": "Company Website",
-        "url": "http://www.micron.com",
-        "linkType": "Company_Website"
-      },
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/weithenn-wang",
-        "linkType": "Sessionize"
+        "title": "Instagram",
+        "url": "https://www.instagram.com/viiccwen/",
+        "linkType": "Instagram"
       }
     ],
     "questionAnswers": [],
@@ -1371,13 +990,13 @@
     "firstName": "Weizhong",
     "lastName": "Yang",
     "fullName": "Weizhong Yang",
-    "bio": "目前在 Cerence 開發車用語音助理相關產品，包含手機/桌面等各種應用，在產品上大量使用 Flutter。前一份工作在 KKBOX (2011-2020)，負責 KKBOX 在蘋果平台上的各種應用開發。更早之前曾參與雅虎輸入法與嘸蝦米輸入法 macOS 版開發。\r\n\r\n在 GitHub 上比較活躍的開源專案包括一些 Flutter 套件，小麥注音輸入法的 macOS、Linux 以及 ChrmeOS 版本。\r\n",
-    "tagLine": "Flutter GDE/Developer Manager at Cerence ",
-    "profilePicture": "https://sessionize.com/image/00a1-400o400o1-SmdchrDJFzAvEUBM2e413M.jpeg",
+    "bio": "Flutter GDE。專注在行動平台開發領域。\r\n\r\n從 2005 年開始接觸 Objective C 語言已經 macOS App 開發，從 2008 年開始開發 iOS app。從 2018 年開始接觸 Flutter。\r\n\r\n2020 - 2024 年期間在 Cerence 服務，開發語音相關產品。2011-2019 在 KKBOX 工作，參與過 KKBOX 的 macOS、iOS、tvOS 與 watchOS 版本開發，以及 KKTIX、Uta Pass 的 iOS 版本。之前也參與過雅虎輸入發以及無蝦皮輸入法 macOS 版本。\r\n\r\n開源作品包括香草輸入法、小麥注音輸入法，以及各種自己需要也可以幫助大家的 Flutter Plugin。",
+    "tagLine": "Mobile Developer",
+    "profilePicture": "https://sessionize.com/image/483c-400o400o1-sWtebMvxbMNSpgb2ACYpZL.jpg",
     "sessions": [
       {
-        "id": 551850,
-        "name": "跟 Flutter 作伴的這五年"
+        "id": 761055,
+        "name": "將 Flutter Plugin 從 CocoaPods 轉換到 Swift Package Manager (SPM)"
       }
     ],
     "isTopSpeaker": false,
@@ -1394,19 +1013,69 @@
   {
     "id": "245ec8d9-dd6e-499b-a9ce-b40755e2ad2b",
     "firstName": "Will",
-    "lastName": "保哥",
-    "fullName": "Will 保哥",
+    "lastName": "Huang",
+    "fullName": "Will Huang",
     "bio": "現任「多奇數位創意有限公司」技術總監。2018 年榮獲 Angular 方向的 Google Developer Expert (GDE) 開發專家。連續 16 度當選微軟最有價值專家(MVP)。2019 獲選微軟技術社群區域總監 (Microsoft Regional Director)。熟悉 Angular、JavaScript、.NET、C#、Java、Go、Docker、Kubernetes 相關技術。擅長 DevOps 與組織文化建立、軟體團隊建構與管理。熱愛分享知識。",
     "tagLine": "多奇數位創意有限公司, 技術總監",
-    "profilePicture": "https://sessionize.com/image/efc9-400o400o1-QHJZcz5r6gUpCYrDh1Qe5z.jpg",
+    "profilePicture": "https://sessionize.com/image/70b8-400o400o1-wkt3Qj1S187gRPibQwvPAZ.png",
     "sessions": [
       {
-        "id": 559240,
-        "name": "使用 MakerSuite 與 PaLM API 快速打造 Generative AI 原型設計"
+        "id": 777273,
+        "name": "你所不知道的 Google AI Studio 與 NotebookLM 神奇用法"
       }
     ],
     "isTopSpeaker": false,
     "links": [
+      {
+        "title": "X (Twitter)",
+        "url": "https://x.com/Will_Huang",
+        "linkType": "Twitter"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/will-huang-tw/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/will.fans/",
+        "linkType": "Facebook"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/willh_tw/",
+        "linkType": "Instagram"
+      },
+      {
+        "title": "Blog",
+        "url": "https://blog.miniasp.com/",
+        "linkType": "Blog"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://www.duotify.com/",
+        "linkType": "Company_Website"
+      },
+      {
+        "title": "LINE",
+        "url": "https://line.me/ti/g2/Uhq2NM0bA6j3C5O0XBAVnm9CGMxJZgY_UMBsPA",
+        "linkType": "Other"
+      },
+      {
+        "title": "Plurk",
+        "url": "http://www.plurk.com/willh",
+        "linkType": "Other"
+      },
+      {
+        "title": "GitHub",
+        "url": "https://github.com/doggy8088",
+        "linkType": "Other"
+      },
+      {
+        "title": "StackOverflow",
+        "url": "https://stackoverflow.com/users/910074/will-huang",
+        "linkType": "Other"
+      },
       {
         "title": "Sessionize",
         "url": "https://sessionize.com/willh",
@@ -1417,513 +1086,190 @@
     "categories": []
   },
   {
-    "id": "c17b612e-4b71-4005-b254-c5bf0ad0dfc1",
-    "firstName": "Yale",
-    "lastName": "Hsu",
-    "fullName": "Yale Hsu",
-    "bio": "I like coding and sharing",
-    "tagLine": "Freelance",
-    "profilePicture": "https://sessionize.com/image/041f-400o400o1-jpGfGTs2i6kSL6Jjr9NkJ.jpg",
+    "id": "e964b091-45b0-41e5-92ed-92cef687abb2",
+    "firstName": "Yu-Wei",
+    "lastName": "Liu",
+    "fullName": "Yu-Wei Liu",
+    "bio": "大家好，我是 Simon 劉育維，過去曾擔任過電信業的資深工程師 和 在軟體業擔任 MLOps 客戶技術成功工程師，幫助各大知名企業進行機器學習、深度學習、大型語言模型等人工智慧議題進行人工智慧架構規劃的討論，目前在 Medium 上已經公開超過 80 篇技術文章，我希望能夠嘗試使用 AI 做應用，幫助客戶用 AI 解決痛點。",
+    "tagLine": "Google GenAI GDE",
+    "profilePicture": "https://sessionize.com/image/079f-400o400o1-N44ShcmQ8HVHDukz2sS39J.png",
     "sessions": [
       {
-        "id": 564492,
-        "name": "implementing chatapp with go websocket"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "5c935d23-5fda-4b16-b4bc-3bd09b6f0057",
-    "firstName": "Yang",
-    "lastName": "Lin",
-    "fullName": "Yang Lin",
-    "bio": "Yang has served as CEO and CTO of many start-up companies. Over the years, he no only  has focused on network communications, big data, Internet of Things, and blockchain-related technologies. but successfully applied blockchain wallets, MPC, W3C DID/VC, and zero-knowledge Technologies such as proof (ZKP) and cross-chain bridges to security enhancement of  software systems. In addition, Yang is also familiar with software and firmware development of embedded systems, network switches, and communication terminal equipment, and has rich experience in successfully opening and establishing R&D centers in Nanjing, Xi'an, Wuhan, Jinan, Hanoi, and Ho Chi Minh City.",
-    "tagLine": "Chief Product Officer, Chelpis",
-    "profilePicture": "https://sessionize.com/image/f3df-400o400o1-Mxrf4ocmVwBHi31feopDtA.jpg",
-    "sessions": [
-      {
-        "id": 571369,
-        "name": "防量子攻擊的開發套件"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "5b1c1a89-599a-4999-be01-367382e63d27",
-    "firstName": "Yii Chen",
-    "lastName": "N/A",
-    "fullName": "Yii Chen N/A",
-    "bio": "Yii Chen，一位 Flutter 愛好者以及推廣者，專注跨平台開發，除了投入技術寫作外，也是活躍講者。擁有 7 年 Mobile 經驗，開發過大大小小的 APP，從 Android、iOS 到近期深耕 Flutter，包含結合IOT、藍芽BLE、購物、交友、健身等等應用，致力於開發出高品質且體驗豐富的產品。除了本業外，也擔任 Flutter Taipei Organizer，經營四千人的開發社團，鼓勵大家參與社群，並擁抱開源，擁有正向積極的影響力。",
-    "tagLine": "HerFIT, Mobile Lead",
-    "profilePicture": "https://sessionize.com/image/e421-400o400o1-42u8zJimpCedqfJPmM1TtN.jpg",
-    "sessions": [
-      {
-        "id": 553812,
-        "name": "跟著我熟悉 Dart 3，這些高效語法你需要知道！"
+        "id": 763082,
+        "name": "從日韓 Gemma 經驗來看台灣開源 LLM 模型機會"
       }
     ],
     "isTopSpeaker": false,
     "links": [
       {
-        "title": "X (Twitter)",
-        "url": "https://twitter.com/yiichenhi",
-        "linkType": "Twitter"
-      },
-      {
         "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/yiichenhi/",
+        "url": "https://www.linkedin.com/in/simonliuyuwei/",
         "linkType": "LinkedIn"
       },
       {
-        "title": "Instagram",
-        "url": "https://www.instagram.com/flutterluvr.yii/",
-        "linkType": "Instagram"
-      },
-      {
-        "title": "Blog",
-        "url": "https://yiichenhi.medium.com/",
-        "linkType": "Blog"
-      },
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/yiichenhi",
-        "linkType": "Sessionize"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "8eb63962-4fbf-45b1-bffd-96ce48b74eca",
-    "firstName": "Yu",
-    "lastName": "Lee",
-    "fullName": "Yu Lee",
-    "bio": "Yu Lee (she/her) 是一位編碼創作者，致力透過編碼藝術與互動網頁，創作具有遊戲性和恢復力的線上空間。他將程式性方法視為一種自由的形式，並持續發掘程式與藝術、文化交錯的機會。目前在工作室SpOnAct!（偶發集合）作為創意工程師，曾開發柏林臺灣影展2023官方網站，以及共同組織Processing台灣國際社群日。",
-    "tagLine": "SpOnAcT 偶發集合, 創意工程師",
-    "profilePicture": "https://sessionize.com/image/9568-400o400o1-UD8kgy8KH4jWLpnCBmfp5q.jpg",
-    "sessions": [
-      {
-        "id": 565844,
-        "name": "台灣酷兒聲音地圖：從設計發想到社會與技術實踐"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "4b130f74-4876-4b51-a96c-870a149cfdbc",
-    "firstName": "Yuijuhn",
-    "lastName": "Ting",
-    "fullName": "Yuijuhn Ting",
-    "bio": "嗨，我是丁丁，土生土長高雄人，目前任職於新加坡商鈦坦科技擔任 Product Developer，辦公室座標同在港都⚓ 工程師桌上有隻黃色小鴨是一定要的吧🐥",
-    "tagLine": "Quack",
-    "profilePicture": "https://sessionize.com/image/3116-400o400o1-Dz68QrsSBdLn8WmWuv2kf4.jpg",
-    "sessions": [
-      {
-        "id": 553860,
-        "name": "Android 端爬蟲實戰! 利用 AccessibilityService 完成爬螢幕自動化工作"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "69e97ccc-1b07-4f1c-aeca-7433e6b2de82",
-    "firstName": "劉",
-    "lastName": "浩瑋",
-    "fullName": "劉 浩瑋",
-    "bio": "我是劉浩瑋（Hardy），目前在群馥科技擔任 App team leader 兼任產品經理。我熱愛 App 開發也喜歡打造產品，專注在 App 產品開發超過十年，曾在 KKSTREAM、iCHEF 等軟體公司擔任資深 iOS 工程師，直到進到群馥科技開始接觸 Flutter 開發，開始了另一段嶄新的 App 開發旅程。",
-    "tagLine": "群馥科技 App team leader",
-    "profilePicture": "https://sessionize.com/image/878c-400o400o1-R9PQbdfLni5HNbGDAPsGet.png",
-    "sessions": [
-      {
-        "id": 564753,
-        "name": "用 Flutter 開發產品真的可行嗎？真實跨平台 App 開發之道"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "7bdd5c44-cbba-494a-a01c-aa02bff5e81a",
-    "firstName": "吉弘 David",
-    "lastName": "曾",
-    "fullName": "吉弘 David 曾",
-    "bio": "曾吉弘  \r\no CAVEDU教育團隊創辦人\r\no 美國麻省理工學院電腦科學與人工智慧實驗室訪問學者 2017~2018\r\no 新北市政府青年事務委員 2018~2019  \r\n \r\nCAVEDU 教育團隊以出版書籍、技術研發、教學研習與設備販售為團隊主軸，積極推動國內之科技基礎教育，希望能讓所有人都能取得優質的服務與課程。本團隊已出版/翻譯多本AI人工智能、物聯網雲端服務、機器人與數位互動等專業書籍，並定期參與國內外相關教學活動、辦理工作坊與分享會，期望帶給國內的自造者與科學DIY愛好者更豐富多元的學習內容。\r\n \r\n官方網站：http://www.cavedu.com\r\n技術部落格：http://blog.cavedu.com\r\nApp Inventor中文學習網：http://www.appinventor.tw",
-    "tagLine": "CAVEDU Education",
-    "profilePicture": "https://sessionize.com/image/196c-400o400o1-34b0f26a-0c89-4df4-aa6f-9a44be778fc7.jpg",
-    "sessions": [
-      {
-        "id": 566961,
-        "name": "Google Mediapipe 結合邊緣運算裝置"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
         "title": "Facebook",
-        "url": "https://www.facebook.com/allelujahnissin",
+        "url": "https://www.facebook.com/simonliuyuwei",
         "linkType": "Facebook"
       },
       {
         "title": "Blog",
-        "url": "https://blog.cavedu.com",
+        "url": "https://medium.com/@simon3458",
         "linkType": "Blog"
       },
       {
         "title": "Company Website",
-        "url": "https://www.cavedu.com",
+        "url": "https://simonliuyuwei-4ndgcf4.gamma.site/",
         "linkType": "Company_Website"
-      },
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/ji-hong-david-ceng",
-        "linkType": "Sessionize"
       }
     ],
     "questionAnswers": [],
     "categories": []
   },
   {
-    "id": "39b3252f-fe14-47ff-9161-c96018adc337",
-    "firstName": "品毅",
-    "lastName": "吳",
-    "fullName": "品毅 吳",
-    "bio": "- 敦謙國際智能 - Hexa System Scrum Master\r\n- 敦謙國際智能 - DQAT 敏捷戰隊 資深前端工程師\r\n- Front-End Developers Taiwan - 前端小聚發起人\r\n- Agile Taichung 2023  DDD + Event Storming 三個月從無到有打造全新訂房系統 主講人\r\n- Agile Taichung 2020  敏捷早餐 - 吃出團隊凝聚力 主講人",
-    "tagLine": "致力於打造幫助人而非取代人的系統",
-    "profilePicture": "https://sessionize.com/image/f23b-400o400o1-4EyykVJbAmY2SE5vQFjHhz.png",
+    "id": "966e28b4-5672-4f16-b8f2-4c009c95e8dc",
+    "firstName": "Yu-ya",
+    "lastName": "SU",
+    "fullName": "Yu-ya SU",
+    "bio": "Su 是一位專注於教育科技（EduTech）的使用體驗設計師（UX Designer），在社群中積極與大家交流，分享關於 UX 的開發的工作經驗。不論您是否接觸過 UX，都不必擔心，我會用簡單易懂的詞彙和實例，幫助大家輕鬆掌握 UX 在產品開發中的重要性。一起來探索 UX 如何提升產品體驗，並發現它對用戶與產品成功的深遠影響！",
+    "tagLine": "ViewSonic, UX Designer",
+    "profilePicture": "https://sessionize.com/image/f63d-400o400o1-hWBfxq7cAiJZyvJimNvqh6.jpg",
     "sessions": [
       {
-        "id": 564886,
-        "name": "Google全家餐！ 快速打造旅宿業最小化MVP"
+        "id": 763243,
+        "name": "Product Usability 101: 用戶開心以外，還能易用性測試減少產品開發成本？"
       }
     ],
     "isTopSpeaker": false,
     "links": [
       {
         "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/%E5%93%81%E6%AF%85-%E5%90%B3-46459a128/",
+        "url": "https://www.linkedin.com/in/yuya-su-245926161/",
         "linkType": "LinkedIn"
-      },
-      {
-        "title": "Company Website",
-        "url": "https://hexa.tw/",
-        "linkType": "Company_Website"
-      },
-      {
-        "title": "YouTube",
-        "url": "https://youtube.com/@DQAT703?feature=shared",
-        "linkType": "Other"
-      },
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/pin-yi-wu",
-        "linkType": "Sessionize"
       }
     ],
     "questionAnswers": [],
     "categories": []
   },
   {
-    "id": "146c1ecd-25bb-48a4-baa4-ed51ccd6ef3d",
-    "firstName": "員亨",
+    "id": "f9ef7cd3-58b7-4d41-8c8b-ac16fc78d214",
+    "firstName": "俊益",
+    "lastName": "楊",
+    "fullName": "俊益 楊",
+    "bio": "公司名稱 : 智慧立方有限公司 產品經理\r\n工作內容 : POS系統建置 與 AIoT教學 及 商業策略規劃\r\n兼任 : 資策會物聯網智造基地種子講師 及 服務團隊\r\n\r\n專長\r\nＭＣＵ 程式開發與案例製作\r\nＯｐｅｎＡＩ案例製作與教學\r\nＮｏｄｅ－ＲＥＤ整合運用 \r\nGenAI 整合與辦公室效能提升\r\nC# / VB/ MicroPython/ Node-Red / Pyton/ SQL\r\n",
+    "tagLine": "智慧立方有限公司  產品經理",
+    "profilePicture": "https://sessionize.com/image/6050-400o400o1-hvmd4LKrmozWrTCDip5TK6.png",
+    "sessions": [
+      {
+        "id": 769933,
+        "name": "Gemini如何重塑我們的工作方式"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "3cd72a03-d460-4d89-8f39-33b10be7c482",
+    "firstName": "其祐",
+    "lastName": "李",
+    "fullName": "其祐 李",
+    "bio": "我是其祐，一位熱愛 Flutter 開發的學生。曾擔任 NTUE GDSC Lead 和資訊研究社社長，帶領團隊完成多項專案。目前也是一位魔術方塊老師，將對魔術方塊的熱情結合程式設計，開發了 CyCube ，期待在 DevFest 分享我的經驗，與大家一同交流。",
+    "tagLine": "NTUE GDSC, Lead",
+    "profilePicture": "https://sessionize.com/image/5a90-400o400o1-Gn2pSWtzGE8wFbpJLzso43.jpg",
+    "sessions": [
+      {
+        "id": 769940,
+        "name": "Flutter x Firebase x AI：打造互動式 3D 魔術方塊"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "8b02b7c1-4594-4359-b6ad-af33918cdcda",
+    "firstName": "奕",
+    "lastName": "陳",
+    "fullName": "奕 陳",
+    "bio": "I'm a computer science student from NTUE, learning how to use AI to make life more convenient.",
+    "tagLine": "National Taipei University of Education",
+    "profilePicture": "https://sessionize.com/image/50b9-400o400o1-7QDhN9FFLuHBMucFqhmZfm.jpg",
+    "sessions": [
+      {
+        "id": 769940,
+        "name": "Flutter x Firebase x AI：打造互動式 3D 魔術方塊"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "480c82e9-934d-4a65-bfaf-61718b477607",
+    "firstName": "宮本",
+    "lastName": "翔太",
+    "fullName": "宮本 翔太",
+    "bio": "None",
+    "tagLine": "ExpTech.ltd",
+    "profilePicture": "https://sessionize.com/image/cb02-400o400o1-3iKRsN9fWzcoWjv4TVWuR4.jpg",
+    "sessions": [
+      {
+        "id": 777282,
+        "name": "DPIP 防災資訊整合平台"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [],
+    "categories": []
+  },
+  {
+    "id": "95f321d0-eb2e-4475-8c78-7d5cb901e907",
+    "firstName": "宸毓",
     "lastName": "郭",
-    "fullName": "員亨 郭",
-    "bio": "Site Reliabilty Engineer，喜歡DevOps與SRE文化，因為想更接近Cloud Native，踏上Gopher之路",
-    "tagLine": "Site Reliabilty Engineer",
-    "profilePicture": "https://sessionize.com/image/9044-400o400o1-w8h9uyodj4ebkvzfk3Ast1.jpg",
+    "fullName": "宸毓 郭",
+    "bio": "Full Stack Engineer\r\nExpTech Studio Ltd. \r\n21歳の普通大学生\r\n趣味で地震防災関連のアプリ(DPIP)開発\r\nNKUST 電気工学",
+    "tagLine": "ExpTech",
+    "profilePicture": "https://sessionize.com/image/083b-400o400o1-pt6wk8cw3v3awE9fFKdvAW.jpg",
     "sessions": [
       {
-        "id": 564530,
-        "name": "淺談 Golang v1.21 new function min, max, clear"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "17d4f42b-c983-4eac-a755-9629cc1b3679",
-    "firstName": "哲豪",
-    "lastName": "許",
-    "fullName": "哲豪 許",
-    "bio": "一位喜歡分享邊緣智能技術的玩家，主要專長為機電整合、立體視覺、實境互動及人工智慧，目前同時為台灣地區首位Intel創新大使，FB Edge AI Taiwan邊緣智能交流區創辦人。",
-    "tagLine": "歐尼克斯實境互動工作室 / 創辦人",
-    "profilePicture": "https://sessionize.com/image/4b3a-400o400o1-N4AGYpU9xHsViQENsAgovg.jpg",
-    "sessions": [
-      {
-        "id": 570643,
-        "name": "如何結合Google Colab及Intel OpenVINO來玩轉AIGC"
+        "id": 777282,
+        "name": "DPIP 防災資訊整合平台"
       }
     ],
     "isTopSpeaker": false,
     "links": [
-      {
-        "title": "Facebook",
-        "url": "https://www.facebook.com/jack.omnixri.5/",
-        "linkType": "Facebook"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "fe200d79-0e36-4a49-928e-276b3940e135",
-    "firstName": "子裕",
-    "lastName": "林",
-    "fullName": "子裕 林",
-    "bio": "香港大學博士生，主修植被遙感，生態與環境科學。Earth Engine GDE.\r\n",
-    "tagLine": "Earth Engine GDE",
-    "profilePicture": "https://sessionize.com/image/4345-400o400o1-9wCUT1SJgz9Kfoi3cszpzc.png",
-    "sessions": [
-      {
-        "id": 560680,
-        "name": "GeoAI解密: 基於谷歌雲平臺和谷歌地球引擎的的全球衛星數據分析"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "ea2db839-45db-4185-a621-22046e9b8810",
-    "firstName": "宇軒",
-    "lastName": "林",
-    "fullName": "宇軒 林",
-    "bio": null,
-    "tagLine": "一卡通票證有限公司 Sr. Software Engineer",
-    "profilePicture": "https://sessionize.com/image/2f59-400o400o1-JbAm3iENu4DvCTv4zazhXX.png",
-    "sessions": [
-      {
-        "id": 568610,
-        "name": "為什麼一卡通決定採用 KMP 作為跨平台方案 - Let's talking about KMP"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "33e721b4-9e42-401b-b4a7-b2eecf2c3d1d",
-    "firstName": "惠勤",
-    "lastName": "黃",
-    "fullName": "惠勤 黃",
-    "bio": null,
-    "tagLine": null,
-    "profilePicture": null,
-    "sessions": [
-      {
-        "id": 589718,
-        "name": " 做個另類Kotlin 開發者：從零入門Kotlin 編譯器外掛 [Kotlin 中文開發者大會聯播]"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "1f07e053-4cb0-4fc3-adbe-4664513383a5",
-    "firstName": "意晴",
-    "lastName": "洪",
-    "fullName": "意晴 洪",
-    "bio": "Sarah 洪意晴是個懂服務設計的策略設計師，熟悉使用者研究方法與行爲設計，致力於以人為中心了解利害關係人的動機、需求、行為、習慣乃至生活型態。她透過服務設計，協助企業統合各種專業以共同創造與傳遞價值，發展出不同以往的獲利模式。善於研析國內外產業趨勢與經營環境，引導企業於創新流程中提出前\r\n瞻方案與策略。\r\n\r\nSarah is a strategic designer well-versed in service design. She is experienced in user research methods and behavioral design, dedicated to understanding the motivations, needs, behaviors, habits, and lifestyles of stakeholders in a human-centric manner. Through service design, she assists businesses in integrating various disciplines to collaboratively create and deliver value, developing unique profit models. She excels at analyzing domestic and international industry trends and business environments, guiding companies in proposing forward-thinking solutions and strategies within the innovation process.",
-    "tagLine": "Business Models Inc. 方略, 策略設計師",
-    "profilePicture": "https://sessionize.com/image/4f2d-400o400o1-7987d314-f368-4e59-a363-9a834e0c4990.jpg",
-    "sessions": [
-      {
-        "id": 568446,
-        "name": "想談一場天長地久的戀愛 你要先懂 UX"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/yichinghung/",
-        "linkType": "LinkedIn"
-      },
-      {
-        "title": "Facebook",
-        "url": "https://www.facebook.com/yiching.hung.31/about",
-        "linkType": "Facebook"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "2b34047f-4543-4677-895d-5fd201a88800",
-    "firstName": "斌權",
-    "lastName": "張",
-    "fullName": "斌權 張",
-    "bio": "2019年開始接觸學習Flutter，目前擔任Flutter工程師。\r\n今年成為Flutter Taipei的組織者，致力於發展Flutter相關技術在台灣的影響力，舉辦Live Coding活動，分享Flutter相關知識。",
-    "tagLine": "Flutter Taipei Organizer",
-    "profilePicture": "https://sessionize.com/image/4ed6-400o400o1-RUZVVXg4TGfb7aBcD1wNWC.jpeg",
-    "sessions": [
-      {
-        "id": 553639,
-        "name": "跨平台應用程式開發-Flutter工作坊"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/bin-quan-zhang",
-        "linkType": "Sessionize"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "96c3a2a2-93ae-4cce-b7e5-2995c29bdaaa",
-    "firstName": "旻峯",
-    "lastName": "蔡",
-    "fullName": "旻峯 蔡",
-    "bio": "專攻後端工程，但對其他領域如 Cloud Native 和大數據處理也有輕度涉略。同時，我也討厭看到維護性差的程式碼，因此積極嘗試多種 Golang 設計模式，提高系統的可測試性和維護性。\r\nhttps://www.linkedin.com/in/caesar1017tsai/",
-    "tagLine": "後端工程師",
-    "profilePicture": "https://sessionize.com/image/d42d-400o400o1-T5D4YicSYk5omwFHwGVV8S.png",
-    "sessions": [
-      {
-        "id": 564518,
-        "name": "如何在 Golang 簡單使用有限狀態機 (FSM)"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/caesar1017tsai/",
-        "linkType": "LinkedIn"
-      },
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/min-feng-cai",
-        "linkType": "Sessionize"
-      }
-    ],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "8aed0afc-2f07-4674-8fa7-a5a25463b4a4",
-    "firstName": "李",
-    "lastName": "緒成",
-    "fullName": "李 緒成",
-    "bio": "目前就讀成大資工系大二, 喜歡研究怎麼把事情做到 high availability 及 fault-tolerance, 興趣是聽音樂, 因為不會用樂器, 還有出去玩！ 上大學才接觸一點網頁開發的東西, 發現自己前端太爛所以只能往後端走qq, 會的東西還很少, 希望大家能多多指教～ 最近有點想當機師, 如果有知道怎麼當的話麻煩聯絡我\r\nhttps://www.linkedin.com/in/peterxcli\r\nhttps://www.facebook.com/peterxcli\r\nhttps://www.instagram.com/peter_lee0814/\r\nhttps://peterxcli.dev/\r\nmailto:peterxcli@gmail.com",
-    "tagLine": "ncku-csie, backend",
-    "profilePicture": "https://sessionize.com/image/f4ae-400o400o1-KmNvWcYrF3x3RPvVQfBdd4.JPG",
-    "sessions": [
-      {
-        "id": 565174,
-        "name": "雲與地的彼端 - 全面啟動PAIA 3D之K8S混合雲部署"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [
-      {
-        "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/peterxcli",
-        "linkType": "LinkedIn"
-      },
-      {
-        "title": "Facebook",
-        "url": "https://www.facebook.com/peterxcli",
-        "linkType": "Facebook"
-      },
       {
         "title": "Instagram",
-        "url": "https://www.instagram.com/peter_lee0814/",
+        "url": "https://www.instagram.com/whes1015/",
         "linkType": "Instagram"
-      },
-      {
-        "title": "Blog",
-        "url": "https://peterxcli.dev/",
-        "linkType": "Blog"
-      },
-      {
-        "title": "Sessionize",
-        "url": "https://sessionize.com/peterxcli",
-        "linkType": "Sessionize"
       }
     ],
     "questionAnswers": [],
     "categories": []
   },
   {
-    "id": "8dc146ad-848a-445a-81ec-c58cfb38b8de",
-    "firstName": "楓",
-    "lastName": "梁",
-    "fullName": "楓 梁",
-    "bio": "http://book.wydiet.com\r\n暫無技術性固定存放\r\n早期文章在 http://www.study-area.org/freebsd/freebsdfr2.htm",
-    "tagLine": "動覺科技技術長",
-    "profilePicture": "https://sessionize.com/image/fd9c-400o400o1-X65TU8edQYo9VdGdrbZSTV.jpg",
+    "id": "8a68d300-1105-4c7d-b6bf-7464dc5d93e1",
+    "firstName": "小松",
+    "lastName": "XiaoSong",
+    "fullName": "小松 XiaoSong",
+    "bio": "Google Develops Groups On Campus  National Central University Organizer",
+    "tagLine": "National Central University",
+    "profilePicture": "https://sessionize.com/image/3c6b-400o400o1-QNFKVcdjfPLToFRHahCfZL.png",
     "sessions": [
       {
-        "id": 563977,
-        "name": "Flutter 適合商用嗎？"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "25bb137e-b9bb-48d2-aa01-53b53067be48",
-    "firstName": "聖佑",
-    "lastName": "范",
-    "fullName": "聖佑 范",
-    "bio": null,
-    "tagLine": null,
-    "profilePicture": null,
-    "sessions": [
-      {
-        "id": 589716,
-        "name": "回顧2023 及Kotlin Multiplatform 最新消息 [Kotlin 中文開發者大會聯播]"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "dcb01237-48ff-4ea4-ad39-2d6fd4c4e5ee",
-    "firstName": "良斌",
-    "lastName": "薛",
-    "fullName": "良斌 薛",
-    "bio": "薛良斌 (hlb) 畢業於交大資工系，2006 年創辦 Handlino 並建立 Registrano 活動報名服務，於 2013 年併入 KKBOX 成為 KKTIX 活動售票平台。2016 年起擔任聖洋科技 cacaFly 產品總監，並於 2018 年共同創立 InfuseAI，協助企業加速 AI 開發效率，提升研發產出。薛良斌於 2023 年轉任 InfuseAI 顧問，致力於 Generative AI 推廣。",
-    "tagLine": "EIR of Hive Ventures; Generative AI Evangelist; Advisor of InfuseAI",
-    "profilePicture": "https://sessionize.com/image/5100-400o400o1-fDNFVaiSNcP8V9v5KhBMmK.png",
-    "sessions": [
-      {
-        "id": 582327,
-        "name": "Keynote - 展望 Generative AI 的現在與未來"
+        "id": 771020,
+        "name": "LLM Comparator: Running Comparative Evaluations with Google Vertex AI"
       }
     ],
     "isTopSpeaker": false,
     "links": [
       {
         "title": "LinkedIn",
-        "url": "https://www.linkedin.com/in/iamhlb/",
+        "url": "https://www.linkedin.com/in/松林-陳-a3b61916b",
         "linkType": "LinkedIn"
       }
     ],
@@ -1931,150 +1277,47 @@
     "categories": []
   },
   {
-    "id": "7b9c6f43-d794-4125-ab19-dc42ccf33e66",
-    "firstName": "芃翰",
-    "lastName": "蘇",
-    "fullName": "芃翰 蘇",
-    "bio": null,
-    "tagLine": null,
-    "profilePicture": null,
+    "id": "3a6bdfde-22f7-4708-b1be-c3f5881d3a7b",
+    "firstName": "彥彬",
+    "lastName": "洪",
+    "fullName": "彥彬 洪",
+    "bio": "Android Taipei host、多年經驗 Android 開發者，同時也熱愛研究 Architecture, Functional programming 以及語言的語法特性",
+    "tagLine": "PicCollage Android Dev",
+    "profilePicture": "https://sessionize.com/image/2c8f-400o400o1-wtvMFCfhgnGLN7YZ48tf5S.png",
     "sessions": [
       {
-        "id": 589719,
-        "name": "使用Reactive Quarkus 搭配Coroutine 及MongoDB 做後端開發 [Kotlin 中文開發者大會聯播]"
+        "id": 768071,
+        "name": "KSP + AI to boost your productivity"
       }
     ],
     "isTopSpeaker": false,
-    "links": [],
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/yanbin-hung-94b350b7/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/hung.yanbin",
+        "linkType": "Facebook"
+      }
+    ],
     "questionAnswers": [],
     "categories": []
   },
   {
-    "id": "3fb70cac-e431-462b-9498-8a6150d92cad",
-    "firstName": "范愷祐",
-    "lastName": "Kyo Fan",
-    "fullName": "范愷祐 Kyo Fan",
-    "bio": "Lead '22 @Google DSC NCCU | Founder & Product Manager @Open NCCU",
-    "tagLine": "Open NCCU 非營利組織創辦人、GDSC NCCU '22-'23 Lead (社群領袖)",
-    "profilePicture": "https://sessionize.com/image/32e2-400o400o1-9AF2dZgK9SLcrpr99q7V6N.jpg",
+    "id": "4705d7a2-27bd-42d6-a3b6-46dbaa48fe95",
+    "firstName": "睿晉",
+    "lastName": "沈",
+    "fullName": "睿晉 沈",
+    "bio": "暫無",
+    "tagLine": "Exptech,Ltd.",
+    "profilePicture": "https://sessionize.com/image/9436-400o400o1-43jDEkQaFZ9mdaZNyCgoG4.jpg",
     "sessions": [
       {
-        "id": 566335,
-        "name": "不可能的任務！在網頁/ PWA 實現如 App 一樣原生體驗的 Bottom sheets (使用 Google IDX)"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "6a2bb931-6f51-4e37-b907-b12a17eb4745",
-    "firstName": "見龍",
-    "lastName": "高",
-    "fullName": "見龍 高",
-    "bio": "網站程式開發者 / 講師 / 遊戲宅 / 漫畫宅，喜愛非主流的新玩具。個性愛現，學會新把戲就迫不急待想跟大家分享。著有《為你自己學 Git》以及《為你自己學 Ruby on Rails》等暢銷書籍。",
-    "tagLine": "五倍學院",
-    "profilePicture": "https://sessionize.com/image/c370-400o400o1-R8waBDNtF6PtJSaDNRS3fJ.jpg",
-    "sessions": [
-      {
-        "id": 563667,
-        "name": "前端模組解放運動"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "b842b7cc-9e1a-40fe-9797-e95dd2638a3f",
-    "firstName": "貴融",
-    "lastName": "吳",
-    "fullName": "貴融 吳",
-    "bio": "KJ 負責 Google Cloud Taiwan 團隊的技術解決方案主管，所帶領的Google Cloud技術團隊主要協助不同規模的企業擬定雲端策略與採行雲端解決方案。加入 Google 以前，KJ曾帶領海外FineTech新創團隊，並歷任大型顧問與雲端跨國企業，擔任各種技術與管理職位，包括研發、軟體工程、雲端架構、企業策略規劃等管理職務。",
-    "tagLine": "Google Cloud 雲端技術副總",
-    "profilePicture": "https://sessionize.com/image/c302-400o400o1-2HiF1i2Krh2mswox1AD7w.jpg",
-    "sessions": [
-      {
-        "id": 582327,
-        "name": "Keynote - 展望 Generative AI 的現在與未來"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "3eee1f76-2be1-4b31-93fe-dbdfe269a335",
-    "firstName": "銀龍",
-    "lastName": "劉",
-    "fullName": "銀龍 劉",
-    "bio": null,
-    "tagLine": null,
-    "profilePicture": null,
-    "sessions": [
-      {
-        "id": 589717,
-        "name": "Kotlin Multiplatform：跨平台開發的後起之秀 [Kotlin 中文開發者大會聯播]"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "c8509f89-9c12-4941-ab86-a8ef5f8d6ce9",
-    "firstName": "銘佑",
-    "lastName": "徐",
-    "fullName": "銘佑 徐",
-    "bio": "目前在虛擬幣產業擔任後端工程師，主要語言為 golang，除了 web server 開發外，也會研究分散式系統跟資料庫等技術，平常會分享一些文章在 medium 上 https://medium.com/@vicxu。",
-    "tagLine": "bitoex, gopher",
-    "profilePicture": "https://sessionize.com/image/1f69-400o400o1-BtELvev4ZMNUFjqfW54PeT.png",
-    "sessions": [
-      {
-        "id": 564489,
-        "name": "如何打造一個高效的 web framework routing"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "ceeb5615-ece9-4434-b08e-9b524d5842ce",
-    "firstName": "雅芳",
-    "lastName": "林",
-    "fullName": "雅芳 林",
-    "bio": "林雅芳負責管理 Google 台灣的銷售與業務開發經營，並積極推廣多元、平等、包容的職場環境與社會⽂化。她帶領團隊為合作夥伴與客⼾提供顧問服務與數位解決⽅案，協助他們更深⼊了解產業與消費趨勢，提出策略建議，並達成合作夥伴在台灣與全球各地的業務⽬標。此外，林雅芳亦⻑期關注台灣數位經濟成⻑、國際競爭⼒與新創產業動態，並致⼒於協助台灣企業轉型以及促進在地⼈才成⻑動能。\r\n\r\n林雅芳於 2019 年 9 ⽉就任 Google 台灣總經理⼀職，在硬體、軟體、網路等科技產業擁有多年的豐富經驗。她於 2014 年加⼊ Google ，幫助科技、電信、旅遊和出⼝等業務⼤幅成⻑；在加⼊ Google 之前，她曾任職於 Intel 、微軟和華碩，擔任過各種國際市場業務、⾏銷及營運管理職務。\r\n\r\n林雅芳擁有國⽴臺灣⼤學⼯商管理學系學⼠學位。\r\n軟體 / 硬體 / 網路，三重混⾎的科技⼈, 關⼼、影響⽽貢獻:\r\n\r\n#「從台灣放眼世界、讓世界看⾒台灣」\r\n# 創新、新創和永續\r\n# 成⻑⽐成功重要的⼈才培育與終身學習\r\n# 弱勢教育均等\r\n# 多元平等包容的友善職場環境\r\n\r\n相信「正念、學習、感恩和活在當下」，期許⾃⼰敬業專業更樂業，對世界需要的事能盡⼀分⼼⼒的⼈",
-    "tagLine": "Google 台灣總經理，Managing Director Sales & Operation, Google Taiwan",
-    "profilePicture": "https://sessionize.com/image/4033-400o400o1-3uhxLtfphKRyBScVzP4wnW.jpg",
-    "sessions": [
-      {
-        "id": 582327,
-        "name": "Keynote - 展望 Generative AI 的現在與未來"
-      }
-    ],
-    "isTopSpeaker": false,
-    "links": [],
-    "questionAnswers": [],
-    "categories": []
-  },
-  {
-    "id": "7053e662-2146-4435-9b35-c6545c98cb6c",
-    "firstName": "頌宇",
-    "lastName": "張",
-    "fullName": "頌宇 張",
-    "bio": "自成功大學資訊工程系畢業，輔修數學和教程，就讀成大AI機器人研究所，現在在PAIA公司負責3D遊戲教學平台的建置。我喜歡思考事物的本質，探究到底就會發現一個新的世界。像是越研究人工智慧就會開始思考究竟位格是什麼？這樣的位格如何在增強式學習的Agent表現出來？我們所認知的世界會不會其實都是意識的產物？",
-    "tagLine": "Engineer at PAIA",
-    "profilePicture": "https://sessionize.com/image/ebf3-400o400o1-dc2418c5-6701-4b4b-9687-d50ce08e70bb.jpg",
-    "sessions": [
-      {
-        "id": 565174,
-        "name": "雲與地的彼端 - 全面啟動PAIA 3D之K8S混合雲部署"
+        "id": 777282,
+        "name": "DPIP 防災資訊整合平台"
       }
     ],
     "isTopSpeaker": false,

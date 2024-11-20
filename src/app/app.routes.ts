@@ -4,7 +4,6 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { ScheduleDialogEntryComponent } from './schedule/schedule-dialog';
 import { SpeakersComponent } from './speakers/speakers.component';
 import { SpeakerDialogEntryComponent } from './speakers/speaker-dialog';
-import { CodComponent } from './cod/cod.component';
 
 const titleSuffix = 'GDG DevFest Taipei 2024';
 export const routes: Routes = [
@@ -37,11 +36,5 @@ export const routes: Routes = [
       },
     ],
     title: `議程 | ${titleSuffix}`,
-  },
-  {
-    path: 'cod',
-    component: CodComponent,
-    data: { animations: 'codePage' },
-    title: `社群活動指引 | ${titleSuffix}`,
   },
 ];

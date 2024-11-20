@@ -21,7 +21,7 @@ jobs:
         run: npm run lint
       - name: commit and push
         run: |
-          cd dist/${{ github.event.repository.name }}/browser
+          cd dist/dev-fest-2024/browser
           git init
           git config user.name  "build-ci"
           git config user.email "build-ci@github.com"

@@ -26,34 +26,28 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## TODO
-
-+ material design 自訂顏色、調色盤
-+ 首頁設計
-+ aria-label
-
 ## 如何修改模版
 
 ### 修改 src/index.html
 
-+ 可以修改 index title, metadata
+- 可以修改 index title, metadata
 
 ### 修改 app.component.ts
 
-+ 可以修改 navigation bar 上的按鈕
+- 可以修改 navigation bar 上的按鈕
 
 ### 修改 app.component.html
 
-+ 可以修改 footer 相關連結
+- 可以修改 footer 相關連結
 
 ### 修改 src/app/app.routes.ts
 
-+ 可以修改各個頁面的 title 及相關路由
+- 可以修改各個頁面的 title 及相關路由
 
 ### 修改 src/assets/speakers.json
 
-+ 修改講者資料
+- 修改講者資料
 
 ### 修改 src/assets/schedules.json
 
-+ 修改議程資料
+- 修改議程資料

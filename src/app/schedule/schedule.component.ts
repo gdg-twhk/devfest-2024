@@ -6,6 +6,7 @@ import { Schedule } from '../load-data.service';
 import { LoadDataServices, Speaker } from '../load-data.service';
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { TagColorPipe } from '../tag-color.pipe';
 
 @Component({
   selector: 'app-schedule',
@@ -16,6 +17,7 @@ import { RouterModule } from '@angular/router';
     MatCardModule,
     MatChipsModule,
     RouterModule,
+    TagColorPipe,
   ],
   templateUrl: './schedule.component.html',
   styleUrl: './schedule.component.css',

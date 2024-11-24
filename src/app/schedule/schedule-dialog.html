@@ -20,7 +20,7 @@
     </ul>
     <div>
         <mat-chip-set>
-          <mat-chip *ngFor="let tag of session.tags">{{ tag }}</mat-chip>
+            <mat-chip *ngFor="let tag of session.tags" [style]="'background-color:'+ (tag | tagColorPipe) +';'">{{ tag }}</mat-chip>
         </mat-chip-set>
     </div>
 </mat-dialog-content>

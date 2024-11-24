@@ -20,6 +20,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatChipsModule } from '@angular/material/chips';
 import { LoadDataServices, Speaker, Session } from '../load-data.service';
 import { NavigationService } from '../navigation.service';
+import { TagColorPipe } from '../tag-color.pipe';
 
 @Injectable({
   providedIn: 'root',
@@ -84,6 +85,7 @@ export class ScheduleDialogEntryComponent implements OnInit {
     ToSocialLinkIconPipe,
     MatIconModule,
     MatChipsModule,
+    TagColorPipe,
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './schedule-dialog.html',

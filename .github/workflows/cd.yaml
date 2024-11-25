@@ -24,7 +24,7 @@ jobs:
           git init
           git config user.name  "build-ci"
           git config user.email "build-ci@github.com"
-          git remote add secure-origin https://${{ secrets.GITHUB_TOKEN }}@github.com/gdg-twhk/${{ github.event.repository.name }}
+          git remote add secure-origin https://${{ secrets.GENERAL_CI }}@github.com/gdg-twhk/${{ github.event.repository.name }}
           git checkout -b gh-pages
           git add .
           git commit -m "gitpage by CI"

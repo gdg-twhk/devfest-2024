@@ -30,3 +30,25 @@ jobs:
           git add .
           git commit -m "gitpage by CI"
           git push --force secure-origin gh-pages
+  firebase-hosting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: build
+        run: |
+          npm ci
+          npx ng add angular-cli-ghpages --skip-confirmation
+          npx ng build --base-href=/2024/
+      - name: lint
+        run: npm run lint
+      - name: Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          entryPoint: "./"
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
+          projectId: "${{ secrets.PROJECT_ID }}"
+          channelId: live

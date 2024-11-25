@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "site": "devfest-taipei-3cb0a",
+      "public": ".",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

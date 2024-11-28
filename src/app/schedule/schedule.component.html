@@ -11,8 +11,14 @@
                             <a [routerLink]="'/schedule/' + session.generatedID">{{ session.title }}</a>
                         </mat-card-title>
                         <mat-card-subtitle>
-                            <span *ngIf="session.generatedRoom">
+                            <span *ngIf="session.generatedRoom && session.format">
+                                {{ session.generatedRoom + ' ‧ ' + session.format }}
+                            </span>
+                            <span *ngIf="session.generatedRoom && !session.format">
                                 {{ session.generatedRoom }}
+                            </span>
+                            <span *ngIf="!session.generatedRoom && session.format">
+                                {{ session.format }}
                             </span>
                             <span class="language-box" *ngIf="session.language">
                                 {{ session.language }}
@@ -20,7 +26,6 @@
                         </mat-card-subtitle>
                     </mat-card-header>
                     <mat-card-content class="social-link-list">
-                        <!-- <p>{{room.name}}</p> -->
                         <div>
                             <ul class="speaker-list">
                                 <li *ngFor="let speakerID of session.speakers">

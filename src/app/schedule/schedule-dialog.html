@@ -5,6 +5,7 @@
     <h1>{{ session.title }}</h1>
     <p>🕒 {{ session.generatedStartAt | date:'MM/d hh:mm' }} ~ {{ session.generatedEndsAt | date:'hh:mm' }}</p>
     <p *ngIf="session.generatedRoom">🚪 {{ session.generatedRoom }}</p>
+    <p *ngIf="session.format">💬 {{ session.format }}</p>
     <p *ngIf="session.language">🌐 {{ session.language }}</p>
     <p *ngIf="session.description">📝 {{ session.description }}</p>
     <ul class="speaker-list">

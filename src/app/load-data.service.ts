@@ -54,6 +54,7 @@ export interface Session {
   speakers: string[]; // speaker_key
   tags: string[];
   title: string;
+  format: string;
   generatedID: string;
   generatedStartAt: string;
   generatedEndsAt: string;

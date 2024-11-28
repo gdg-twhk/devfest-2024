@@ -63,3 +63,13 @@ a:visited {
 a:hover {
   color: var(--green-500);
 }
+
+a.hover {
+  color: unset;
+  text-decoration: none;
+  transition: color 750ms var(--default-transition-timing-function);
+}
+
+a.hover:hover {
+  color: var(--blue-500);
+}

@@ -1,4 +1,4 @@
-<div class="max-width-constraint-with-padding">
+<div class="max-width-constraint-with-padding" style="max-width: 2400px;">
     <h1>議程</h1>
     <div *ngFor="let schedule of schedules">
         <h2 class="schedule-date">📅 {{ schedule.date | date:'MM/dd' }}</h2>
@@ -8,7 +8,7 @@
                 <mat-card appearance="outlined" *ngFor="let session of slot.generatedSessions">
                     <mat-card-header>
                         <mat-card-title>
-                            <a [routerLink]="'/schedule/' + session.generatedID">{{ session.title }}</a>
+                            <a [routerLink]="'/schedule/' + session.generatedID" class="hover">{{ session.title }}</a>
                         </mat-card-title>
                         <mat-card-subtitle>
                             <span *ngIf="session.generatedRoom && session.format">
@@ -35,7 +35,9 @@
                                             alt="the avatar of the speaker">
                                     </a>
                                     <div>
-                                        <p class="speaker-name">{{ speakersMap.get(speakerID)?.name ?? "" }}</p>
+                                        <a [routerLink]="'/speakers/' + speakerID" class="hover">
+                                            <p class="speaker-name">{{ speakersMap.get(speakerID)?.name ?? "" }}</p>
+                                        </a>
                                         <p class="speaker-tag-line">{{ speakersMap.get(speakerID)?.title ?? "" }}</p>
                                     </div>
                                 </li>

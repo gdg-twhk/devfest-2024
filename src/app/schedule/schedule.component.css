@@ -1,7 +1,7 @@
 .mat-card-group {
   margin: 10px 0px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-gap: 10px;
 }
 
@@ -87,20 +87,26 @@ ul.speaker-list p.speaker-tag-line {
   flex: 1;
 }
 
-mat-card-title a,
-mat-card-title a:visited {
-  color: unset;
-  text-decoration: none;
-  transition: color 750ms var(--default-transition-timing-function);
-  display: inline-block;
-}
-
-mat-card-title a:hover {
-  color: var(--blue-500);
-}
-
 mat-card-footer {
   padding: 16px;
+}
+
+@media screen and (max-width: 2400px) {
+  .mat-card-group {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .mat-card-group {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .mat-card-group {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media screen and (max-width: 1200px) {

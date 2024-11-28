@@ -10,7 +10,11 @@
                     <img mat-card-avatar [src]="speaker.photo || './assets/speaker-badge.svg'" alt="the avatar of the speaker">
                 </a>
                 <mat-card-title-group>
-                    <mat-card-title>{{speaker.name}}</mat-card-title>
+                    <mat-card-title>
+                        <a [routerLink]="speaker.generatedID" class="hover">
+                            {{speaker.name}}
+                        </a>
+                    </mat-card-title>
                     <mat-card-subtitle>{{speaker.title || ''}}</mat-card-subtitle>
                 </mat-card-title-group>
             </mat-card-header>

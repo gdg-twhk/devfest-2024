@@ -14,7 +14,9 @@
                 <img [src]="speakersMap.get(speakerID)?.photo || './assets/speaker-badge.svg'" alt="the avatar of the speaker">
             </a>
             <div>
-                <p class="speaker-name" *ngIf="speakersMap.get(speakerID)?.name">{{ speakersMap.get(speakerID)?.name }}</p>
+                <a [routerLink]="'/speakers/' + speakerID" class="hover">
+                    <p class="speaker-name" *ngIf="speakersMap.get(speakerID)?.name">{{ speakersMap.get(speakerID)?.name }}</p>
+                </a>
                 <p class="speaker-tagLine" *ngIf="speakersMap.get(speakerID)?.title">{{ speakersMap.get(speakerID)?.title }}</p>
             </div>
         </li>

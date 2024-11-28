@@ -12,7 +12,7 @@
             "title": "Registration",
             "description": "會眾報到",
             "startsAt": "2024-11-30T08:30:00",
-            "endsAt": "2024-11-30T09:10:00",
+            "endsAt": "2024-11-30T09:00:00",
             "isServiceSession": true,
             "isPlenumSession": true,
             "speakers": [],
@@ -26,22 +26,129 @@
             "isConfirmed": false
           },
           {
-            "id": "4a0e37c4-d141-4a3a-83c5-455aeb3f6ce9",
-            "title": "Panel Discussion",
-            "description": "Panel Discussion",
-            "startsAt": "2024-11-30T09:10:00",
-            "endsAt": "2024-11-30T11:10:00",
-            "isServiceSession": true,
-            "isPlenumSession": true,
-            "speakers": [],
-            "categories": [],
+            "id": "787900",
+            "title": "Keynote",
+            "description": null,
+            "startsAt": "2024-11-30T09:00:00",
+            "endsAt": "2024-11-30T10:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "47f6efe8-b2da-4c1e-a6e5-6dbc9563a05a",
+                "name": "雅芳 林"
+              },
+              {
+                "id": "91a3df1a-f2ef-4834-a98e-74c26517c399",
+                "name": "貴融 吳"
+              },
+              {
+                "id": "926e57ac-d968-46a3-aecb-4e78939a77d2",
+                "name": "Eric ShangKuan"
+              }
+            ],
+            "categories": [
+              {
+                "id": 84043,
+                "name": "Language",
+                "categoryItems": [],
+                "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [],
+                "sort": 1
+              },
+              {
+                "id": 84046,
+                "name": "Level",
+                "categoryItems": [],
+                "sort": 3
+              },
+              {
+                "id": 84049,
+                "name": "Tags",
+                "categoryItems": [],
+                "sort": 4
+              }
+            ],
             "roomId": 54036,
             "room": "博 101",
             "liveUrl": null,
             "recordingUrl": null,
-            "status": null,
-            "isInformed": false,
-            "isConfirmed": false
+            "status": "Accepted",
+            "isInformed": true,
+            "isConfirmed": true
+          },
+          {
+            "id": "787901",
+            "title": "Panel Discussion - Responsible GenAI 驅動的挑戰與資安機會",
+            "description": null,
+            "startsAt": "2024-11-30T10:00:00",
+            "endsAt": "2024-11-30T11:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "dbd998e6-8c16-4940-8894-7575f8011f10",
+                "name": "Denny Huang"
+              },
+              {
+                "id": "d8407565-63c2-4afa-81c7-f381e01b839a",
+                "name": "式隆 趙"
+              },
+              {
+                "id": "ec512cee-68ba-4514-8be0-e89542a096d1",
+                "name": "銘彰 邱"
+              },
+              {
+                "id": "e10a74e9-0846-45bf-bb48-57e79f2e610d",
+                "name": "Jerry Wu"
+              },
+              {
+                "id": "e20a6f42-21eb-426f-a87c-ff0f1bb59bbe",
+                "name": "TJ Wei"
+              }
+            ],
+            "categories": [
+              {
+                "id": 84043,
+                "name": "Language",
+                "categoryItems": [
+                  {
+                    "id": 297887,
+                    "name": "中文"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [],
+                "sort": 1
+              },
+              {
+                "id": 84046,
+                "name": "Level",
+                "categoryItems": [],
+                "sort": 3
+              },
+              {
+                "id": 84049,
+                "name": "Tags",
+                "categoryItems": [],
+                "sort": 4
+              }
+            ],
+            "roomId": 54036,
+            "room": "博 101",
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": "Accepted",
+            "isInformed": true,
+            "isConfirmed": true
           },
           {
             "id": "750314",
@@ -68,6 +175,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -101,13 +219,13 @@
             "isConfirmed": true
           },
           {
-            "id": "3d1cd77b-6e17-473d-bdb5-876138f046b7",
-            "title": "Lunch",
-            "description": "午休時間",
-            "startsAt": "2024-11-30T12:00:00",
-            "endsAt": "2024-11-30T13:00:00",
+            "id": "69ccd6c3-c672-4f5c-aad5-274aac37da44",
+            "title": "Adecco 不藏私分享：建立讓獵頭和人資找上門的 LinkedIn Profile",
+            "description": null,
+            "startsAt": "2024-11-30T12:10:00",
+            "endsAt": "2024-11-30T12:50:00",
             "isServiceSession": true,
-            "isPlenumSession": true,
+            "isPlenumSession": false,
             "speakers": [],
             "categories": [],
             "roomId": 54036,
@@ -143,6 +261,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -206,6 +335,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -234,7 +374,7 @@
             "recordingUrl": null,
             "status": "Accepted",
             "isInformed": true,
-            "isConfirmed": false
+            "isConfirmed": true
           },
           {
             "id": "762209",
@@ -261,6 +401,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -318,6 +469,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -385,6 +547,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -449,6 +622,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -484,6 +668,24 @@
             "isConfirmed": true
           },
           {
+            "id": "3d1cd77b-6e17-473d-bdb5-876138f046b7",
+            "title": "Lunch",
+            "description": "午休時間",
+            "startsAt": "2024-11-30T12:00:00",
+            "endsAt": "2024-11-30T13:00:00",
+            "isServiceSession": true,
+            "isPlenumSession": true,
+            "speakers": [],
+            "categories": [],
+            "roomId": 54037,
+            "room": "博 102",
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": null,
+            "isInformed": false,
+            "isConfirmed": false
+          },
+          {
             "id": "769804",
             "title": "Use GCP service to collect LLMOps data",
             "description": "Within this session, you will learn how to leverage OpenTelemetry inside your application to collect LLM related data. (e.g: user query/ question, prompt. llm output),and how to send those data into Pub/Sub service. Then we will use cloudfunction to parsing the message, and insert the data into backend database. ",
@@ -508,6 +710,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 298091,
+                    "name": "Short Talk"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -575,6 +788,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -630,6 +854,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -693,6 +928,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -729,7 +975,7 @@
             "recordingUrl": null,
             "status": "Accepted",
             "isInformed": true,
-            "isConfirmed": false
+            "isConfirmed": true
           },
           {
             "id": "769073",
@@ -756,6 +1002,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -822,6 +1079,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -883,6 +1151,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 298091,
+                    "name": "Short Talk"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -942,6 +1221,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -1009,6 +1299,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -1068,6 +1369,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -1139,6 +1451,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -1203,6 +1526,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -1222,6 +1556,59 @@
                     "name": "AI/ML"
                   }
                 ],
+                "sort": 4
+              }
+            ],
+            "roomId": 56136,
+            "room": "博 201",
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": "Accepted",
+            "isInformed": true,
+            "isConfirmed": true
+          },
+          {
+            "id": "785819",
+            "title": "Z世代的超能力：NotebookLM的十倍速學習法",
+            "description": null,
+            "startsAt": "2024-11-30T13:00:00",
+            "endsAt": "2024-11-30T13:40:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "cf96e5ec-c65d-4012-b5da-4701e716e3cc",
+                "name": "otto yen"
+              }
+            ],
+            "categories": [
+              {
+                "id": 84043,
+                "name": "Language",
+                "categoryItems": [],
+                "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 84046,
+                "name": "Level",
+                "categoryItems": [],
+                "sort": 3
+              },
+              {
+                "id": 84049,
+                "name": "Tags",
+                "categoryItems": [],
                 "sort": 4
               }
             ],
@@ -1258,6 +1645,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -1319,6 +1717,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -1390,6 +1799,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -1449,6 +1869,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -1519,6 +1950,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -1547,7 +1989,7 @@
             "recordingUrl": null,
             "status": "Accepted",
             "isInformed": true,
-            "isConfirmed": false
+            "isConfirmed": true
           },
           {
             "id": "769391",
@@ -1574,6 +2016,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -1641,6 +2094,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -1698,6 +2162,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -1746,8 +2221,24 @@
               {
                 "id": 84043,
                 "name": "Language",
-                "categoryItems": [],
+                "categoryItems": [
+                  {
+                    "id": 297887,
+                    "name": "中文"
+                  }
+                ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -1768,7 +2259,7 @@
             "recordingUrl": null,
             "status": "Accepted",
             "isInformed": true,
-            "isConfirmed": false
+            "isConfirmed": true
           }
         ],
         "hasOnlyPlenumSessions": false
@@ -1802,6 +2293,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -1869,6 +2371,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -1924,6 +2437,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -1987,6 +2511,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -2016,6 +2551,78 @@
                   {
                     "id": 297917,
                     "name": "Chrome"
+                  }
+                ],
+                "sort": 4
+              }
+            ],
+            "roomId": 56137,
+            "room": "博 301",
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": "Accepted",
+            "isInformed": true,
+            "isConfirmed": true
+          },
+          {
+            "id": "786737",
+            "title": "使用Gemini 的 AI 工作術",
+            "description": null,
+            "startsAt": "2024-11-30T16:20:00",
+            "endsAt": "2024-11-30T17:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "a548e82d-2330-41f2-ba0c-c9177c98768c",
+                "name": "Kevin Chiu"
+              },
+              {
+                "id": "490adfc1-9ce5-4468-a023-3cb424b4fa38",
+                "name": "徐 方繹"
+              }
+            ],
+            "categories": [
+              {
+                "id": 84043,
+                "name": "Language",
+                "categoryItems": [
+                  {
+                    "id": 297887,
+                    "name": "中文"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 84046,
+                "name": "Level",
+                "categoryItems": [
+                  {
+                    "id": 297904,
+                    "name": "Introductory and overview"
+                  }
+                ],
+                "sort": 3
+              },
+              {
+                "id": 84049,
+                "name": "Tags",
+                "categoryItems": [
+                  {
+                    "id": 297910,
+                    "name": "AI/ML"
                   }
                 ],
                 "sort": 4
@@ -2065,6 +2672,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -2132,6 +2750,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -2181,7 +2810,7 @@
               },
               {
                 "id": "480c82e9-934d-4a65-bfaf-61718b477607",
-                "name": "宮本 翔太"
+                "name": "翔太 宮本"
               }
             ],
             "categories": [
@@ -2195,6 +2824,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -2254,6 +2894,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -2311,6 +2962,17 @@
                 "sort": 2
               },
               {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 297889,
+                    "name": "Session"
+                  }
+                ],
+                "sort": 1
+              },
+              {
                 "id": 84046,
                 "name": "Level",
                 "categoryItems": [
@@ -2350,12 +3012,12 @@
       },
       {
         "id": 56146,
-        "name": "博 305",
+        "name": "博 203-204",
         "sessions": [
           {
             "id": "774058",
             "title": "運用 Gemini 做出安全性決策",
-            "description": null,
+            "description": "\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
             "startsAt": "2024-11-30T13:20:00",
             "endsAt": "2024-11-30T15:20:00",
             "isServiceSession": false,
@@ -2377,6 +3039,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 308444,
+                    "name": "Workshop"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -2402,7 +3075,7 @@
               }
             ],
             "roomId": 56146,
-            "room": "博 305",
+            "room": "博 203-204",
             "liveUrl": null,
             "recordingUrl": null,
             "status": "Accepted",
@@ -2412,7 +3085,7 @@
           {
             "id": "767506",
             "title": "在 GCP 上使用 Ktor 3.0 架設高效後端服務",
-            "description": "本 workshop 會帶聽眾們一起用 Ktor 3.0 框架建立一個新的網頁服務\r\n並將該服務部署至 GCP 上",
+            "description": "本 workshop 會帶聽眾們一起用 Ktor 3.0 框架建立一個新的網頁服務\r\n並將該服務部署至 GCP 上\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
             "startsAt": "2024-11-30T15:30:00",
             "endsAt": "2024-11-30T17:00:00",
             "isServiceSession": false,
@@ -2434,6 +3107,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 308444,
+                    "name": "Workshop"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -2463,7 +3147,7 @@
               }
             ],
             "roomId": 56146,
-            "room": "博 305",
+            "room": "博 203-204",
             "liveUrl": null,
             "recordingUrl": null,
             "status": "Accepted",
@@ -2475,12 +3159,12 @@
       },
       {
         "id": 56147,
-        "name": "博 309-310",
+        "name": "博 307",
         "sessions": [
           {
             "id": "771018",
             "title": "LIT to Analyze Gemma Models in Keras",
-            "description": null,
+            "description": "\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
             "startsAt": "2024-11-30T13:20:00",
             "endsAt": "2024-11-30T17:00:00",
             "isServiceSession": false,
@@ -2502,6 +3186,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 308444,
+                    "name": "Workshop"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -2527,7 +3222,7 @@
               }
             ],
             "roomId": 56147,
-            "room": "博 309-310",
+            "room": "博 307",
             "liveUrl": null,
             "recordingUrl": null,
             "status": "Accepted",
@@ -2539,12 +3234,77 @@
       },
       {
         "id": 56148,
-        "name": "博 307-308",
+        "name": "博 309-310",
+        "sessions": [
+          {
+            "id": "771017",
+            "title": "Evaluating content safety with ShieldGemma and Keras",
+            "description": "\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
+            "startsAt": "2024-11-30T13:20:00",
+            "endsAt": "2024-11-30T17:00:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "61ad82b5-6ff8-4ed6-bd60-73aad51527ae",
+                "name": "Chen YueXin"
+              }
+            ],
+            "categories": [
+              {
+                "id": 84043,
+                "name": "Language",
+                "categoryItems": [
+                  {
+                    "id": 297887,
+                    "name": "中文"
+                  }
+                ],
+                "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 308444,
+                    "name": "Workshop"
+                  }
+                ],
+                "sort": 1
+              },
+              {
+                "id": 84046,
+                "name": "Level",
+                "categoryItems": [],
+                "sort": 3
+              },
+              {
+                "id": 84049,
+                "name": "Tags",
+                "categoryItems": [],
+                "sort": 4
+              }
+            ],
+            "roomId": 56148,
+            "room": "博 309-310",
+            "liveUrl": null,
+            "recordingUrl": null,
+            "status": "Accepted",
+            "isInformed": true,
+            "isConfirmed": true
+          }
+        ],
+        "hasOnlyPlenumSessions": false
+      },
+      {
+        "id": 56149,
+        "name": "博 311-312",
         "sessions": [
           {
             "id": "771020",
             "title": "LLM Comparator: Running Comparative Evaluations with Google Vertex AI",
-            "description": "LLM（大型語言模型）為自然語言處理帶來新可能。LLM Comparator 是一款對比 LLM 表現的工具，幫助使用者分析不同模型的效果。透過 LLM RAG（檢索增強生成），可以提升模型回應的準確性與相關性。Comparator Colab Demo 則提供互動範例，讓使用者能在 Google Colab 中實際操作並比較 LLM 的表現，輕鬆了解模型特性及應用價值。",
+            "description": "LLM（大型語言模型）為自然語言處理帶來新可能。LLM Comparator 是一款對比 LLM 表現的工具，幫助使用者分析不同模型的效果。透過 LLM RAG（檢索增強生成），可以提升模型回應的準確性與相關性。Comparator Colab Demo 則提供互動範例，讓使用者能在 Google Colab 中實際操作並比較 LLM 的表現，輕鬆了解模型特性及應用價值。\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
             "startsAt": "2024-11-30T13:20:00",
             "endsAt": "2024-11-30T17:00:00",
             "isServiceSession": false,
@@ -2566,6 +3326,17 @@
                   }
                 ],
                 "sort": 2
+              },
+              {
+                "id": 84044,
+                "name": "Session format",
+                "categoryItems": [
+                  {
+                    "id": 308444,
+                    "name": "Workshop"
+                  }
+                ],
+                "sort": 1
               },
               {
                 "id": 84046,
@@ -2594,57 +3365,8 @@
                 "sort": 4
               }
             ],
-            "roomId": 56148,
-            "room": "博 307-308",
-            "liveUrl": null,
-            "recordingUrl": null,
-            "status": "Accepted",
-            "isInformed": true,
-            "isConfirmed": true
-          }
-        ],
-        "hasOnlyPlenumSessions": false
-      },
-      {
-        "id": 56149,
-        "name": "博 312",
-        "sessions": [
-          {
-            "id": "771017",
-            "title": "Evaluating content safety with ShieldGemma and Keras",
-            "description": null,
-            "startsAt": "2024-11-30T13:20:00",
-            "endsAt": "2024-11-30T17:00:00",
-            "isServiceSession": false,
-            "isPlenumSession": false,
-            "speakers": [
-              {
-                "id": "61ad82b5-6ff8-4ed6-bd60-73aad51527ae",
-                "name": "Chen YueXin"
-              }
-            ],
-            "categories": [
-              {
-                "id": 84043,
-                "name": "Language",
-                "categoryItems": [],
-                "sort": 2
-              },
-              {
-                "id": 84046,
-                "name": "Level",
-                "categoryItems": [],
-                "sort": 3
-              },
-              {
-                "id": 84049,
-                "name": "Tags",
-                "categoryItems": [],
-                "sort": 4
-              }
-            ],
             "roomId": 56149,
-            "room": "博 312",
+            "room": "博 311-312",
             "liveUrl": null,
             "recordingUrl": null,
             "status": "Accepted",
@@ -2667,7 +3389,7 @@
               "title": "Registration",
               "description": "會眾報到",
               "startsAt": "2024-11-30T08:30:00",
-              "endsAt": "2024-11-30T09:10:00",
+              "endsAt": "2024-11-30T09:00:00",
               "isServiceSession": true,
               "isPlenumSession": true,
               "speakers": [],
@@ -2685,28 +3407,145 @@
         ]
       },
       {
-        "slotStart": "09:10:00",
+        "slotStart": "09:00:00",
         "rooms": [
           {
             "id": 54036,
             "name": "博 101",
             "session": {
-              "id": "4a0e37c4-d141-4a3a-83c5-455aeb3f6ce9",
-              "title": "Panel Discussion",
-              "description": "Panel Discussion",
-              "startsAt": "2024-11-30T09:10:00",
-              "endsAt": "2024-11-30T11:10:00",
-              "isServiceSession": true,
-              "isPlenumSession": true,
-              "speakers": [],
-              "categories": [],
+              "id": "787900",
+              "title": "Keynote",
+              "description": null,
+              "startsAt": "2024-11-30T09:00:00",
+              "endsAt": "2024-11-30T10:00:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "47f6efe8-b2da-4c1e-a6e5-6dbc9563a05a",
+                  "name": "雅芳 林"
+                },
+                {
+                  "id": "91a3df1a-f2ef-4834-a98e-74c26517c399",
+                  "name": "貴融 吳"
+                },
+                {
+                  "id": "926e57ac-d968-46a3-aecb-4e78939a77d2",
+                  "name": "Eric ShangKuan"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 84043,
+                  "name": "Language",
+                  "categoryItems": [],
+                  "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [],
+                  "sort": 1
+                },
+                {
+                  "id": 84046,
+                  "name": "Level",
+                  "categoryItems": [],
+                  "sort": 3
+                },
+                {
+                  "id": 84049,
+                  "name": "Tags",
+                  "categoryItems": [],
+                  "sort": 4
+                }
+              ],
               "roomId": 54036,
               "room": "博 101",
               "liveUrl": null,
               "recordingUrl": null,
-              "status": null,
-              "isInformed": false,
-              "isConfirmed": false
+              "status": "Accepted",
+              "isInformed": true,
+              "isConfirmed": true
+            },
+            "index": 0
+          }
+        ]
+      },
+      {
+        "slotStart": "10:00:00",
+        "rooms": [
+          {
+            "id": 54036,
+            "name": "博 101",
+            "session": {
+              "id": "787901",
+              "title": "Panel Discussion - Responsible GenAI 驅動的挑戰與資安機會",
+              "description": null,
+              "startsAt": "2024-11-30T10:00:00",
+              "endsAt": "2024-11-30T11:00:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "dbd998e6-8c16-4940-8894-7575f8011f10",
+                  "name": "Denny Huang"
+                },
+                {
+                  "id": "d8407565-63c2-4afa-81c7-f381e01b839a",
+                  "name": "式隆 趙"
+                },
+                {
+                  "id": "ec512cee-68ba-4514-8be0-e89542a096d1",
+                  "name": "銘彰 邱"
+                },
+                {
+                  "id": "e10a74e9-0846-45bf-bb48-57e79f2e610d",
+                  "name": "Jerry Wu"
+                },
+                {
+                  "id": "e20a6f42-21eb-426f-a87c-ff0f1bb59bbe",
+                  "name": "TJ Wei"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 84043,
+                  "name": "Language",
+                  "categoryItems": [
+                    {
+                      "id": 297887,
+                      "name": "中文"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [],
+                  "sort": 1
+                },
+                {
+                  "id": 84046,
+                  "name": "Level",
+                  "categoryItems": [],
+                  "sort": 3
+                },
+                {
+                  "id": 84049,
+                  "name": "Tags",
+                  "categoryItems": [],
+                  "sort": 4
+                }
+              ],
+              "roomId": 54036,
+              "room": "博 101",
+              "liveUrl": null,
+              "recordingUrl": null,
+              "status": "Accepted",
+              "isInformed": true,
+              "isConfirmed": true
             },
             "index": 0
           }
@@ -2743,6 +3582,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -2805,6 +3655,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -2873,6 +3734,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -2939,6 +3811,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -3001,6 +3884,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -3029,7 +3923,7 @@
               "recordingUrl": null,
               "status": "Accepted",
               "isInformed": true,
-              "isConfirmed": false
+              "isConfirmed": true
             },
             "index": 4
           },
@@ -3061,6 +3955,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -3137,6 +4042,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -3183,8 +4099,8 @@
         "slotStart": "12:00:00",
         "rooms": [
           {
-            "id": 54036,
-            "name": "博 101",
+            "id": 54037,
+            "name": "博 102",
             "session": {
               "id": "3d1cd77b-6e17-473d-bdb5-876138f046b7",
               "title": "Lunch",
@@ -3193,6 +4109,34 @@
               "endsAt": "2024-11-30T13:00:00",
               "isServiceSession": true,
               "isPlenumSession": true,
+              "speakers": [],
+              "categories": [],
+              "roomId": 54037,
+              "room": "博 102",
+              "liveUrl": null,
+              "recordingUrl": null,
+              "status": null,
+              "isInformed": false,
+              "isConfirmed": false
+            },
+            "index": 1
+          }
+        ]
+      },
+      {
+        "slotStart": "12:10:00",
+        "rooms": [
+          {
+            "id": 54036,
+            "name": "博 101",
+            "session": {
+              "id": "69ccd6c3-c672-4f5c-aad5-274aac37da44",
+              "title": "Adecco 不藏私分享：建立讓獵頭和人資找上門的 LinkedIn Profile",
+              "description": null,
+              "startsAt": "2024-11-30T12:10:00",
+              "endsAt": "2024-11-30T12:50:00",
+              "isServiceSession": true,
+              "isPlenumSession": false,
               "speakers": [],
               "categories": [],
               "roomId": 54036,
@@ -3240,6 +4184,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -3275,6 +4230,64 @@
               "isConfirmed": true
             },
             "index": 0
+          },
+          {
+            "id": 56136,
+            "name": "博 201",
+            "session": {
+              "id": "785819",
+              "title": "Z世代的超能力：NotebookLM的十倍速學習法",
+              "description": null,
+              "startsAt": "2024-11-30T13:00:00",
+              "endsAt": "2024-11-30T13:40:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "cf96e5ec-c65d-4012-b5da-4701e716e3cc",
+                  "name": "otto yen"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 84043,
+                  "name": "Language",
+                  "categoryItems": [],
+                  "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 84046,
+                  "name": "Level",
+                  "categoryItems": [],
+                  "sort": 3
+                },
+                {
+                  "id": 84049,
+                  "name": "Tags",
+                  "categoryItems": [],
+                  "sort": 4
+                }
+              ],
+              "roomId": 56136,
+              "room": "博 201",
+              "liveUrl": null,
+              "recordingUrl": null,
+              "status": "Accepted",
+              "isInformed": true,
+              "isConfirmed": true
+            },
+            "index": 3
           }
         ]
       },
@@ -3309,6 +4322,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 298091,
+                      "name": "Short Talk"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -3381,6 +4405,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 298091,
+                      "name": "Short Talk"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -3419,11 +4454,11 @@
           },
           {
             "id": 56146,
-            "name": "博 305",
+            "name": "博 203-204",
             "session": {
               "id": "774058",
               "title": "運用 Gemini 做出安全性決策",
-              "description": null,
+              "description": "\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
               "startsAt": "2024-11-30T13:20:00",
               "endsAt": "2024-11-30T15:20:00",
               "isServiceSession": false,
@@ -3445,6 +4480,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 308444,
+                      "name": "Workshop"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -3470,7 +4516,7 @@
                 }
               ],
               "roomId": 56146,
-              "room": "博 305",
+              "room": "博 203-204",
               "liveUrl": null,
               "recordingUrl": null,
               "status": "Accepted",
@@ -3481,11 +4527,11 @@
           },
           {
             "id": 56147,
-            "name": "博 309-310",
+            "name": "博 307",
             "session": {
               "id": "771018",
               "title": "LIT to Analyze Gemma Models in Keras",
-              "description": null,
+              "description": "\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
               "startsAt": "2024-11-30T13:20:00",
               "endsAt": "2024-11-30T17:00:00",
               "isServiceSession": false,
@@ -3507,6 +4553,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 308444,
+                      "name": "Workshop"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -3532,7 +4589,7 @@
                 }
               ],
               "roomId": 56147,
-              "room": "博 309-310",
+              "room": "博 307",
               "liveUrl": null,
               "recordingUrl": null,
               "status": "Accepted",
@@ -3543,11 +4600,74 @@
           },
           {
             "id": 56148,
-            "name": "博 307-308",
+            "name": "博 309-310",
+            "session": {
+              "id": "771017",
+              "title": "Evaluating content safety with ShieldGemma and Keras",
+              "description": "\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
+              "startsAt": "2024-11-30T13:20:00",
+              "endsAt": "2024-11-30T17:00:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "61ad82b5-6ff8-4ed6-bd60-73aad51527ae",
+                  "name": "Chen YueXin"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 84043,
+                  "name": "Language",
+                  "categoryItems": [
+                    {
+                      "id": 297887,
+                      "name": "中文"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 308444,
+                      "name": "Workshop"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 84046,
+                  "name": "Level",
+                  "categoryItems": [],
+                  "sort": 3
+                },
+                {
+                  "id": 84049,
+                  "name": "Tags",
+                  "categoryItems": [],
+                  "sort": 4
+                }
+              ],
+              "roomId": 56148,
+              "room": "博 309-310",
+              "liveUrl": null,
+              "recordingUrl": null,
+              "status": "Accepted",
+              "isInformed": true,
+              "isConfirmed": true
+            },
+            "index": 9
+          },
+          {
+            "id": 56149,
+            "name": "博 311-312",
             "session": {
               "id": "771020",
               "title": "LLM Comparator: Running Comparative Evaluations with Google Vertex AI",
-              "description": "LLM（大型語言模型）為自然語言處理帶來新可能。LLM Comparator 是一款對比 LLM 表現的工具，幫助使用者分析不同模型的效果。透過 LLM RAG（檢索增強生成），可以提升模型回應的準確性與相關性。Comparator Colab Demo 則提供互動範例，讓使用者能在 Google Colab 中實際操作並比較 LLM 的表現，輕鬆了解模型特性及應用價值。",
+              "description": "LLM（大型語言模型）為自然語言處理帶來新可能。LLM Comparator 是一款對比 LLM 表現的工具，幫助使用者分析不同模型的效果。透過 LLM RAG（檢索增強生成），可以提升模型回應的準確性與相關性。Comparator Colab Demo 則提供互動範例，讓使用者能在 Google Colab 中實際操作並比較 LLM 的表現，輕鬆了解模型特性及應用價值。\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
               "startsAt": "2024-11-30T13:20:00",
               "endsAt": "2024-11-30T17:00:00",
               "isServiceSession": false,
@@ -3569,6 +4689,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 308444,
+                      "name": "Workshop"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -3597,55 +4728,8 @@
                   "sort": 4
                 }
               ],
-              "roomId": 56148,
-              "room": "博 307-308",
-              "liveUrl": null,
-              "recordingUrl": null,
-              "status": "Accepted",
-              "isInformed": true,
-              "isConfirmed": true
-            },
-            "index": 9
-          },
-          {
-            "id": 56149,
-            "name": "博 312",
-            "session": {
-              "id": "771017",
-              "title": "Evaluating content safety with ShieldGemma and Keras",
-              "description": null,
-              "startsAt": "2024-11-30T13:20:00",
-              "endsAt": "2024-11-30T17:00:00",
-              "isServiceSession": false,
-              "isPlenumSession": false,
-              "speakers": [
-                {
-                  "id": "61ad82b5-6ff8-4ed6-bd60-73aad51527ae",
-                  "name": "Chen YueXin"
-                }
-              ],
-              "categories": [
-                {
-                  "id": 84043,
-                  "name": "Language",
-                  "categoryItems": [],
-                  "sort": 2
-                },
-                {
-                  "id": 84046,
-                  "name": "Level",
-                  "categoryItems": [],
-                  "sort": 3
-                },
-                {
-                  "id": 84049,
-                  "name": "Tags",
-                  "categoryItems": [],
-                  "sort": 4
-                }
-              ],
               "roomId": 56149,
-              "room": "博 312",
+              "room": "博 311-312",
               "liveUrl": null,
               "recordingUrl": null,
               "status": "Accepted",
@@ -3689,6 +4773,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -3717,7 +4812,7 @@
               "recordingUrl": null,
               "status": "Accepted",
               "isInformed": true,
-              "isConfirmed": false
+              "isConfirmed": true
             },
             "index": 0
           },
@@ -3749,6 +4844,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -3811,6 +4917,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -3883,6 +5000,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -3947,6 +5075,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -4019,6 +5158,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -4079,6 +5229,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -4148,6 +5309,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -4208,6 +5380,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -4276,6 +5459,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -4340,6 +5534,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -4416,6 +5621,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -4478,6 +5694,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -4536,7 +5763,7 @@
                 },
                 {
                   "id": "480c82e9-934d-4a65-bfaf-61718b477607",
-                  "name": "宮本 翔太"
+                  "name": "翔太 宮本"
                 }
               ],
               "categories": [
@@ -4550,6 +5777,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -4617,6 +5855,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -4689,6 +5938,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -4725,7 +5985,7 @@
               "recordingUrl": null,
               "status": "Accepted",
               "isInformed": true,
-              "isConfirmed": false
+              "isConfirmed": true
             },
             "index": 1
           },
@@ -4757,6 +6017,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -4833,6 +6104,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -4899,6 +6181,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -4959,6 +6252,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -5035,6 +6339,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -5069,11 +6384,11 @@
           },
           {
             "id": 56146,
-            "name": "博 305",
+            "name": "博 203-204",
             "session": {
               "id": "767506",
               "title": "在 GCP 上使用 Ktor 3.0 架設高效後端服務",
-              "description": "本 workshop 會帶聽眾們一起用 Ktor 3.0 框架建立一個新的網頁服務\r\n並將該服務部署至 GCP 上",
+              "description": "本 workshop 會帶聽眾們一起用 Ktor 3.0 框架建立一個新的網頁服務\r\n並將該服務部署至 GCP 上\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
               "startsAt": "2024-11-30T15:30:00",
               "endsAt": "2024-11-30T17:00:00",
               "isServiceSession": false,
@@ -5095,6 +6410,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 308444,
+                      "name": "Workshop"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -5124,7 +6450,7 @@
                 }
               ],
               "roomId": 56146,
-              "room": "博 305",
+              "room": "博 203-204",
               "liveUrl": null,
               "recordingUrl": null,
               "status": "Accepted",
@@ -5166,6 +6492,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -5230,6 +6567,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -5290,6 +6638,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -5354,6 +6713,17 @@
                   "sort": 2
                 },
                 {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
                   "id": 84046,
                   "name": "Level",
                   "categoryItems": [
@@ -5411,8 +6781,24 @@
                 {
                   "id": 84043,
                   "name": "Language",
-                  "categoryItems": [],
+                  "categoryItems": [
+                    {
+                      "id": 297887,
+                      "name": "中文"
+                    }
+                  ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,
@@ -5433,9 +6819,86 @@
               "recordingUrl": null,
               "status": "Accepted",
               "isInformed": true,
-              "isConfirmed": false
+              "isConfirmed": true
             },
             "index": 4
+          },
+          {
+            "id": 56137,
+            "name": "博 301",
+            "session": {
+              "id": "786737",
+              "title": "使用Gemini 的 AI 工作術",
+              "description": null,
+              "startsAt": "2024-11-30T16:20:00",
+              "endsAt": "2024-11-30T17:00:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "a548e82d-2330-41f2-ba0c-c9177c98768c",
+                  "name": "Kevin Chiu"
+                },
+                {
+                  "id": "490adfc1-9ce5-4468-a023-3cb424b4fa38",
+                  "name": "徐 方繹"
+                }
+              ],
+              "categories": [
+                {
+                  "id": 84043,
+                  "name": "Language",
+                  "categoryItems": [
+                    {
+                      "id": 297887,
+                      "name": "中文"
+                    }
+                  ],
+                  "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
+                },
+                {
+                  "id": 84046,
+                  "name": "Level",
+                  "categoryItems": [
+                    {
+                      "id": 297904,
+                      "name": "Introductory and overview"
+                    }
+                  ],
+                  "sort": 3
+                },
+                {
+                  "id": 84049,
+                  "name": "Tags",
+                  "categoryItems": [
+                    {
+                      "id": 297910,
+                      "name": "AI/ML"
+                    }
+                  ],
+                  "sort": 4
+                }
+              ],
+              "roomId": 56137,
+              "room": "博 301",
+              "liveUrl": null,
+              "recordingUrl": null,
+              "status": "Accepted",
+              "isInformed": true,
+              "isConfirmed": true
+            },
+            "index": 5
           },
           {
             "id": 56138,
@@ -5465,6 +6928,17 @@
                     }
                   ],
                   "sort": 2
+                },
+                {
+                  "id": 84044,
+                  "name": "Session format",
+                  "categoryItems": [
+                    {
+                      "id": 297889,
+                      "name": "Session"
+                    }
+                  ],
+                  "sort": 1
                 },
                 {
                   "id": 84046,

@@ -1,2 +1,3 @@
 *.js
-output/*
+output/
+node_modules/

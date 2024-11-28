@@ -1,0 +1,16 @@
+{
+  "name": "dev-fest-2024-misc",
+  "version": "1.0.0",
+  "description": "將 sessionize 的檔案轉換成統一格式",
+  "main": "convert_sessions.js",
+  "scripts": {
+    "convert:sessions": "npx ts-node convert_sessions.ts",
+    "convert:speakers": "npx ts-node convert_speakers.ts",
+    "print:tags": "npx ts-node print_tags.ts"
+  },
+  "author": "Kashiwa",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}

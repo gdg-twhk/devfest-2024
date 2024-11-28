@@ -181,6 +181,63 @@
     "categories": []
   },
   {
+    "id": "dbd998e6-8c16-4940-8894-7575f8011f10",
+    "firstName": "Denny",
+    "lastName": "Huang",
+    "fullName": "Denny Huang",
+    "bio": "GDG Cloud Taipei Organizer、SITCON 學生計算機年會共同發起人，目前於雷亞遊戲（Rayark Inc.）擔任 Data Analysis Manager；在正規教育中特立獨行，妄想透過改善教育讓台灣更進步，崇尚開源精神，熱愛使用者界面以外的多項技術。",
+    "tagLine": "GDG Cloud Taipei Organizer",
+    "profilePicture": "https://sessionize.com/image/6a10-400o400o1-sm8Fie2YSQZ2jjF53hdVGS.jpg",
+    "sessions": [
+      {
+        "id": 787901,
+        "name": "Panel Discussion - Responsible GenAI 驅動的挑戰與資安機會"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/denny-huang/",
+        "linkType": "LinkedIn"
+      },
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/denny0223/",
+        "linkType": "Facebook"
+      },
+      {
+        "title": "Instagram",
+        "url": "https://www.instagram.com/denny0223/",
+        "linkType": "Instagram"
+      },
+      {
+        "title": "Company Website",
+        "url": "https://denny.one/",
+        "linkType": "Company_Website"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 84050,
+        "question": "Display Name",
+        "questionType": "Short_Text",
+        "answer": "Denny Huang",
+        "sort": 20,
+        "answerExtra": null
+      },
+      {
+        "id": 84057,
+        "question": "Company/Community Name",
+        "questionType": "Short_Text",
+        "answer": "GDG Cloud Taipei Organizer",
+        "sort": 21,
+        "answerExtra": null
+      }
+    ],
+    "categories": []
+  },
+  {
     "id": "2ab7a51f-5d46-4e5e-b9f1-53df68697012",
     "firstName": "El",
     "lastName": "Zhang",
@@ -283,6 +340,42 @@
         "question": "Company/Community Name",
         "questionType": "Short_Text",
         "answer": "APMIC",
+        "sort": 21,
+        "answerExtra": null
+      }
+    ],
+    "categories": []
+  },
+  {
+    "id": "926e57ac-d968-46a3-aecb-4e78939a77d2",
+    "firstName": "Eric",
+    "lastName": "ShangKuan",
+    "fullName": "Eric ShangKuan",
+    "bio": null,
+    "tagLine": "Developer Relations Program Maanger Google",
+    "profilePicture": "https://sessionize.com/image/a559-400o400o1-N6cQos76zrD65fFU1su1hd.jpg",
+    "sessions": [
+      {
+        "id": 787900,
+        "name": "Keynote"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 84050,
+        "question": "Display Name",
+        "questionType": "Short_Text",
+        "answer": "Eric ShangKuan",
+        "sort": 20,
+        "answerExtra": null
+      },
+      {
+        "id": 84057,
+        "question": "Company/Community Name",
+        "questionType": "Short_Text",
+        "answer": "Google",
         "sort": 21,
         "answerExtra": null
       }
@@ -536,6 +629,10 @@
     "tagLine": "Google Developer Expert",
     "profilePicture": "https://sessionize.com/image/7ceb-400o400o1-4PtGnGeMBDCv75wuXd2S9c.png",
     "sessions": [
+      {
+        "id": 787901,
+        "name": "Panel Discussion - Responsible GenAI 驅動的挑戰與資安機會"
+      },
       {
         "id": 750314,
         "name": "ShieldGemma、Gemma Scope、DataGemma與RIG"
@@ -808,6 +905,53 @@
     "categories": []
   },
   {
+    "id": "a548e82d-2330-41f2-ba0c-c9177c98768c",
+    "firstName": "Kevin",
+    "lastName": "Chiu",
+    "fullName": "Kevin Chiu",
+    "bio": "https://www.facebook.com/groups/480913682648708/?ref=group_header",
+    "tagLine": "TWM",
+    "profilePicture": "https://sessionize.com/image/612d-400o400o1-2d-2330-41f2-ba0c-c9177c98768c.2179abc7-9116-40ff-a2c6-a21f78d76649.jpg",
+    "sessions": [
+      {
+        "id": 786737,
+        "name": "使用Gemini 的 AI 工作術"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/kevin.chiu.9655",
+        "linkType": "Facebook"
+      },
+      {
+        "title": "Sessionize",
+        "url": "https://sessionize.com/kevin-chiu",
+        "linkType": "Sessionize"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 84050,
+        "question": "Display Name",
+        "questionType": "Short_Text",
+        "answer": "Kevin Chiu",
+        "sort": 20,
+        "answerExtra": null
+      },
+      {
+        "id": 84057,
+        "question": "Company/Community Name",
+        "questionType": "Short_Text",
+        "answer": "GDG Taipei Organizer",
+        "sort": 21,
+        "answerExtra": null
+      }
+    ],
+    "categories": []
+  },
+  {
     "id": "cd751024-0725-493f-89f5-28e6530007d4",
     "firstName": "Mansun",
     "lastName": "Kuo",
@@ -998,6 +1142,42 @@
         "question": "Company/Community Name",
         "questionType": "Short_Text",
         "answer": "Angular Taiwan",
+        "sort": 21,
+        "answerExtra": null
+      }
+    ],
+    "categories": []
+  },
+  {
+    "id": "cf96e5ec-c65d-4012-b5da-4701e716e3cc",
+    "firstName": "otto",
+    "lastName": "yen",
+    "fullName": "otto yen",
+    "bio": null,
+    "tagLine": null,
+    "profilePicture": null,
+    "sessions": [
+      {
+        "id": 785819,
+        "name": "Z世代的超能力：NotebookLM的十倍速學習法"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 84050,
+        "question": "Display Name",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 20,
+        "answerExtra": null
+      },
+      {
+        "id": 84057,
+        "question": "Company/Community Name",
+        "questionType": "Short_Text",
+        "answer": null,
         "sort": 21,
         "answerExtra": null
       }
@@ -1419,6 +1599,10 @@
     "tagLine": "GDE",
     "profilePicture": "https://sessionize.com/image/c297-400o400o1-pcnTAWE98EfwGGbw9xN9nE.jpg",
     "sessions": [
+      {
+        "id": 787901,
+        "name": "Panel Discussion - Responsible GenAI 驅動的挑戰與資安機會"
+      },
       {
         "id": 769073,
         "name": "打造靈活多樣的 AI 未來：Gemma 生態系統"
@@ -1955,6 +2139,42 @@
     "categories": []
   },
   {
+    "id": "d8407565-63c2-4afa-81c7-f381e01b839a",
+    "firstName": "式隆",
+    "lastName": "趙",
+    "fullName": "式隆 趙",
+    "bio": "趙式隆先生是現任臺北市政府資訊局局長。作為一位資料科學家與行動主義者，趙先生致力於以開放原始碼的精神，打造臺北成為數位世界中的自由、平等與博愛之城。\r\n\r\n在就任目前職務之前，趙先生是一位公認的連續創業家與創新者，擁有近二十年的產業經驗。在他創辦的公司中，最知名的兩家分別是學悅科技 (Zuvio) 和洽吧智能 (BravoAI)。學悅科技是一家成立於 2013 年，專注於教育科技的平台公司；洽吧智能則是一家成立於 2017 年，使用人工智慧實現保險自動化的金融科技公司。2023 年，學悅科技被成功收購；與此同時，洽吧智能則繼續由創始團隊經營，至今仍是臺灣保險科技產業的龍頭。\r\n\r\n在學術領域方面，趙先生的研究興趣包括無線行動網路、現代人工智慧和數位治理。趙先生於 2008 年共同創辦了國立臺灣大學創意創業學程，成為臺灣創業教育的先驅之一。隨後，他先後任教於國立臺灣大學電機工程學系和國立陽明交通大學經營管理研究所。目前，趙先生仍於國立臺灣大學創意創業學程兼任助理教授一職。\r\n\r\n趙式隆先生擁有國立臺灣大學電機工程學學士與碩士學位。\r\n",
+    "tagLine": "臺北市政府資訊局 局長",
+    "profilePicture": "https://sessionize.com/image/ddba-400o400o1-EwZZZu3czFGTZf56aUjLCu.jpg",
+    "sessions": [
+      {
+        "id": 787901,
+        "name": "Panel Discussion - Responsible GenAI 驅動的挑戰與資安機會"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 84050,
+        "question": "Display Name",
+        "questionType": "Short_Text",
+        "answer": "趙式隆",
+        "sort": 20,
+        "answerExtra": null
+      },
+      {
+        "id": 84057,
+        "question": "Company/Community Name",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 21,
+        "answerExtra": null
+      }
+    ],
+    "categories": []
+  },
+  {
     "id": "3a6bdfde-22f7-4708-b1be-c3f5881d3a7b",
     "firstName": "彥彬",
     "lastName": "洪",
@@ -1995,6 +2215,48 @@
         "question": "Company/Community Name",
         "questionType": "Short_Text",
         "answer": "PicCollage",
+        "sort": 21,
+        "answerExtra": null
+      }
+    ],
+    "categories": []
+  },
+  {
+    "id": "490adfc1-9ce5-4468-a023-3cb424b4fa38",
+    "firstName": "徐",
+    "lastName": "方繹",
+    "fullName": "徐 方繹",
+    "bio": "曾任職於大型銀行、證券、金融機構及上市櫃公司資安主管;\r\n十餘年資訊工作及八年金融資安歷練曾管理跨國資安團隊;\r\n近年專注雲端資安 / AI安全架構  ;\r\n現任GDG Taipei Organizer , GDG Build with AI Speaker.\r\n",
+    "tagLine": "GDG Taipei Organizer",
+    "profilePicture": "https://sessionize.com/image/28a7-400o400o1-6f5e6fca-785e-46ca-8c41-294272cc0ec5.jpg",
+    "sessions": [
+      {
+        "id": 786737,
+        "name": "使用Gemini 的 AI 工作術"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/fngishiu/",
+        "linkType": "LinkedIn"
+      }
+    ],
+    "questionAnswers": [
+      {
+        "id": 84050,
+        "question": "Display Name",
+        "questionType": "Short_Text",
+        "answer": "Fngi Shiu",
+        "sort": 20,
+        "answerExtra": null
+      },
+      {
+        "id": 84057,
+        "question": "Company/Community Name",
+        "questionType": "Short_Text",
+        "answer": "GDG Taipei ",
         "sort": 21,
         "answerExtra": null
       }
@@ -2067,6 +2329,114 @@
         "question": "Company/Community Name",
         "questionType": "Short_Text",
         "answer": "ExpTech Ltd.",
+        "sort": 21,
+        "answerExtra": null
+      }
+    ],
+    "categories": []
+  },
+  {
+    "id": "91a3df1a-f2ef-4834-a98e-74c26517c399",
+    "firstName": "貴融",
+    "lastName": " 吳",
+    "fullName": "貴融 吳",
+    "bio": "KJ 負責 Google Cloud Taiwan 團隊的技術解決方案主管，所帶領的Google Cloud技術團隊主要協助不同規模的企業擬定雲端策略與採行雲端解決方案。加入 Google 以前，KJ曾帶領海外FineTech新創團隊，並歷任大型顧問與雲端跨國企業，擔任各種技術與管理職位，包括研發、軟體工程、雲端架構、企業策略規劃等管理職務。\r\n",
+    "tagLine": "Google Cloud 雲端技術副總",
+    "profilePicture": "https://sessionize.com/image/014a-400o400o1-fc1GQtELSAZTC9HP9B9dyP.jpg",
+    "sessions": [
+      {
+        "id": 787900,
+        "name": "Keynote"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 84050,
+        "question": "Display Name",
+        "questionType": "Short_Text",
+        "answer": "KJ Wu (吳貴融)",
+        "sort": 20,
+        "answerExtra": null
+      },
+      {
+        "id": 84057,
+        "question": "Company/Community Name",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 21,
+        "answerExtra": null
+      }
+    ],
+    "categories": []
+  },
+  {
+    "id": "ec512cee-68ba-4514-8be0-e89542a096d1",
+    "firstName": "銘彰",
+    "lastName": "邱",
+    "fullName": "銘彰 邱",
+    "bio": "奧義智慧科技創辦人，台灣駭客協會顧問。多次在國際知名研討會發表專業的資安技術研究，如 Black Hat、DEFCON、SyScan、HITCON、FIRST、AVTokyo、HTICA、OWASP Asia 與 iThome CYBERSEC 等，臺灣資安界著名的連續創業者。目前創辦的奧義智慧科技，專注在人工智慧與資安科技領域的結合上。",
+    "tagLine": "奧義智慧科技 技術長暨共同創辦人",
+    "profilePicture": "https://sessionize.com/image/f2da-400o400o1-fuVDc9a4pPuBPrKonYtzD9.jpg",
+    "sessions": [
+      {
+        "id": 787901,
+        "name": "Panel Discussion - Responsible GenAI 驅動的挑戰與資安機會"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 84050,
+        "question": "Display Name",
+        "questionType": "Short_Text",
+        "answer": "邱銘彰",
+        "sort": 20,
+        "answerExtra": null
+      },
+      {
+        "id": 84057,
+        "question": "Company/Community Name",
+        "questionType": "Short_Text",
+        "answer": null,
+        "sort": 21,
+        "answerExtra": null
+      }
+    ],
+    "categories": []
+  },
+  {
+    "id": "47f6efe8-b2da-4c1e-a6e5-6dbc9563a05a",
+    "firstName": "雅芳",
+    "lastName": "林",
+    "fullName": "雅芳 林",
+    "bio": "林雅芳負責管理 Google 台灣的銷售與業務開發經營，並積極推廣多元、平等、包容的職場環境與社會⽂化。她帶領團隊為合作夥伴與客⼾提供顧問服務與數位解決⽅案，協助他們更深⼊了解產業與消費趨勢，提出策略建議，並達成合作夥伴在台灣與全球各地的業務⽬標。此外，林雅芳亦⻑期關注台灣數位經濟成⻑、國際競爭⼒與新創產業動態，並致⼒於協助台灣企業轉型以及促進在地⼈才成⻑動能。\r\n\r\n林雅芳於 2019 年 9 ⽉就任 Google 台灣總經理⼀職，在硬體、軟體、網路等科技產業擁有多年的豐富經驗。她於 2014 年加⼊ Google ，幫助科技、電信、旅遊和出⼝等業務⼤幅成⻑；在加⼊ Google 之前，她曾任職於 Intel 、微軟和華碩，擔任過各種國際市場業務、⾏銷及營運管理職務。\r\n\r\n林雅芳擁有國⽴臺灣⼤學⼯商管理學系學⼠學位。\r\n軟體 / 硬體 / 網路，三重混⾎的科技⼈, 關⼼、影響⽽貢獻:\r\n\r\n#「從台灣放眼世界、讓世界看⾒台灣」\r\n# 創新、新創和永續\r\n# 成⻑⽐成功重要的⼈才培育與終身學習\r\n# 弱勢教育均等\r\n# 多元平等包容的友善職場環境\r\n\r\n相信「正念、學習、感恩和活在當下」，期許⾃⼰敬業專業更樂業，對世界需要的事能盡⼀分⼼⼒的⼈",
+    "tagLine": "Google 台灣總經理，Managing Director Sales & Operation, Google Taiwan",
+    "profilePicture": "https://sessionize.com/image/2c77-400o400o1-BmQHkrCgzqPi1RBL3F5P5x.jpg",
+    "sessions": [
+      {
+        "id": 787900,
+        "name": "Keynote"
+      }
+    ],
+    "isTopSpeaker": false,
+    "links": [],
+    "questionAnswers": [
+      {
+        "id": 84050,
+        "question": "Display Name",
+        "questionType": "Short_Text",
+        "answer": "林雅芳 (Tina Lin)",
+        "sort": 20,
+        "answerExtra": null
+      },
+      {
+        "id": 84057,
+        "question": "Company/Community Name",
+        "questionType": "Short_Text",
+        "answer": null,
         "sort": 21,
         "answerExtra": null
       }

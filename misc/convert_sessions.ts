@@ -13,11 +13,13 @@ class GeneratedCategoryInfo {
     public level: string,
     public language: string,
     public tags: string[],
+    public sessionFormat: string,
   ) {}
   static fromCategory(value: Category[]): GeneratedCategoryInfo {
     let level: string = '';
     let lang: string = '';
     let tags: string[] = [];
+    let sessionFormat: string = '';
     for (let i = 0; i < value.length; i++) {
       const v = value[i];
       switch (v.name) {
@@ -32,9 +34,11 @@ class GeneratedCategoryInfo {
         case 'Tags':
           tags = v.categoryItems.map((u) => u.name);
           break;
+        case 'Session format':
+          sessionFormat = v.categoryItems.map((u) => u.name).join(', ');
       }
     }
-    return new GeneratedCategoryInfo(level, lang, tags);
+    return new GeneratedCategoryInfo(level, lang, tags, sessionFormat);
   }
 }
 
@@ -87,6 +91,7 @@ interface ExportedSession {
   speakers: string[]; // speaker_id
   tags: string[];
   title: string;
+  format: string; // Session, Short Talk, Workshop
 }
 
 interface ExportedTimeslot {
@@ -128,8 +133,6 @@ for (const schedule of schedules) {
     invertedTracksTable.set(room.name, idx);
   });
 
-  console.log(invertedTracksTable);
-
   for (const slot of schedule.timeSlots) {
     const sessions: ({
       items: string[];
@@ -152,6 +155,7 @@ for (const schedule of schedules) {
         }),
         tags: session.generatedCategories.tags,
         title: session.title,
+        format: session.generatedCategories.sessionFormat,
       });
 
       // 這部分是有順序性的
@@ -160,7 +164,6 @@ for (const schedule of schedules) {
       if (idx === undefined) {
         console.error(`${session.room} not in rooms list`);
       } else {
-        console.log(`${idx}: ${session.id}`);
         if (sessions[idx] === undefined) {
           sessions[idx] = { items: [session.id] };
         } else {

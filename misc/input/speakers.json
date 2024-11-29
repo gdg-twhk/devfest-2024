@@ -1149,13 +1149,13 @@
     "categories": []
   },
   {
-    "id": "cf96e5ec-c65d-4012-b5da-4701e716e3cc",
-    "firstName": "otto",
-    "lastName": "yen",
-    "fullName": "otto yen",
-    "bio": null,
-    "tagLine": null,
-    "profilePicture": null,
+    "id": "14286db9-aced-47cb-8c5a-4b9da1b1f559",
+    "firstName": "Otto",
+    "lastName": "Yen",
+    "fullName": "Otto Yen",
+    "bio": "I serve as a Cloud Architect at Cathay Financial Holdings’ DDT, where I drive the group’s cloud transformation initiatives. My responsibilities include developing cloud adoption strategies, supporting subsidiaries in achieving cloud readiness, and overseeing hybrid cloud network design, cloud-native application architecture, governance frameworks, and organizational preparation.",
+    "tagLine": "Cloud Architect, Cathay Financial Holdings",
+    "profilePicture": "https://sessionize.com/image/821c-400o400o1-WYrbEELn6nDhN6NtwbKzJZ.png",
     "sessions": [
       {
         "id": 785819,
@@ -1169,7 +1169,7 @@
         "id": 84050,
         "question": "Display Name",
         "questionType": "Short_Text",
-        "answer": null,
+        "answer": "Otto Yen",
         "sort": 20,
         "answerExtra": null
       },

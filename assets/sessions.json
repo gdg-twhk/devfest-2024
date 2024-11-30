@@ -1,0 +1,810 @@
+{
+    "748931": {
+        "complexity": "Intermediate",
+        "description": "本演講將介紹 proxy-to-gemini 專案，這是一個由 Google 開源的 Proxy 伺服器，讓開發者能夠使用熟悉的 OpenAI 或 Ollama API 來與 Google 的 Gemini AI 模型進行互動。我們將深入探討如何設定和使用這個工具，來快速的將原有的 AI 應用轉移到 Gemini AI 進行測試。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "6746e447-798f-4c2d-8107-1fd5ecb7d4c2"
+        ],
+        "tags": [
+            "AI/ML"
+        ],
+        "title": "無痛透過 OpenAI/Ollama API 來體驗 Google Gemini 模型",
+        "format": "Session",
+        "startTime": "2024-11-30T16:20:00",
+        "endTime": "2024-11-30T17:00:00"
+    },
+    "750314": {
+        "complexity": "Intermediate",
+        "description": "介紹最新Google在Gemma家族上的近況與應用方式，以及Google提出的RIG方法。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "e10a74e9-0846-45bf-bb48-57e79f2e610d"
+        ],
+        "tags": [
+            "AI/ML"
+        ],
+        "title": "ShieldGemma、Gemma Scope、DataGemma與RIG",
+        "format": "Session",
+        "startTime": "2024-11-30T11:20:00",
+        "endTime": "2024-11-30T12:00:00"
+    },
+    "750643": {
+        "complexity": "Intermediate",
+        "description": "Angular 近幾版大動作不斷，其中最引人注意的莫過於 Angular Signals 了，透過 Angular Signals 機制可以讓我們以更加 reactive 的方式開發彈性高且易於維護的程式，同時也帶來了更好的效能表現！\r\n\r\n本次分享將以 Angular Signals 為主軸，分享在實際專案開始導入 Angular Signals 後的實務經驗以及注意事項，幫助您快速開始使用 Angular Signals 開發高效乾淨的應用程式",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "ededcdda-e0a5-47c9-8adc-34f759ea2271"
+        ],
+        "tags": [
+            "Angular"
+        ],
+        "title": "Angular Signals 高效能開發演練",
+        "format": "Session",
+        "startTime": "2024-11-30T13:50:00",
+        "endTime": "2024-11-30T14:30:00"
+    },
+    "755506": {
+        "complexity": "Advanced",
+        "description": "在這次演講中，我將分享如何利用WebCodecs和WebGPU等瀏覽器原生功能，實現即時串流的瀏覽器端影像編輯。傳統上，瀏覽器處理影片涉及完整的封裝，限制了開發者對即時影像的編輯彈性。WebCodecs讓我們能夠獲取每幀影像進行客製化處理，而WebGPU則進一步提供GPU加速，提升效能。這種技術未來可以實現瀏覽器端的串流內容個人化，例如讓喜歡特定成員的觀眾在即時轉播中，始終看到他們想看的畫面，應用於廣告與行銷領域也具潛力。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "b475c998-3c6d-4329-b2f0-ff113d8a047c"
+        ],
+        "tags": [
+            "Mobile",
+            "Web",
+            "AI/ML",
+            "Chrome"
+        ],
+        "title": "WebCodecs + WebGPU：開啟個人化串流新視界",
+        "format": "Session",
+        "startTime": "2024-11-30T15:30:00",
+        "endTime": "2024-11-30T16:10:00"
+    },
+    "760706": {
+        "complexity": "Intermediate",
+        "description": "在現代軟體開發中，高效的 CI/CD 流程至關重要。本次演講將探討如何結合 Kubernetes、Terraform 和 GitHub Actions 這三大強力工具，構建一個自動擴展的 CI/CD 基礎設施。\r\n我們將討論：\r\n\r\n1. 自動擴展在 CI/CD 中的重要性\r\n2. Kubernetes 作為 CI/CD 執行器平台的優勢\r\n3. 使用 Terraform 實現基礎設施即代碼\r\n4. GitHub Actions 與 Kubernetes 的集成\r\n5. 實際部署步驟和最佳實踐\r\n\r\n無論您是 DevOps 工程師、開發人員還是技術主管，本演講都將為您提供寶貴的見解，幫助您優化開發流程，提高效率和可擴展性。\r\n讓我們一起探索如何利用這些尖端技術，為您的團隊打造更強大、更靈活的 CI/CD 解決方案！",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "07f9c3c5-c8e6-4187-8bc6-c6f17129faa8"
+        ],
+        "tags": [
+            "Cloud",
+            "DevOps"
+        ],
+        "title": "Kubernetes, Terraform, and GitHub Actions: Deploying Autoscaling CI/CD Runners",
+        "format": "Session",
+        "startTime": "2024-11-30T13:50:00",
+        "endTime": "2024-11-30T14:30:00"
+    },
+    "761014": {
+        "complexity": "Intermediate",
+        "description": "行動應用資安聯盟已於九月五日,正式發佈行動應用App基本資安檢測基準V4.0,明年即將全面施行,儘管在緩衝期間仍可選擇基準V3.2為檢測依據,但開發者及相關從業人員仍須及早做好準備,了解新版基準的變化,進而能讓App符合相關技術要求.",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "7c425327-0d8d-4b33-9f39-72d7c7a44909"
+        ],
+        "tags": [
+            "Mobile"
+        ],
+        "title": "如何因應App檢測基準V4.0的技術要求",
+        "format": "Session",
+        "startTime": "2024-11-30T15:30:00",
+        "endTime": "2024-11-30T16:10:00"
+    },
+    "761055": {
+        "complexity": "Intermediate",
+        "description": "Swift Package Manager 是蘋果官方的套件管理系統。2024 年，CocoaPods 官方宣布進入維護狀態，整個蘋果平台的生態圈有更強的動力轉換到 SPM 上，Flutter 官方也宣布開始支援 SPM。這場分享中，會以個人開發經驗，提醒轉換過程中的注意事項。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "55c4d43e-e1dc-4924-b4eb-15c59a5affdc"
+        ],
+        "tags": [
+            "Mobile",
+            "Flutter"
+        ],
+        "title": "將 Flutter Plugin 從 CocoaPods 轉換到 Swift Package Manager (SPM)",
+        "format": "Short Talk",
+        "startTime": "2024-11-30T13:20:00",
+        "endTime": "2024-11-30T13:40:00"
+    },
+    "762146": {
+        "complexity": "Introductory and overview",
+        "description": "現在 AI 的工具百花齊放, 各大雲都紛紛推出相關輔助工具,  Gemini Code Assist 是 Google Cloud 的 AI 驅動協作者, 它可以幫助您提高工作和個人生活的生產力和創造力。它可以是您的寫作和編碼助手、創意設計師、專家顧問甚至是您的數據分析師。此次就來介紹 Gemini Code Assist 對雲端架構師或是雲端管理者有那些幫助與作法或在 Google Cloud 上學習 Gemini Code Assist 的相關課程。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "84296b39-df28-462e-a1c1-8f0a2416c555"
+        ],
+        "tags": [
+            "Cloud"
+        ],
+        "title": "Gemini Code Assist for Cloud Architects",
+        "format": "Session",
+        "startTime": "2024-11-30T14:40:00",
+        "endTime": "2024-11-30T15:20:00"
+    },
+    "762209": {
+        "complexity": "Introductory and overview",
+        "description": "本次演講將探討如何利用 Google Cloud 的 Vertex AI 和 Vertex AI Search 打造新一代生成式 AI 應用程式 (GenAI App)。我們將深入剖析 GenAI App 的開發平台選擇、比較其優劣勢和應用場景，並以實際案例示範如何整合 Vertex AI 和 Vertex AI Search。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "29e9ee2f-e316-4829-bdb9-2fafdf7f3e8c"
+        ],
+        "tags": [
+            "AI/ML"
+        ],
+        "title": "打造 GenAI App 的下一步: 整合 Vertex AI 平台",
+        "format": "Session",
+        "startTime": "2024-11-30T14:40:00",
+        "endTime": "2024-11-30T15:20:00"
+    },
+    "763082": {
+        "complexity": "Intermediate",
+        "description": "在10月初，我有幸前往東京的 Google 總部參加了Google Gemma Developer Day Tokyo，與來自Google Deepmind、日本、韓國的專家們進行了深入交流。這次活動讓我對 Google 開源 LLM 模型 Gemma 有了更全面的了解，並啟發了我對台灣在這項技術中的潛力進行思考。本次議程，我將探討台灣如何把握 Gemma 所帶來的機會，並探討實際應用的可能性，無論是在產業創新、技術開發，都有許多值得深入挖掘的方向。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "e964b091-45b0-41e5-92ed-92cef687abb2"
+        ],
+        "tags": [
+            "AI/ML",
+            "Data",
+            "DevOps"
+        ],
+        "title": "從日韓 Gemma 經驗來看台灣開源 LLM 模型機會",
+        "format": "Session",
+        "startTime": "2024-11-30T15:30:00",
+        "endTime": "2024-11-30T16:10:00"
+    },
+    "763185": {
+        "complexity": "Intermediate",
+        "description": "Learn how to use CameraX to capture amazing 10-bit HDR videos and Ultra-HDR images effortlessly, and learn what useful features that CameraX has to offer to enhance photography experience.",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "d711e779-5011-4aa6-becd-7cf21fe8390a"
+        ],
+        "tags": [
+            "Mobile",
+            "Android"
+        ],
+        "title": "Using Jetpack CameraX to capture HDR videos and images",
+        "format": "Session",
+        "startTime": "2024-11-30T11:20:00",
+        "endTime": "2024-11-30T12:00:00"
+    },
+    "763243": {
+        "complexity": "Introductory and overview",
+        "description": "通過早期的易用性測試，將有效降低產品開發中的風險和成本嗎？\r\n\r\nUX設計師－Su將與您們分享如何設計測試內容、進行測試、解讀測試數據，並與PM與工程師合作，將這些洞察轉化為具體的改進行動。\r\n\r\n該議程中，您將了解如何透過易用性測試提升產品質量，同時減少不必要的開發變更和成本浪費，讓產品開發更高效、更具成本效益。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "966e28b4-5672-4f16-b8f2-4c009c95e8dc"
+        ],
+        "tags": [
+            "Design"
+        ],
+        "title": "Product Usability 101: 用戶開心以外，還能易用性測試減少產品開發成本？",
+        "format": "Session",
+        "startTime": "2024-11-30T13:50:00",
+        "endTime": "2024-11-30T14:30:00"
+    },
+    "764389": {
+        "complexity": "Intermediate",
+        "description": "In this session, we will migrate two Mediapipe's Android demos, LLM Inference and Object Detection  (including Jetpack Compose code), to iOS which reuses most of the code. You will gain insights into various Kotlin Multiplatform features, including the abstraction of cross-platform SDKs (expect/actual), interop between languages(KT&Swift), cross-platform dependency injection (Koin), and interaction with platform APIs.",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "2ab7a51f-5d46-4e5e-b9f1-53df68697012"
+        ],
+        "tags": [
+            "Mobile",
+            "AI/ML",
+            "Android",
+            "Kotlin"
+        ],
+        "title": "Adapting the MediaPipe Demos for Kotlin Multiplatform",
+        "format": "Session",
+        "startTime": "2024-11-30T15:30:00",
+        "endTime": "2024-11-30T16:10:00"
+    },
+    "765640": {
+        "complexity": "Introductory and overview",
+        "description": "Unlock the power of Retrieval Augmented Generation (RAG) for your enterprise! This session dives deep into building a robust RAG system using Google's Agent Builder, showcasing practical examples and hard-won lessons. We'll explore key components like digital and layout parsers. Learn how to design schemas to fit your case, perform datastore health checks to ensure proper indexing, and automate processes with Python scripts. This session is perfect for developers or people looking to leverage the power of RAG for enterprise applications.",
+        "language": "English",
+        "presentation": "",
+        "speakers": [
+            "358cf006-caf2-4dc2-b4db-b47fb786564d"
+        ],
+        "tags": [
+            "Cloud",
+            "AI/ML"
+        ],
+        "title": "Building Enterprise RAG with Agent Builder",
+        "format": "Session",
+        "startTime": "2024-11-30T14:40:00",
+        "endTime": "2024-11-30T15:20:00"
+    },
+    "765898": {
+        "complexity": "Advanced",
+        "description": "Gemma 2 是 Google 開源的輕量級大型語言模型，基於與 Gemini 相同的先進技術。本次演講將介紹如何使用 Keras 3 改造 Gemma，建造專屬領域應用。我們將探討 LoRA fine-tuning、使用 Control vectors 進行對話風格微調、平行化訓練，以及套用 Self-extend 修改模型架構以擴充 context length。本次演講將幫助開發者深入理解客製化大型語言模型（LLM）的實作流程，並展示如何簡單有效地使用 Keras 將 Gemma 改造為專業應用，同時實現負責任的人工智慧。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "5351eb49-101a-4c74-a488-c0b9f70923dc"
+        ],
+        "tags": [
+            "AI/ML"
+        ],
+        "title": "使用 Keras 深度改造 Gemma 2",
+        "format": "Session",
+        "startTime": "2024-11-30T11:20:00",
+        "endTime": "2024-11-30T12:00:00"
+    },
+    "765970": {
+        "complexity": "Intermediate",
+        "description": "LLM 發展漸趨成熟穩定，我相信下一個浪潮將透過 LLM 進行精準分析各行各業的領域數據，並建立領域知識圖譜（Knowledge Graph）去解決各種各樣的需求。\r\n\r\n同樣地，Kotlin 生態發展也多了十分便捷的工具處理大數據及開發 GenAI 應用，這次分享會整合了 Kotlin 及 Gemma2 的優勢去快速建立下一代進階領域知識圖譜 GenAI 應用。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "d71705f8-cb2d-497e-9201-1a61b5e09690"
+        ],
+        "tags": [
+            "AI/ML",
+            "Kotlin"
+        ],
+        "title": "如何活用 Kotlin 生態工具及 Gemma 2 快速建立進階領域知識圖譜 GenAI 應用",
+        "format": "Session",
+        "startTime": "2024-11-30T16:20:00",
+        "endTime": "2024-11-30T17:00:00"
+    },
+    "766001": {
+        "complexity": "Introductory and overview",
+        "description": "PM 常常需要跨部門跨層級進行溝通，可能不自覺變成難溝通、難合作的 PM？又或是你／妳是人人誇的產品經理、專案經理？這次讓我們聊聊 PM 可能會用上的 36 ㄐ一ˋ，更了解怎麼跟 PM 合作才能多贏",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "c2fec263-828f-4514-ac70-2c1398453324"
+        ],
+        "tags": [
+            "Others",
+            "Career Development"
+        ],
+        "title": "PM 三十六 ㄐ一ˋ",
+        "format": "Session",
+        "startTime": "2024-11-30T14:40:00",
+        "endTime": "2024-11-30T15:20:00"
+    },
+    "766027": {
+        "complexity": "Intermediate",
+        "description": "In this session, we will dive into the process of training LLM for low-resource languages, such as Cantonese, using Gemma 2 model series and TPUs. We will explore the unique challenges and considerations involved in training language models for low-resource languages, and how Google Vertex AI and TPUs can streamline and optimize the training process. During the session, we will discuss the key components of training such an LLM, including data preparation, model architecture, hyperparameter tuning, and evaluation techniques. We will also demo the trained LLM and showcase its potential applications and deployment.",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "67a2e245-c317-49bc-a66d-ff1a2b94f092"
+        ],
+        "tags": [
+            "AI/ML",
+            "Data"
+        ],
+        "title": "Building LLM for Low-Resource Languages on Gemma 2",
+        "format": "Session",
+        "startTime": "2024-11-30T15:30:00",
+        "endTime": "2024-11-30T16:10:00"
+    },
+    "766320": {
+        "complexity": "Introductory and overview",
+        "description": "雖然 UX 和 AI 在科技產業中取得了顯著成就，但當這些技術應用於非營利組織 (NPOs) 和非政府組織 (NGOs) 時，往往面臨諸多現實挑戰和議題。NPOs/NGOs 在數位轉型過程中所面臨的巨大落差，以及目前 AI 能夠發揮的作用仍然相對有限。目前，UX 和 AI 在 NPOs 和 NGOs 的應用仍處於早期階段，並面臨許多挑戰，然而，這也為我們帶來了契機，可以重新思考如何更好地利用這些技術，促進非營利領域的進步與創新。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "f0f5ab23-97c8-4c74-960b-cfbab65d1299"
+        ],
+        "tags": [
+            "Others",
+            "Design",
+            "Data"
+        ],
+        "title": "跨界協作: 數位轉型之導入 UX 和 AI 在 NPOs 與 NGOs 的挑戰與應用",
+        "format": "Session",
+        "startTime": "2024-11-30T11:20:00",
+        "endTime": "2024-11-30T12:00:00"
+    },
+    "766400": {
+        "complexity": "Introductory and overview",
+        "description": "As web performance becomes increasingly critical for user experience and SEO, staying updated on the latest optimisation techniques is essential. In this session, we will explore cutting-edge strategies to speed up your site in 2025, focusing on three key areas: improving Core Web Vitals, utilising speculation rules to reduce loading times, and implementing advanced image and video optimisation techniques. You’ll learn how these methods can significantly enhance your website’s performance, ensuring faster load times, better user engagement, and higher search rankings. Whether you’re a developer or a performance enthusiast, this hands-on workshop will equip you with the tools and insights needed to future-proof your site for the year ahead.",
+        "language": "English",
+        "presentation": "",
+        "speakers": [
+            "010b5826-2430-48eb-8355-7b375b1e87dc"
+        ],
+        "tags": [
+            "Web"
+        ],
+        "title": "Speed up your site in 2025",
+        "format": "Session",
+        "startTime": "2024-11-30T13:50:00",
+        "endTime": "2024-11-30T14:30:00"
+    },
+    "767506": {
+        "complexity": "Intermediate",
+        "description": "本 workshop 會帶聽眾們一起用 Ktor 3.0 框架建立一個新的網頁服務\r\n並將該服務部署至 GCP 上\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "bcbfae97-c963-4955-bbde-95198f9480ec"
+        ],
+        "tags": [
+            "Web",
+            "Kotlin"
+        ],
+        "title": "在 GCP 上使用 Ktor 3.0 架設高效後端服務",
+        "format": "Workshop",
+        "startTime": "2024-11-30T15:30:00",
+        "endTime": "2024-11-30T17:00:00"
+    },
+    "767874": {
+        "complexity": "Advanced",
+        "description": "服務走到容器化，我想大概是勢不可擋的過程，\r\n加上 AI 人工智慧與 ML 機器學習的需求， Kubernetes (K8s) 的基礎建設更為重要。\r\n但你可能會面臨一些技術選型的難題：地端建置好？還是乾脆用雲端 GKE (Google Kubernetes Engine) 就好？\r\n在這場演講中，我們會手把手的教學 Kubernetes (K8s) 的關鍵元素，\r\n分享地端建置與遇到的問題，給大家做一個指引，少走一些彎路",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "95bbabe7-8115-4476-92a7-248236450835"
+        ],
+        "tags": [
+            "Cloud",
+            "AI/ML",
+            "Career Development",
+            "DevOps"
+        ],
+        "title": "Kubernetes 地端自建 vs GKE，哪個更適合你？",
+        "format": "Session",
+        "startTime": "2024-11-30T14:40:00",
+        "endTime": "2024-11-30T15:20:00"
+    },
+    "768071": {
+        "complexity": "Intermediate",
+        "description": "相信對於大部分的開發者來說，看到 Annotation 自動產生程式碼的技術都會覺得非常神奇。但不知道大家會不會好奇其背後的機制是怎樣運作的呢？甚至也想要自己應用在自己的產品上呢？\r\n\r\n自動產生程式碼的需求一直都存在著，像是 Android 開發者非常熟悉的 Room、Dagger 都非常依賴於這門技術，他能夠幫你省下大量、重複且枯燥的樣板程式碼撰寫時間，但是因為這技術對於很多人來說宛如黑魔法，就算想學習也會望之卻步。\r\n\r\n歸功於近年來的技術進展，使用這門技術的門檻已經低了非常多了，能夠讓你在短時間內上手。這次的分享會跟大家來介紹如何使用 KSP 以及 AI 幫你自動化產生程式碼，幫你省下寶貴的時間來做更有價值的開發工作。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "3a6bdfde-22f7-4708-b1be-c3f5881d3a7b"
+        ],
+        "tags": [
+            "Android",
+            "Kotlin"
+        ],
+        "title": "KSP + AI to boost your productivity",
+        "format": "Session",
+        "startTime": "2024-11-30T14:40:00",
+        "endTime": "2024-11-30T15:20:00"
+    },
+    "769073": {
+        "complexity": "Intermediate",
+        "description": "Gemma 生態系統是開源語言模型的明日之星，憑藉其強大的靈活性和可擴展性，在 lmsys 的評測中脫穎而出，特別是 Gemma 2 9B 和 27B 參數的優異表現。通過 Google AI Studio 的開發環境，開發者可以快速上手，並結合 Google Cloud 的計算能力，實現模型的高效訓練與部署。無論是在醫療、金融等專業領域，還是多語言環境中，Gemma 都能提供出色的解決方案。加入 Gemma 社群，共同開創一個靈活、多樣、開放的 AI 未來。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "e20a6f42-21eb-426f-a87c-ff0f1bb59bbe"
+        ],
+        "tags": [
+            "AI/ML"
+        ],
+        "title": "打造靈活多樣的 AI 未來：Gemma 生態系統",
+        "format": "Session",
+        "startTime": "2024-11-30T16:20:00",
+        "endTime": "2024-11-30T17:00:00"
+    },
+    "769302": {
+        "complexity": "Introductory and overview",
+        "description": "An overview of challenges & solutions in AI security. We will cover the end-to-end development lifecycle, starting from training data sets & governance, through ML development infrastructure and ending in securing highly capable, semi-autonomous agents.",
+        "language": "English",
+        "presentation": "",
+        "speakers": [
+            "ec17f016-821e-455d-8353-fc27415bd6be"
+        ],
+        "tags": [
+            "AI/ML",
+            "Cyber Security"
+        ],
+        "title": "Secure AI Framework: Agent Security",
+        "format": "Session",
+        "startTime": "2024-11-30T11:20:00",
+        "endTime": "2024-11-30T12:00:00"
+    },
+    "769391": {
+        "complexity": "Introductory and overview",
+        "description": "在現代軟體開發中，程式碼審查是確保程式品質和維護性的關鍵過程。然而，傳統程式碼審查需要耗費大量人力和時間。本講座將介紹如何利用 Google Cloud Gemini AI 來自動化這個流程，透過 Gemini 的整合，開發者能迅速分析程式碼，發現潛在問題並提供修正建議。最後，我們還將探討如何將這些 AI 工具整合進 CI/CD，為開發流程加上自動化的審查機制，顯著提升開發效率。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "cd751024-0725-493f-89f5-28e6530007d4"
+        ],
+        "tags": [
+            "Cloud",
+            "AI/ML",
+            "DevOps"
+        ],
+        "title": "使用 Gemini 進行自動化程式碼審查",
+        "format": "Session",
+        "startTime": "2024-11-30T13:50:00",
+        "endTime": "2024-11-30T14:30:00"
+    },
+    "769804": {
+        "complexity": "Intermediate",
+        "description": "Within this session, you will learn how to leverage OpenTelemetry inside your application to collect LLM related data. (e.g: user query/ question, prompt. llm output),and how to send those data into Pub/Sub service. Then we will use cloudfunction to parsing the message, and insert the data into backend database. ",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "358cf006-caf2-4dc2-b4db-b47fb786564d"
+        ],
+        "tags": [
+            "Cloud",
+            "AI/ML",
+            "DevOps"
+        ],
+        "title": "Use GCP service to collect LLMOps data",
+        "format": "Short Talk",
+        "startTime": "2024-11-30T13:20:00",
+        "endTime": "2024-11-30T13:40:00"
+    },
+    "769817": {
+        "complexity": "Introductory and overview",
+        "description": "From Android to AI-droid - 給 Android 工程師的 AI 入門。\r\nAI 正在徹頭徹尾的改變這個世界，不論你在哪個產業，扮演哪個角色。\r\n作為世界級 AI 大頭的 Google 在 2024 的 Google IO 上一共提到了 121 次的 AI，而 Android 作為 Google 旗下最重要平台之一，又有哪些好用的工具或功能，可以加速我們開發或是提供給使用者更好的體驗呢？\r\n在這場演講中，我們將帶您一窺 AI 的強大功能，並分享實用的開發技巧。\r\n",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "07edbf1e-9509-4800-84f7-279093e87016"
+        ],
+        "tags": [
+            "Android"
+        ],
+        "title": "From Android to AI-droid",
+        "format": "Session",
+        "startTime": "2024-11-30T16:20:00",
+        "endTime": "2024-11-30T17:00:00"
+    },
+    "769933": {
+        "complexity": "Intermediate",
+        "description": "時代性強 - 人工智能是當前最熱門的科技話題之一,Gemini作為Google最新推出的AI助手,引發了廣泛關注。\r\n實用性高 - 演講將探討如何在日常工作中運用Gemini提高效率,這對各行各業的專業人士都有參考價值。\r\n前瞻性強 - 討論AI與人類創意結合的未來發展趨勢,能激發聽眾對未來的想像。\r\n互動性強 - 可以現場演示Gemini的一些有趣功能,增加演講的趣味性和參與感。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "f9ef7cd3-58b7-4d41-8c8b-ac16fc78d214"
+        ],
+        "tags": [
+            "Chrome"
+        ],
+        "title": "Gemini如何重塑我們的工作方式",
+        "format": "Session",
+        "startTime": "2024-11-30T11:20:00",
+        "endTime": "2024-11-30T12:00:00"
+    },
+    "769940": {
+        "complexity": "Introductory and overview",
+        "description": "Flutter 開發者必學！結合 Firebase 和 AI，打造互動式 3D 應用\r\n\r\n想要將你的 Flutter 應用提升到另一個層次嗎？本議程將帶你深入了解如何結合 Firebase 和 AI，打造出更具互動性和智慧的應用程式。以 3D 魔術方塊為例，我們將示範如何使用 Flutter、Firebase 和機器學習，實現實時狀態更新、顏色辨識和手勢辨識等功能。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "3cd72a03-d460-4d89-8f39-33b10be7c482",
+            "8b02b7c1-4594-4359-b6ad-af33918cdcda"
+        ],
+        "tags": [
+            "Firebase",
+            "AI/ML",
+            "Flutter"
+        ],
+        "title": "Flutter x Firebase x AI：打造互動式 3D 魔術方塊",
+        "format": "Session",
+        "startTime": "2024-11-30T11:20:00",
+        "endTime": "2024-11-30T12:00:00"
+    },
+    "769945": {
+        "complexity": "Intermediate",
+        "description": "雖然 go 已很好的整合了測試，但仍需注意很多眉角。本 session 將從 unit test 講起，談及 go 中常見的幾種測試策略，包括 table-driven test、interface mocking、test helper 等，以及如何做好 integration tests 並分享如何設計易維護的測試程式。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "a34624b8-c0da-481a-9c52-ebd30ff4ffc7"
+        ],
+        "tags": [
+            "Golang"
+        ],
+        "title": "Let's talk about automation tests in Golang",
+        "format": "Session",
+        "startTime": "2024-11-30T15:30:00",
+        "endTime": "2024-11-30T16:10:00"
+    },
+    "770109": {
+        "complexity": "Introductory and overview",
+        "description": "GenAI已經席捲了各行各業，各種LLM模型也逐漸成熟，已經邁向『只有你想不到，沒有我做不到』的量產期。在這個Session，我們會介紹，如何使用Google的MultiModal結合Google開發的Mesop前端框架，快速打造各個有趣的產業應用。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "cb61675c-7b74-4034-85db-9cfb0c2e2543"
+        ],
+        "tags": [
+            "Cloud",
+            "AI/ML"
+        ],
+        "title": "使用Mesop with Gemini，打造快速的行業服務",
+        "format": "Session",
+        "startTime": "2024-11-30T13:00:00",
+        "endTime": "2024-11-30T13:40:00"
+    },
+    "771017": {
+        "complexity": "",
+        "description": "\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "61ad82b5-6ff8-4ed6-bd60-73aad51527ae"
+        ],
+        "tags": [],
+        "title": "Evaluating content safety with ShieldGemma and Keras",
+        "format": "Workshop",
+        "startTime": "2024-11-30T13:20:00",
+        "endTime": "2024-11-30T17:00:00"
+    },
+    "771018": {
+        "complexity": "Introductory and overview",
+        "description": "\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "10fcc075-ee15-4d55-8050-4128db1ceab7"
+        ],
+        "tags": [
+            "AI/ML"
+        ],
+        "title": "LIT to Analyze Gemma Models in Keras",
+        "format": "Workshop",
+        "startTime": "2024-11-30T13:20:00",
+        "endTime": "2024-11-30T17:00:00"
+    },
+    "771020": {
+        "complexity": "Introductory and overview",
+        "description": "LLM（大型語言模型）為自然語言處理帶來新可能。LLM Comparator 是一款對比 LLM 表現的工具，幫助使用者分析不同模型的效果。透過 LLM RAG（檢索增強生成），可以提升模型回應的準確性與相關性。Comparator Colab Demo 則提供互動範例，讓使用者能在 Google Colab 中實際操作並比較 LLM 的表現，輕鬆了解模型特性及應用價值。\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "8a68d300-1105-4c7d-b6bf-7464dc5d93e1"
+        ],
+        "tags": [
+            "Cloud",
+            "AI/ML"
+        ],
+        "title": "LLM Comparator: Running Comparative Evaluations with Google Vertex AI",
+        "format": "Workshop",
+        "startTime": "2024-11-30T13:20:00",
+        "endTime": "2024-11-30T17:00:00"
+    },
+    "771022": {
+        "complexity": "Intermediate",
+        "description": "This presentation explores the security challenges and risks associated with Large Language Models (LLMs) through the lens of the OWASP framework. It will cover potential vulnerabilities, threat vectors, and attack scenarios unique to LLMs, while drawing parallels to traditional web application security principles.",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "378c5f19-3c9f-4c2f-88cf-3b9ef01c1764"
+        ],
+        "tags": [
+            "AI/ML",
+            "Cyber Security"
+        ],
+        "title": "Understand LLM Security - From OWASP Perspective",
+        "format": "Session",
+        "startTime": "2024-11-30T16:20:00",
+        "endTime": "2024-11-30T17:00:00"
+    },
+    "774058": {
+        "complexity": "Introductory and overview",
+        "description": "\r\n\r\n工作坊現場報名，場次座位有限，額滿為止",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "fb95810e-656b-4c4b-88ea-cb17ab1ecf39"
+        ],
+        "tags": [
+            "Cloud"
+        ],
+        "title": "運用 Gemini 做出安全性決策",
+        "format": "Workshop",
+        "startTime": "2024-11-30T13:20:00",
+        "endTime": "2024-11-30T15:20:00"
+    },
+    "777273": {
+        "complexity": "Introductory and overview",
+        "description": "相信大家都知道 Google AI Studio 與 NotebookLM 其實都共用相同的 Gemini 模型，我們在 NotebookLM 做不到的事情，其實可以輕易的透過 Google AI Studio 來補強，這次我將會分享我這幾個月來累積的一些使用心得，幫助你突破各種使用的限制。",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "245ec8d9-dd6e-499b-a9ce-b40755e2ad2b"
+        ],
+        "tags": [
+            "AI/ML"
+        ],
+        "title": "你所不知道的 Google AI Studio 與 NotebookLM 神奇用法",
+        "format": "Session",
+        "startTime": "2024-11-30T13:50:00",
+        "endTime": "2024-11-30T14:30:00"
+    },
+    "777282": {
+        "complexity": "Intermediate",
+        "description": "",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "95f321d0-eb2e-4475-8c78-7d5cb901e907",
+            "4705d7a2-27bd-42d6-a3b6-46dbaa48fe95",
+            "480c82e9-934d-4a65-bfaf-61718b477607"
+        ],
+        "tags": [
+            "Flutter"
+        ],
+        "title": "DPIP 防災資訊整合平台",
+        "format": "Session",
+        "startTime": "2024-11-30T14:40:00",
+        "endTime": "2024-11-30T15:20:00"
+    },
+    "777861": {
+        "complexity": "",
+        "description": "",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "c3ed4649-9186-4528-8a61-4df109eb7da4"
+        ],
+        "tags": [],
+        "title": "從 MLOps 到解放雙手：模型整復之路",
+        "format": "Session",
+        "startTime": "2024-11-30T16:20:00",
+        "endTime": "2024-11-30T17:00:00"
+    },
+    "778755": {
+        "complexity": "Intermediate",
+        "description": "This presentation explores a technique for fine-tuning Gemma models in Google's AI Studio without relying on traditional human-labeled datasets. Discover how we leverage cutting-edge tools to accelerate model development and achieve remarkable results.",
+        "language": "English",
+        "presentation": "",
+        "speakers": [
+            "42b06e87-8b52-4ae5-9d11-f2f557d1b7ce"
+        ],
+        "tags": [
+            "Mobile",
+            "AI/ML",
+            "Data"
+        ],
+        "title": "Google AI Studio: A Human-Free Workflow for Gemma Fine-tuning",
+        "format": "Session",
+        "startTime": "2024-11-30T15:30:00",
+        "endTime": "2024-11-30T16:10:00"
+    },
+    "780554": {
+        "complexity": "Intermediate",
+        "description": "Have you ever been in dependency hell? Are you tired of copying and pasting your setup from one project to another? Do you wish there would be an easy way to share your configurations, workflows, dependencies? Say no more!\r\n\r\nBorn out of painful lessons, this talk will give you a crash course in how you can ship your setup easily to different projects by using the power of Gradle (Convention) Plugins, VersionCatalogs, etc. ",
+        "language": "English",
+        "presentation": "",
+        "speakers": [
+            "24ce44ea-d436-4476-88ac-08695de0acfa"
+        ],
+        "tags": [
+            "Mobile",
+            "Others",
+            "Android"
+        ],
+        "title": "And Gradle says: sharing is caring - Or why Gradle Plugins are all you need for your Configuration",
+        "format": "Session",
+        "startTime": "2024-11-30T13:50:00",
+        "endTime": "2024-11-30T14:30:00"
+    },
+    "785819": {
+        "complexity": "",
+        "description": "",
+        "language": "",
+        "presentation": "",
+        "speakers": [
+            "cf96e5ec-c65d-4012-b5da-4701e716e3cc"
+        ],
+        "tags": [],
+        "title": "Z世代的超能力：NotebookLM的十倍速學習法",
+        "format": "Session",
+        "startTime": "2024-11-30T13:00:00",
+        "endTime": "2024-11-30T13:40:00"
+    },
+    "786737": {
+        "complexity": "Introductory and overview",
+        "description": "",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "a548e82d-2330-41f2-ba0c-c9177c98768c",
+            "490adfc1-9ce5-4468-a023-3cb424b4fa38"
+        ],
+        "tags": [
+            "AI/ML"
+        ],
+        "title": "使用Gemini 的 AI 工作術",
+        "format": "Session",
+        "startTime": "2024-11-30T16:20:00",
+        "endTime": "2024-11-30T17:00:00"
+    },
+    "787900": {
+        "complexity": "",
+        "description": "",
+        "language": "",
+        "presentation": "",
+        "speakers": [
+            "47f6efe8-b2da-4c1e-a6e5-6dbc9563a05a",
+            "91a3df1a-f2ef-4834-a98e-74c26517c399",
+            "926e57ac-d968-46a3-aecb-4e78939a77d2"
+        ],
+        "tags": [],
+        "title": "Keynote",
+        "format": "",
+        "startTime": "2024-11-30T09:00:00",
+        "endTime": "2024-11-30T10:00:00"
+    },
+    "787901": {
+        "complexity": "",
+        "description": "",
+        "language": "中文",
+        "presentation": "",
+        "speakers": [
+            "dbd998e6-8c16-4940-8894-7575f8011f10",
+            "d8407565-63c2-4afa-81c7-f381e01b839a",
+            "ec512cee-68ba-4514-8be0-e89542a096d1",
+            "e10a74e9-0846-45bf-bb48-57e79f2e610d",
+            "e20a6f42-21eb-426f-a87c-ff0f1bb59bbe"
+        ],
+        "tags": [],
+        "title": "Panel Discussion - Responsible GenAI 驅動的挑戰與資安機會",
+        "format": "",
+        "startTime": "2024-11-30T10:00:00",
+        "endTime": "2024-11-30T11:00:00"
+    },
+    "4aa1cf1a-c387-4c0f-baa6-4fadfdf61421": {
+        "complexity": "",
+        "description": "會眾報到",
+        "language": "",
+        "presentation": "",
+        "speakers": [],
+        "tags": [],
+        "title": "Registration",
+        "format": "",
+        "startTime": "2024-11-30T08:30:00",
+        "endTime": "2024-11-30T09:00:00"
+    },
+    "3d1cd77b-6e17-473d-bdb5-876138f046b7": {
+        "complexity": "",
+        "description": "午休時間",
+        "language": "",
+        "presentation": "",
+        "speakers": [],
+        "tags": [],
+        "title": "Lunch",
+        "format": "",
+        "startTime": "2024-11-30T12:00:00",
+        "endTime": "2024-11-30T13:00:00"
+    },
+    "69ccd6c3-c672-4f5c-aad5-274aac37da44": {
+        "complexity": "",
+        "description": "",
+        "language": "",
+        "presentation": "",
+        "speakers": [],
+        "tags": [],
+        "title": "Adecco 不藏私分享：建立讓獵頭和人資找上門的 LinkedIn Profile",
+        "format": "",
+        "startTime": "2024-11-30T12:10:00",
+        "endTime": "2024-11-30T12:50:00"
+    }
+}

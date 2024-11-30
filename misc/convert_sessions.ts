@@ -92,11 +92,14 @@ interface ExportedSession {
   tags: string[];
   title: string;
   format: string; // Session, Short Talk, Workshop
+  startTime: string;
+  endTime: string;
 }
 
 interface ExportedTimeslot {
   startTime: string;
-  endTime: string;
+  // endTime: string;
+  // 有些 timeslot 開始時間相同結束時間不同，因此讓 endTime 在 ExportedSession 處理
   sessions: ({
     items: string[];
   } | null)[];
@@ -138,7 +141,6 @@ for (const schedule of schedules) {
       items: string[];
     } | null)[] = new Array(tracks.length);
     let startsAt: string = '';
-    let endsAt: string = '';
     for (const room of slot.rooms) {
       const session = room.session;
       session.generatedCategories = GeneratedCategoryInfo.fromCategory(
@@ -156,6 +158,8 @@ for (const schedule of schedules) {
         tags: session.generatedCategories.tags,
         title: session.title,
         format: session.generatedCategories.sessionFormat,
+        startTime: session.startsAt,
+        endTime: session.endsAt,
       });
 
       // 這部分是有順序性的
@@ -172,7 +176,6 @@ for (const schedule of schedules) {
       }
 
       startsAt = session.startsAt;
-      endsAt = session.endsAt;
     }
 
     // remove tailing null
@@ -187,7 +190,6 @@ for (const schedule of schedules) {
 
     timeslots.push({
       startTime: startsAt,
-      endTime: endsAt,
       sessions: sessions.slice(0, j),
     });
   }

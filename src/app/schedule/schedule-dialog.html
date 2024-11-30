@@ -3,7 +3,7 @@
 </mat-dialog-actions>
 <mat-dialog-content *ngIf="session" class="mat-typography" style="padding-top: 0px;">
     <h1>{{ session.title }}</h1>
-    <p>🕒 {{ session.generatedStartAt | date:'MM/d hh:mm' }} ~ {{ session.generatedEndsAt | date:'hh:mm' }}</p>
+    <p>🕒 {{ session.startTime | date:'MM/d HH:mm' }} ~ {{ session.endTime | date:'HH:mm' }}</p>
     <p *ngIf="session.generatedRoom">🚪 {{ session.generatedRoom }}</p>
     <p *ngIf="session.format">💬 {{ session.format }}</p>
     <p *ngIf="session.language">🌐 {{ session.language }}</p>

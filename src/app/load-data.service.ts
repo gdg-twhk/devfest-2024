@@ -35,7 +35,7 @@ export interface Schedule {
   date: string; // 2018-11-17
   timeslots: {
     startTime: string;
-    endTime: string;
+    // endTime: string;
     sessions: ({
       items: string[];
     } | null)[];
@@ -55,9 +55,9 @@ export interface Session {
   tags: string[];
   title: string;
   format: string;
+  startTime: string;
+  endTime: string;
   generatedID: string;
-  generatedStartAt: string;
-  generatedEndsAt: string;
   generatedRoom: string;
 }
 
@@ -135,8 +135,6 @@ export class LoadDataServices {
           session?.items.forEach((sessionID) => {
             const s = this.sessionsMap.get(sessionID);
             if (s) {
-              s.generatedStartAt = slot.startTime;
-              s.generatedEndsAt = slot.endTime;
               s.generatedRoom = val.tracks[i].title;
               slot.generatedSessions.push(s);
             }
